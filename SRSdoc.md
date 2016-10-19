@@ -9,10 +9,10 @@ Clayton R Samson,  Justin A Bougere, Nicholas A Dugal, Sean M Marino, Soh Guo Ha
 
 Table of Contents
 
-| Table of Contents        ii |
+| Table of Contents         |
 | --- |
-| Revision History        ii |
-|                 1 |
+| Revision History        |
+| 1. Introduction                 |
 | 1.1        Purpose        |
 | 1.2        Document Conventions        |
 | 1.3        Intended Audience and Reading Suggestions        |
