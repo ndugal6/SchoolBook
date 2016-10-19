@@ -5,9 +5,8 @@
 
 Clayton R Samson,  Justin A Bougere, Nicholas A Dugal, Sean M Marino, Soh Guo Hao, Steffano, Zachary J Robicheaux
 
-**10/19/2016**
+**Date Prepared: 10/19/2016**
 
-Table of Contents
 
 | Table of Contents         |
 | --- |
@@ -50,7 +49,7 @@ Revision History
 
 | Name | Date | Reason For Changes | Version |
 | --- | --- | --- | --- |
-|   |   |   |   |
+|  Steffano Soh | 10/19/2016  | document Creation  | 1.0  |
 |   |   |   |   |
 
 
