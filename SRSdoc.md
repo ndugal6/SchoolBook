@@ -1,18 +1,11 @@
-##
 
-# Software Requirements Specification
+# Software Requirements Specification for SchoolBook
 
-## for
-
-# SchoolBook
-
-Version 1.0 approved
-
-Prepared by: 
+*Prepared by:* 
 
 Clayton R Samson,  Justin A Bougere, Nicholas A Dugal, Sean M Marino, Soh Guo Hao, Steffano, Zachary J Robicheaux
 
-10/19/2016
+*10/19/2016*
 
 Table of Contents
 
