@@ -30,15 +30,24 @@ Clayton R Samson,  Justin A Bougere, Nicholas A Dugal, Sean M Marino, Soh Guo Ha
 |      3.3        Software Interfaces        |
 |      3.4        Communications Interfaces        |
 | **4. System Features** |
-|      4.1        System Feature 1        |
-|      4.2        System Feature 2 (and so on)        |
+|      4.1.1        Registration       |
+|      4.1.2        Login        |
+|      4.1.3        Password Retrieval        |
+|      4.2.1        Update Profile        |
+|      4.2.2        Add Course        |
+|      4.2.3        Register As Tutor        |
+|      4.3.1        Create Study Group         |
+|      4.3.2        Search for study Group        |
+|      4.3.3        Join Study Group        |
+|      4.3.4        Leave Study Grp        |
+|      4.4.1        Upload Notes        |
+|      4.4.2        Search For Notes        |
 | **5. Other Non-Functional Requirements** |
 |      5.1        Performance Requirements        |
 |      5.2        Safety Requirements        |
 |      5.3        Security Requirements        |
 |      5.4        Software Quality Attributes        |
 |      5.5        Business Rules        |
-|                  |
 | **Appendix A: Glossary**         |
 | **Appendix B: Analysis Models**         |
 | **Appendix C: To Be Determined List**         |
