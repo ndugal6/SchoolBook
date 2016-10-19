@@ -3,7 +3,7 @@
 
 **Prepared by:** 
 
-Clayton R Samson,\n  Justin A Bougere, Nicholas A Dugal, Sean M Marino, Soh Guo Hao, Steffano, Zachary J Robicheaux
+Clayton R Samson, Justin A Bougere, Nicholas A Dugal, Sean M Marino, Soh Guo Hao, Steffano, Zachary J Robicheaux
 
 **Date Prepared: 10/19/2016**
 
