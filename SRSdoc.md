@@ -4,13 +4,12 @@
 
 Version 1.0 approved
 
-Prepared by: Clayton R Samson
-
-             Justin A Bougere
-             Nicholas A Dugal
-             Sean M Marino
-             Soh Guo Hao, Steffano 
-             Zachary J Robicheaux
+Prepared by: 1)Clayton R Samson
+             2)Justin A Bougere
+             3)Nicholas A Dugal
+             4)Sean M Marino
+             5)Soh Guo Hao, Steffano 
+             6)Zachary J Robicheaux
 
 &lt;SchoolBook&gt;
 
