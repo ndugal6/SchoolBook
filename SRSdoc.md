@@ -137,7 +137,7 @@ School book == webapp on asp.net 4.0
 
 &lt;This template illustrates organizing the functional requirements for the product by system features, the major services provided by the product. You may prefer to organize this section by use case, mode of operation, user class, object class, functional hierarchy, or combinations of these, whatever makes the most logical sense for your product.&gt;
 
-## 4.1.1 System Feature 1
+## 4.1.1 Registration
 
 a. Description and Priority
 
