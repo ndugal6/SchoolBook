@@ -58,7 +58,7 @@ Revision History
 
 | Name | Date | Reason For Changes | Version |
 | --- | --- | --- | --- |
-|  Steffano Soh | 10/19/2016  | document Creation  | 1.0  |
+|  Steffano Soh | 10/19/2016  | document template Creation  | 1.0  |
 |   |   |   |   |
 
 
@@ -104,7 +104,7 @@ Revision History
 &lt;Describe the environment in which the software will operate, including the hardware platform, operating system and versions, and any other software components or applications with which it must peacefully coexist.&gt;
 
 ## 2.5Design and Implementation Constraints
-
+School book == webapp on asp.net 4.0
 &lt;Describe any items or issues that will limit the options available to the developers. These might include: corporate or regulatory policies; hardware limitations (timing requirements, memory requirements); interfaces to other applications; specific technologies, tools, and databases to be used; parallel operations; language requirements; communications protocols; security considerations; design conventions or programming standards (for example, if the customer&#39;s organization will be responsible for maintaining the delivered software).&gt;
 
 ## 2.6User Documentation
