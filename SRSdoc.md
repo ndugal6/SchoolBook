@@ -1,10 +1,7 @@
 ##
 
-# Software Requirements Specification
-
-## for
-
-# &lt;Project&gt;
+# Software Requirements Specification for
+# &lt;SchoolBook&gt;
 
 Version 1.0 approved
 
