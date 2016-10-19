@@ -1,15 +1,19 @@
 ##
 
-# Software Requirements Specification for
-# &lt;SchoolBook&gt;
+# Software Requirements Specification for ScholBook
 
 Version 1.0 approved
 
-Prepared by &lt;author&gt;
+Prepared by: &lt;Name&gt;
+             &lt;Name&gt;
+             &lt;Name&gt;
+             &lt;Name&gt;
+             &lt;Name&gt;
+             &lt;Name&gt;
 
-&lt;organization&gt;
+&lt;SchoolBook&gt;
 
-&lt;date created&gt;
+&lt;10/19/2016&gt;
 
 Table of Contents
 
