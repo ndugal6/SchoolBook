@@ -149,12 +149,12 @@ b. Stimulus/Response Sequences
 
 c. Functional Requirements
 
-| **Item**         | FR-4.1.1: Registration|
-| -------------------------------------    |
-| **Summary**      | &lt; Summary &gt;     |
-| **Rational**     | &lt; Summary &gt;     |
-| **Requirements** | &lt; Summary &gt;     |
-| **References**   | &lt; Summary &gt;     |
+| **Item**         |  FR-4.1.1: Registration |
+| ---              | ---                     |
+| **Summary**      | &lt;Summary&gt;         |
+| **Rational**     | &lt;Rational&gt;        |
+| **Requirements** | &lt;Requirements&gt;    |
+| **References**   | &lt;References&gt;      |
 
 ## 4.2System Feature 2 (and so on)
 
