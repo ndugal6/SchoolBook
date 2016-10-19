@@ -4,12 +4,12 @@
 
 Version 1.0 approved
 
-Prepared by: Name
-             Name
-             Name
-             Name
-             Name
-             Name
+Prepared by: Clayton R Samson
+             Justin A Bougere
+             Nicholas A Dugal
+             Sean M Marino
+             Soh Guo Hao, Steffano 
+             Zachary J Robicheaux
 
 &lt;SchoolBook&gt;
 
