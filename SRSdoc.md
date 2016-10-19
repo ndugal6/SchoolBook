@@ -4,12 +4,12 @@
 
 Version 1.0 approved
 
-Prepared by: &lt;Name&gt;
-             &lt;Name&gt;
-             &lt;Name&gt;
-             &lt;Name&gt;
-             &lt;Name&gt;
-             &lt;Name&gt;
+Prepared by: Name
+             Name
+             Name
+             Name
+             Name
+             Name
 
 &lt;SchoolBook&gt;
 
