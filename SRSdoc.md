@@ -1,22 +1,9 @@
 ##
-
 # Software Requirements Specification for ScholBook
 
-Version 1.0 approved
-
 Prepared by: 
-  1.Clayton R Samson
-  
-  2.Justin A Bougere
-  
-  3.Nicholas A Dugal
-  
-  4.Sean M Marino
-  
-  5.Soh Guo Hao, Steffano 
-  
-  6.Zachary J Robicheaux
-
+|Name|
+|name|
 &lt;SchoolBook&gt;
 
 &lt;10/19/2016&gt;
