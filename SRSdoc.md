@@ -2,8 +2,10 @@
 # Software Requirements Specification for ScholBook
 
 Prepared by: 
-|Name|
-|name|
+
+| Name |
+| name |
+
 &lt;SchoolBook&gt;
 
 &lt;10/19/2016&gt;
