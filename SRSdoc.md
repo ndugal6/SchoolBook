@@ -154,6 +154,7 @@ b. Stimulus/Response Sequences
 c. Functional Requirements
 
 | **Item**         |  FR-4.1.1: Registration |
+|  ----            |     -----               |
 | **Summary**      | The system should provide a Registration feature to allow users to create an account with SchoolBook |
 | **Rational**     | The system will be used to aid students in studying. Thus it is important for students to have an account so that the system will be able to display information of most use to them.|
 | **Requirements** | The System should provide a registration form and a submit button for users to enter account details and submit their registration request, System should verify that the account details inserted by the user is in accordance with table REG6.1. Once the user clicks the register button, system will display success message to the user, system will display failure message if data inserted by user is not in accordance with table REG6.1   |
