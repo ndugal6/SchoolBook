@@ -153,8 +153,9 @@ b. Stimulus/Response Sequences
 
 c. Functional Requirements
 
-| **Item**         |  FR-4.1.1: Registration |
+| **Title**        |  **Description** |
 |  ----            |     -----               |
+| **Item**         |  FR-4.1.1: Registration |
 | **Summary**      | The system should provide a Registration feature to allow users to create an account with SchoolBook |
 | **Rational**     | The system will be used to aid students in studying. Thus it is important for students to have an account so that the system will be able to display information of most use to them.|
 | **Requirements** | The System should provide a registration form and a submit button for users to enter account details and submit their registration request, System should verify that the account details inserted by the user is in accordance with table REG6.1. Once the user clicks the register button, system will display success message to the user, system will display failure message if data inserted by user is not in accordance with table REG6.1   |
@@ -187,10 +188,17 @@ c. Functional Requirements
 # 6.Other Requirements
 
 ## REG6.1 - User account data input requirements
-| Name | Date | Reason For Changes | Version |
-| --- | --- | --- | --- |
-|  Steffano Soh | 10/19/2016  | document template Creation  | 1.0  |
-|   |   |   |   |
+| Field Name            | Requirements                                                                                      | 
+| ---                   | ---                                                                                               |
+| E-Mail Address        | Characters in the format of xxxxxx@xxxxx.xx (x == charcters)                                      |
+| Password              | minimum of 12 alphanumeric characters, compulsory use of a number and a alphabet                  |
+| Confirm Email-Address | Must be exactly the same a what was entered in E-Mail Address field                               |
+| Confirm Password      | Must be exactly the same as what was entered in password field                                    |
+| Date of Birth         | entered in the formac of MM/DD/YYYY, The value entered must be of a valid Gregorian calendar date |
+| Full Name             | Maximum of 40 characters                                                                          |
+| Gender                | Radio Button, with display value of Male & Female, only able to select one                        |
+| University            | Drop-down list of all the available universities, user only able to select one                    |
+
 &lt;Define any other requirements not covered elsewhere in the SRS. This might include database requirements, internationalization requirements, legal requirements, reuse objectives for the project, and so on. Add any new sections that are pertinent to the project.&gt;
 
 Appendix A: Glossary
