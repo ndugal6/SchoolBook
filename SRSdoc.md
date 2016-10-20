@@ -32,7 +32,7 @@ Clayton R Samson, Justin A Bougere, Nicholas A Dugal, Sean M Marino, Soh Guo Hao
 | **4. System Features** |
 |      4.1.1        Registration       |
 |      4.1.2        Login        |
-|      4.1.3        Password Retrieval        |
+|      4.1.3        Password Reset        |
 |      4.2.1        Update Profile        |
 |      4.2.2        Add Course        |
 |      4.2.3        Register As Tutor        |
@@ -183,7 +183,33 @@ c. Functional Requirements
 | **Summary**      | The system should provide a Login feature to allow users to access their account and consume services provided by SchoolBook |
 | **Rational**     | The system will need retrieve unique user-specific information from the database so that relevant information can be displayed to the logged-in user.|
 | **Requirements** | The System should provide a Login form and a Login button for users to enter account details and submit their Login request, System should verify that the account details inserted by the user Exsists in the SchoolBook Database, Upon sucessful verification, user will be redirected to the user Homepage, upon verification failure, system will display error message   |
-| **References**   |      |
+| **References**   |  -Nil-    |
+
+## 4.1.3 Password Reset
+
+a. Description and Priority
+Allows Registered users to gain access to reset their password in an event that they forgot their password. This Requirement should be of middle priority as this event may not necessary occur.
+
+b. Stimulus/Response Sequences
+  1. User Visits SchoolBook URL www.SchoolBook.com.
+  2. System Displays introductory page which contains the Forgot Password Link.
+  3. User keys in Email Address and clicks Retrieve Button.
+  4. System checks if email address exsists in SchoolBook database & if it exsists, sends an email containing a link to user email            account, if email does not exsist, system displays error message.
+  5. User accesses email and click on link sent.
+  6. System displays Password Reset Page
+  7. user keys in new password in accordance to table REG6.1 password field and clickssubmit.
+  8. System will display sucess message, update account password and send confirmation email to user email. User will be redirected to        introductory page with Login Form.
+  9. if password entered is not in accordance with table REG6.1, system will display error message.
+
+c. Functional Requirements
+
+| **Title**        |  **Description** |
+|  ----            |     -----               |
+| **Item**         |  FR-4.1.2: Password Reset |
+| **Summary**      | The system should provide a Password Reset feature to allow users to Reset their password in any event that they forgot their password. |
+| **Rational**     | The System should allow users to reset their password if users forgets it so that user can still keep their accounts with their previous data.|
+| **Requirements** | The System should provide a Password Reset form and a Submit button for users to enter new Password and submit their Password Reset request, System should verify that the New Password inserted by the user is in accordance to table REG6.1's password format, if in accordance, system will update account password, display sucess message, send email to user and user will be redirected back to introductory page with Login form, if password is not in accordance, system will display error message.   |
+| **References**   |  REG6.1: User account data input requirements   |
 
 # 5.Other Nonfunctional Requirements
 
