@@ -261,6 +261,12 @@ Appendix A: Glossary
 ## Entity-Relation Diagram
 ![alt tag](https://raw.githubusercontent.com/ndugal6/SchoolBook/master/SRSimgs/ERDiagramSchoolBook.gif)
 
+## Tutor Application Dataflow Diagram
+![alt tag](https://raw.githubusercontent.com/ndugal6/SchoolBook/master/SRSimgs/SB_TUTORAPP_DF.gif)
+
+## Database ER Diagram
+![alt tag](https://raw.githubusercontent.com/ndugal6/SchoolBook/master/Database/SchoolBookERv1.2.gif)
+
 
 &lt;Optionally, include any pertinent analysis models, such as data flow diagrams, class diagrams, state-transition diagrams, or entity-relationship diagrams.&gt;
 
