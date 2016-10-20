@@ -140,21 +140,24 @@ School book == webapp on asp.net 4.0
 ## 4.1.1 Registration
 
 a. Description and Priority
-
-&lt;Provide a short description of the feature and indicate whether it is of High, Medium, or Low priority. You could also include specific priority component ratings, such as benefit, penalty, cost, and risk (each rated on a relative scale from a low of 1 to a high of 9).&gt;
+Allows new users to register an account with SchoolBook to gain access to the various functions and information available. This Requirement should be of high priority as users would need to have an account before they are able to consume any services from SchoolBook.
 
 b. Stimulus/Response Sequences
-
-&lt;List the sequences of user actions and system responses that stimulate the behavior defined for this feature. These will correspond to the dialog elements associated with use cases.&gt;
+  1. User Visits SchoolBook website
+  2. User Clicks on the Register Button on the introduction page
+  3. System will respond by displaying the registration form
+  4. User fills up registration form with fields: Email-Address, Password, Confirm Email-Address, Confirm Password, Date of Birth, Full      Name, Gender and University.
+  5. User Clicks on register button after form is filled.
+  6. System will check input data for error.
+  7. System will display success / failure message.
 
 c. Functional Requirements
 
 | **Item**         |  FR-4.1.1: Registration |
-| ---              | ---                     |
-| **Summary**      | &lt;Summary&gt;         |
-| **Rational**     | &lt;Rational&gt;        |
-| **Requirements** | &lt;Requirements&gt;    |
-| **References**   | &lt;References&gt;      |
+| **Summary**      | The system should provide a Registration feature to allow users to create an account with SchoolBook |
+| **Rational**     | The system will be used to aid students in studying. Thus it is important for students to have an account so that the system will be able to display information of most use to them.|
+| **Requirements** | The System should provide a registration form and a submit button for users to enter account details and submit their registration request, System should verify that the account details inserted by the user is in accordance with table REG6.1. Once the user clicks the register button, system will display success message to the user, system will display failure message if data inserted by user is not in accordance with table REG6.1   |
+| **References**   | REG6.1: User account data input requirements      |
 
 ## 4.2System Feature 2 (and so on)
 
@@ -182,6 +185,11 @@ c. Functional Requirements
 
 # 6.Other Requirements
 
+## REG6.1 - User account data input requirements
+| Name | Date | Reason For Changes | Version |
+| --- | --- | --- | --- |
+|  Steffano Soh | 10/19/2016  | document template Creation  | 1.0  |
+|   |   |   |   |
 &lt;Define any other requirements not covered elsewhere in the SRS. This might include database requirements, internationalization requirements, legal requirements, reuse objectives for the project, and so on. Add any new sections that are pertinent to the project.&gt;
 
 Appendix A: Glossary
