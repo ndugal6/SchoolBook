@@ -62,58 +62,75 @@ Revision History
 |   |   |   |   |
 
 
-
 # 1.Introduction
 
 ## 1.1Purpose
 
-&lt;Identify the product whose software requirements are specified in this document, including the revision or release number. Describe the scope of the product that is covered by this SRS, particularly if this SRS describes only part of the system or a single subsystem.&gt;
+The product that will have its requirements specified in this document is SchoolBook. This document will be specifying version 1.0 of SchoolBook.
 
 ## 1.2Document Conventions
 
-&lt;Describe any standards or typographical conventions that were followed when writing this SRS, such as fonts or highlighting that have special significance. For example, state whether priorities  for higher-level requirements are assumed to be inherited by detailed requirements, or whether every requirement statement is to have its own priority.&gt;
+Functional requirements are deonted by FR4.x.x. For example, FR4.4.x are notes management functions.
 
 ## 1.3Intended Audience and Reading Suggestions
 
-&lt;Describe the different types of reader that the document is intended for, such as developers, project managers, marketing staff, users, testers, and documentation writers. Describe what the rest of this SRS contains and how it is organized. Suggest a sequence for reading the document, beginning with the overview sections and proceeding through the sections that are most pertinent to each reader type.&gt;
+This document is intended solely for the developers of SchoolBook. It is recommeded that developers read through this doc in order to gain a full understanding of the system. The rest of the document is organized in this respective order: An overall description, external interface requirements, a list and explanation of features, non-functional requirements, and other requirements.
 
 ## 1.4Product Scope
 
-&lt;Provide a short description of the software being specified and its purpose, including relevant benefits, objectives, and goals. Relate the software to corporate goals or business strategies. If a separate vision and scope document is available, refer to it rather than duplicating its contents here.&gt;
+SchoolBook was produced to augment the studies of college students. This was done by providing students easy acess to study groups and other students notes.
 
 ## 1.5References
 
-&lt;List any other documents or Web addresses to which this SRS refers. These may include user interface style guides, contracts, standards, system requirements specifications, use case documents, or a vision and scope document. Provide enough information so that the reader could access a copy of each reference, including title, author, version number, date, and source or location.&gt;
+There are no documents that this SRS document refers to.
 
 # 2.Overall Description
 
 ## 2.1Product Perspective
 
-&lt;Describe the context and origin of the product being specified in this SRS. For example, state whether this product is a follow-on member of a product family, a replacement for certain existing systems, or a new, self-contained product. If the SRS defines a component of a larger system, relate the requirements of the larger system to the functionality of this software and identify interfaces between the two. A simple diagram that shows the major components of the overall system, subsystem interconnections, and external interfaces can be helpful.&gt;
+SchoolBook is a new, self contained product that was developed by a group of LSU Computer Science students.
 
 ## 2.2Product Functions
 
-&lt;Summarize the major functions the product must perform or must let the user perform. Details will be provided in Section 3, so only a high level summary (such as a bullet list) is needed here. Organize the functions to make them understandable to any reader of the SRS. A picture of the major groups of related requirements and how they relate, such as a top level data flow diagram or object class diagram, is often effective.&gt;
+a. Registration - Users register an account to SchoolBook
+b. Login - Users enter their email and password to enter the SchoolBook application
+c. Password Reset - Users enter their email in order to recieve their new password
+d. Update Profile - Users enter/edit their account information after a password prompt
+e. Add Course - Users click the add button on a course, which adds said course to the users course list
+f. Register as Tutor - During registration a user can choose to be a tutor rather than a student
+g. Upload Notes - Users can either drag and drop or browse through their system for notes to upload
+h. Search for Notes - Users will enter a keyword, then will be brought to a list of notes that have that keyword
+i. Create Study Group - Users enter class, location and meeting times to create a study group
+j. Search for Study Group - Users will enter the class number and will be to a list of Study Groups for said class
+k. Join Study Group - User is added to a list of users in the study group
+l. Leave Study Group - User is removed from the list of users in that study group
 
 ## 2.3User Classes and Characteristics
 
-&lt;Identify the various user classes that you anticipate will use this product. User classes may be differentiated based on frequency of use, subset of product functions used, technical expertise, security or privilege levels, educational level, or experience. Describe the pertinent characteristics of each user class. Certain requirements may pertain only to certain user classes. Distinguish the most important user classes for this product from those who are less important to satisfy.&gt;
+a. User 1 - Tutor
+This user will only use SchoolBook when someone requests them as a tutor.
+
+b. User 2 - Avid Student User
+This user will use SchoolBook frequently for notes, tutors and/or study groups. 
+
+c. User 3 - Occasional Student User
+This user will use SchoolBook on occasion for a multitude of feautures.
 
 ## 2.4Operating Environment
 
-&lt;Describe the environment in which the software will operate, including the hardware platform, operating system and versions, and any other software components or applications with which it must peacefully coexist.&gt;
+Since SchoolBook is a webapp, this application can be used by any OS, as long as the Internet browser is up to date.
 
 ## 2.5Design and Implementation Constraints
-School book == webapp on asp.net 4.0
-&lt;Describe any items or issues that will limit the options available to the developers. These might include: corporate or regulatory policies; hardware limitations (timing requirements, memory requirements); interfaces to other applications; specific technologies, tools, and databases to be used; parallel operations; language requirements; communications protocols; security considerations; design conventions or programming standards (for example, if the customer&#39;s organization will be responsible for maintaining the delivered software).&gt;
+
+Due to a relatively development cycle, we are unable to create more diffucult or time constraining features. This includes a chat feature and an iOS/Android application. 
 
 ## 2.6User Documentation
 
-&lt;List the user documentation components (such as user manuals, on-line help, and tutorials) that will be delivered along with the software. Identify any known user documentation delivery formats or standards.&gt;
+There are no user documents currently.
 
 ## 2.7Assumptions and Dependencies
 
-&lt;List any assumed factors (as opposed to known facts) that could affect the requirements stated in the SRS. These could include third-party or commercial components that you plan to use, issues around the development or operating environment, or constraints. The project could be affected if these assumptions are incorrect, are not shared, or change. Also identify any dependencies the project has on external factors, such as software components that you intend to reuse from another project, unless they are already documented elsewhere (for example, in the vision and scope document or the project plan).&gt;
+It is assumed that all developers will have access to Visual Studios to devolop this application.
 
 # 3.External Interface Requirements
 
