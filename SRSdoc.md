@@ -211,6 +211,53 @@ c. Functional Requirements
 | **Requirements** | The System should provide a Password Reset form and a Submit button for users to enter new Password and submit their Password Reset request, System should verify that the New Password inserted by the user is in accordance to table REG6.1's password format, if in accordance, system will update account password, display sucess message, send email to user and user will be redirected back to introductory page with Login form, if password is not in accordance, system will display error message.   |
 | **References**   |  REG6.1: User account data input requirements   |
 
+
+## 4.4.1 Uploading Notes
+
+a. Description and Priority
+Allows users to upload documents, class notes, and study tools for a specific course. Users will be able to access these notes by accessing the course page for which the notes were uploaded for. 
+
+b. Stimulus/Response Sequences
+  1. User Visits SchoolBook URL www.SchoolBook.com.
+  2. User logs in and accesses student profile.
+  3. User is brought to their own personal page if previously registered. 
+  4. Select the course and semester/year in which the notes are being used for.
+  5. By clicking the upload button, notes are added to the selected course page. 
+
+c. Functional Requirements
+
+| **Title**        |  **Description** |
+|  ----            |     -----               |
+| **Item**         |  FR-4.4.1: Uploading Notes |
+| **Summary**      | The system provides the user with the ability to add notes for specific courses for a specific semester |
+| **Rational**     | The main purpose for 'SchoolBook' is to allow students to access notes and study aids from other students in need of help. In order for students to access notes, an upload feature is needed.|
+| **Requirements** | In order for the user to upload notes, the user must first register as a student at a specific university. After registering for SchoolBook, the user will then be able to upload the notes of their choice for the specific course.   |
+| **References**   | -Nil-   |
+
+## 4.1.2 Searching for Notes
+
+a. Description and Priority
+The search feature will allow students to search and filter throughout the database for specific courses. The search results will allow the user to select that course in which then a list of previously uploaded notes will appear for that specific course. 
+
+b. Stimulus/Response Sequences
+  1. User Visits SchoolBook URL www.SchoolBook.com.
+  2. User logs in and accesses student profile.
+  3. User is brought to their own personal page if previously registered. 
+  4. The top bar of the main page will provide users with a search bar.
+  5. By typing into the search bar, results will reveal a list of courses throughout the database.
+  6. By selecting a course in the list, the user will be provided with a list of previously uploaded notes for that specific course.
+
+c. Functional Requirements
+
+| **Title**        |  **Description** |
+|  ----            |     -----               |
+| **Item**         |  FR-4.4.2: Searching for Notes |
+| **Summary**      | The system will provide users with the ability to search for courses throughout the database and select from a list of list of previously uploaded documents |
+| **Rational**     | The search bar is used to search for courses offered at the University, therefore the user must search for a valid course in order to access notes. |
+| **Requirements** | The user must search for a course offered at the University of their choice in order to access notes.  |
+| **References**   |  -Nil-    |
+
+
 # 5.Other Nonfunctional Requirements
 
 ## 5.1Performance Requirements
