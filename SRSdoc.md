@@ -258,6 +258,10 @@ Appendix A: Glossary
 ## Use-Case Diagram
 ![alt tag](https://raw.githubusercontent.com/ndugal6/SchoolBook/master/SRSimgs/SchoolBookUseCaseDiagram.gif)
 
+## Entity-Relation Diagram
+![alt tag](https://raw.githubusercontent.com/ndugal6/SchoolBook/master/SRSimgs/ERDiagramSchoolBook.gif)
+
+
 &lt;Optionally, include any pertinent analysis models, such as data flow diagrams, class diagrams, state-transition diagrams, or entity-relationship diagrams.&gt;
 
 Appendix C: To Be Determined List
