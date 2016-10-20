@@ -143,13 +143,14 @@ a. Description and Priority
 Allows new users to register an account with SchoolBook to gain access to the various functions and information available. This Requirement should be of high priority as users would need to have an account before they are able to consume any services from SchoolBook.
 
 b. Stimulus/Response Sequences
-  1. User Visits SchoolBook website
-  2. User Clicks on the Register Button on the introduction page
-  3. System will respond by displaying the registration form
-  4. User fills up registration form with fields: Email-Address, Password, Confirm Email-Address, Confirm Password, Date of Birth, Full      Name, Gender and University.
-  5. User Clicks on register button after form is filled.
-  6. System will check input data for error.
-  7. System will display success / failure message.
+  1. User Visits SchoolBook URL www.SchoolBook.com.
+  2. System displays introductory page which contains the Registration Button.
+  3. User Clicks on the Registration button.
+  4. System will respond by displaying the registration form.
+  5. User fills up registration form with fields: Email-Address, Password, Confirm Email-Address, Confirm Password, Date of Birth, Full      Name, Gender and University.
+  6. User Clicks on register button after form is filled.
+  7. System will check input data for error.
+  8. System will display success / failure message, a confirmation email will be sent to user upon sucess.
 
 c. Functional Requirements
 
@@ -161,7 +162,28 @@ c. Functional Requirements
 | **Requirements** | The System should provide a registration form and a submit button for users to enter account details and submit their registration request, System should verify that the account details inserted by the user is in accordance with table REG6.1. Once the user clicks the register button, system will display success message to the user, system will display failure message if data inserted by user is not in accordance with table REG6.1   |
 | **References**   | REG6.1: User account data input requirements      |
 
-## 4.2System Feature 2 (and so on)
+## 4.1.2 Login
+
+a. Description and Priority
+Allows Registered users to gain access to the system. This Requirement should be of high priority as this is the first step a user needs to satisfy before being able to gain access to the services provided by SchoolBook.
+
+b. Stimulus/Response Sequences
+  1. User Visits SchoolBook URL www.SchoolBook.com.
+  2. System Displays introductory page which contains the Login form.
+  3. User keys in Email Address & Password and clicks Login Button.
+  4. System compares input values with UserAccounts database table and checks if input data exsists in the database.
+  5. System will redirect user to the Login Hompage on sucessful verification.
+  6. System will display error message on verification failure.
+
+c. Functional Requirements
+
+| **Title**        |  **Description** |
+|  ----            |     -----               |
+| **Item**         |  FR-4.1.2: Login |
+| **Summary**      | The system should provide a Login feature to allow users to access their account and consume services provided by SchoolBook |
+| **Rational**     | The system will need retrieve unique user-specific information from the database so that relevant information can be displayed to the logged-in user.|
+| **Requirements** | The System should provide a Login form and a Login button for users to enter account details and submit their Login request, System should verify that the account details inserted by the user Exsists in the SchoolBook Database, Upon sucessful verification, user will be redirected to the user Homepage, upon verification failure, system will display error message   |
+| **References**   |      |
 
 # 5.Other Nonfunctional Requirements
 
