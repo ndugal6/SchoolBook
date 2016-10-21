@@ -209,17 +209,12 @@ c. Functional Requirements
 
 b. Use Case
 
-| **Item** |  FR-4.1.1: Registration |
-| --- | --- |
-| **Summary** | &lt;Summary&gt; |
-| **Rational** | &lt;Rational&gt; |
-| **Requirements** | &lt;Requirements&gt; |
-| **References** |
-1. Sakdmlaskd
-2. Asdasd
-3. Asdasd
-4. asdsadasd
- |
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+| <ul><li>item1</li><li>item2</li></ul>| See the list | from the first column|
 
 ## 4.1.3 Password Reset
 
