@@ -58,8 +58,8 @@ Revision History
 
 | Name | Date | Reason For Changes | Version |
 | --- | --- | --- | --- |
-|  Steffano Soh | 10/19/2016  | document template Creation  | 1.0  |
-|  Clayton Samson | 10/19/2016  | Study group requirments defined. FR:  | 1.2  |
+|   |  |   |   |
+|   |  |  |   |
 
 
 # 1.Introduction
