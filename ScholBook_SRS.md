@@ -183,6 +183,18 @@ c. Functional Requirements
 | **Requirements** | The System should provide a registration form and a submit button for users to enter account details and submit their registration request, System should verify that the account details inserted by the user is in accordance with table REG6.1. Once the user clicks the register button, system will display success message to the user, system will display failure message if data inserted by user is not in accordance with table REG6.1   |
 | **References**   | REG6.1: User account data input requirements      |
 
+d. Use Case
+
+| **Title**       | **Description**  |
+| -------------   |-------------     |
+| **Item**        |  UC-4.1.1: Registration |
+| **Summary**     |  The system should provide a Registration feature to allow users to create an account with SchoolBook |   
+| **Rational** |The system will be used to aid students in studying. Thus it is important for students to have an account so that the system will be able to display information of most use to them.|    
+| **Users** | Anyone  |
+| **Pre-Conditions** | Email Provided is not already Registered with SchoolBook |
+| **Basic Course Of Events** |<ol><li>User Visits SchoolBook URL www.SchoolBook.com.</li><li>System displays introductory page which contains the Registration Button.</li><li>User Clicks on the Registration button.</li><li>System will respond by displaying the registration form.</li><li> User fills up registration form with fields: Email-Address, Password, Confirm Email-Address, Confirm Password, Date of Birth, Full      Name, Gender and University.</li><li>User Clicks on register button after form is filled.</li><li>System will check input data for error.</li><li> System will display success / failure message, a confirmation email will be sent to user upon sucess.</li></ol> |
+| **References** | REG6.1: User account data input requirements |
+
 ## 4.1.2 Login
 
 a. Description and Priority
@@ -207,7 +219,7 @@ c. Functional Requirements
 | **Requirements** | The System should provide a Login form and a Login button for users to enter account details and submit their Login request, System should verify that the account details inserted by the user Exsists in the SchoolBook Database, Upon sucessful verification, user will be redirected to the user Homepage, upon verification failure, system will display error message   |
 | **References**   |  -Nil-    |
 
-b. Use Case
+d. Use Case
 
 | **Title**       | **Description**  |
 | -------------   |-------------     |
