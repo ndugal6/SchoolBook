@@ -253,11 +253,24 @@ c. Functional Requirements
 
 | **Title**        |  **Description** |
 |  ----            |     -----               |
-| **Item**         |  FR-4.1.2: Password Reset |
+| **Item**         |  FR-4.1.3: Password Reset |
 | **Summary**      | The system should provide a Password Reset feature to allow users to Reset their password in any event that they forgot their password. |
 | **Rational**     | The System should allow users to reset their password if users forgets it so that user can still keep their accounts with their previous data.|
 | **Requirements** | The System should provide a Password Reset form and a Submit button for users to enter new Password and submit their Password Reset request, System should verify that the New Password inserted by the user is in accordance to table REG6.1's password format, if in accordance, system will update account password, display sucess message, send email to user and user will be redirected back to introductory page with Login form, if password is not in accordance, system will display error message.   |
 | **References**   |  REG6.1: User account data input requirements   |
+
+d. Use Case
+
+| **Title**       | **Description**  |
+| -------------   |-------------     |
+| **Item**        |  UC-4.1.3: Password Reset |
+| **Summary**     |  The system should provide a Password Reset feature to allow users to Reset their password in any event that they forgot their password. |   
+| **Rational** |The System should allow users to reset their password if users forgets it so that user can still keep their accounts with their previous data.|    
+| **Users** | Students & Student Tutors |
+| **Pre-Conditions** | User must have a registered account with School Book |
+| **Basic Course Of Events** |<ol><li>User Visits SchoolBook URL www.SchoolBook.com.</li><li>System Displays introductory page which contains the Forgot Password Link.</li><li>User keys in Email Address and clicks Retrieve Button.</li><li> System checks if email address exsists in SchoolBook database & if it exsists, sends an email containing a link to user email            account, if email does not exsist, system displays error message.</li><li>User accesses email and click on link sent.</li><li>System displays Password Reset Page</li><li>user keys in new password in accordance to table REG6.1 password field and clickssubmit.</li><li>System will display sucess message, update account password and send confirmation email to user email. User will be redirected to        introductory page with Login Form.</li><li>if password entered is not in accordance with table REG6.1, system will display error message.
+</li></ol> |
+| **References** | UC-4.1.1: Registration |
 
 ## Update Profile
 a. Description and Priority 
