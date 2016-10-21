@@ -159,8 +159,7 @@ SchoolBook is able to run on any device with a browser supporting HTML5 and CSS3
 SchoolBook's frontend is developed on Xamarin Studio 6.1.1 using HTML5 and CSS3 libraries for display and content structure. The frontend uses a .cs file to connect and transfers data to the backend Linux server using MYSQL 5.7.17. The frontend sends user creditials for authentication to the server. If user is authorized, then the server relays and populates the client with information surrounding the user's study groups - Date/Time, location, students, and student tutors - and available notes - course ID/Name, upload date, upload user. If the user isn't authorized then the frontend .cs file sends user data needed for student creation to the server: email, password, university, current courses. 
 
 ## 3.4Communications Interfaces
-Schoolbook will communicate with the server using HTTP protocols. The database uses .cs files to retrieve data from the HTML frontend.Data traffic will follow AES standards for security. The .cs communicate line allows the source code to be hidden from clients
-&lt;Describe the requirements associated with any communications functions required by this product, including e-mail, web browser, network server communications protocols, electronic forms, and so on. Define any pertinent message formatting. Identify any communication standards that will be used, such as FTP or HTTP. Specify any communication security or encryption issues, data transfer rates, and synchronization mechanisms.&gt;
+Schoolbook will communicate with the server using HTTP protocols. The database uses .cs files to retrieve data from the HTML frontend.Data traffic will follow AES standards for security. The .cs communicate line allows the source code to be hidden from clients.
 
 # 4.System Features
 
@@ -649,11 +648,11 @@ d. Use Case
 
 ## 5.4Software Quality Attributes
 Site should be portable and usable with mobile and desktop screens. The tutor vetting process must be reliable with preference for increased security over increased ease of acceptance. 
-&lt;Specify any additional quality characteristics for the product that will be important to either the customers or the developers. Some to consider are: adaptability, availability, correctness, flexibility, interoperability, maintainability, portability, reliability, reusability, robustness, testability, and usability. Write these to be specific, quantitative, and verifiable when possible. At the least, clarify the relative preferences for various attributes, such as ease of use over ease of learning.&gt;
+
 
 ## 5.5Business Rules
 
-&lt;List any operating principles about the product, such as which individuals or roles can perform which functions under specific circumstances. These are not functional requirements in themselves, but they may imply certain functional requirements to enforce the rules.&gt;
+Guest users may register to be a student but may not access any material. Students may managed profile information, manage current courses, create and leave study groups, view and manage notes, and register to be a tutor. Tutor users have all student privledges plus ability to join groups of courses they aren't taken if they're an accepted tutor for the course. 
 
 # 6.Other Requirements
 
