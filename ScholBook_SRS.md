@@ -125,7 +125,9 @@ Since SchoolBook is a webapp, this application can be used by any OS, as long as
 
 ## 2.5Design and Implementation Constraints
 
-Due to a relatively development cycle, we are unable to create more diffucult or time constraining features. This includes a chat feature and an iOS/Android application. 
+SchoolBook is to be developed as a web application using ASP.NET 4.0 Frame Work and programmed in c#, it should be programmed to be uniform accross different browsers.
+
+SchholBook is to be designed to maximize interactivity by using HTML, CSS, JavaScript & JQuery.
 
 ## 2.6User Documentation
 
