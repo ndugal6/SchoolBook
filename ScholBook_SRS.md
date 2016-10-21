@@ -76,6 +76,12 @@ Functional requirements are deonted by FR4.x.x. For example:
   3. FR4.3.x : Study Group Management
   4. FR4.4.x : Notes Management
 
+Use Cases are denoted by UC4.x.x. For example:
+  1. UC4.1.x : Registration/Login Management
+  2. UC4.2.x : User Profile Management
+  3. UC4.3.x : Study Group Management
+  4. UC4.4.x : Notes Management
+
 ## 1.3Intended Audience and Reading Suggestions
 
 This document is intended solely for the developers of SchoolBook. It is recommeded that developers read through this doc in order to gain a full understanding of the system. The rest of the document is organized in this respective order: An overall description, external interface requirements, a list and explanation of features, non-functional requirements, and other requirements.
@@ -140,8 +146,7 @@ It is assumed that all developers will have access to Visual Studios 2015 & mySQ
 # 3.External Interface Requirements
 
 ## 3.1User Interfaces
-## 3.1
-&lt;All objects' layout properties are percentage values set according to the resolution of the users screen. This allows each screen's contents to self-arrange themselves for any given screen size. All objects are given minimum dimension constraints to avoid being too small for a user. The structure and display for each screen follows W3C's HTML and CSS guidelines. Errors messages and notifications follow the MSDN guidelines. User Interfaces are needed for registration, login, tutor registration, uploading and searching notes, password reset, joining, searching, and leaving study groups, updating profile, and creating study group.
+All objects' layout properties are percentage values set according to the resolution of the users screen. This allows each screen's contents to self-arrange themselves for any given screen size. All objects are given minimum dimension constraints to avoid being too small for a user. The structure and display for each screen follows W3C's HTML and CSS guidelines. Errors messages and notifications follow the MSDN guidelines. User Interfaces are needed for registration, login, tutor registration, uploading and searching notes, password reset, joining, searching, and leaving study groups, updating profile, and creating study group.
 
 ## 3.2Hardware Interfaces
 &lt;SchoolBook is able to run on any device with a browser supporting HTML5 and CSS3. The site can receive both physical and touch input. The backend database is run on a linux server using MYSQL 5.7.17. SchoolBook will allow notes stored on the server to be downloaded to user's local machines. 
