@@ -98,18 +98,18 @@ SchoolBook is a new, self contained product that was developed by a group of LSU
 
 | **no.** | **Functions** |
 | --- | --------- |
-|a.   |Registration - Users register an account to SchoolBook                                                         |
-|b.   |Login - Users enter their email and password to enter the SchoolBook application                               |
-|c.   |Password Reset - Users enter their email in order to recieve their new password                                |
-|d.   |Update Profile - Users enter/edit their account information after a password prompt                            |
-|e.   |Add Course - Users click the add button on a course, which adds said course to the users course list           |
-|f.   |Register as Tutor - During registration a user can choose to be a tutor rather than a student                  |
-|g.   |Upload Notes - Users can either drag and drop or browse through their system for notes to upload               |
-|h.   |Search for Notes - Users will enter a keyword, then will be brought to a list of notes that have that keyword  |
-|i.   |Create Study Group - Users enter class, location and meeting times to create a study group                     |
-|j.   |Search for Study Group - Users will enter the class number and will be to a list of Study Groups for said class|
-|k.   |Join Study Group - User is added to a list of users in the study group                                         |
-|l.   |Leave Study Group - User is removed from the list of users in that study group                                 |
+|4.1.1.   |Registration - Users register an account to SchoolBook                                                         |
+|4.1.2.   |Login - Users enter their email and password to enter the SchoolBook application                               |
+|4.1.3.   |Password Reset - Users enter their email in order to recieve their new password                                |
+|4.2.1.   |Update Profile - Users enter/edit their account information after a password prompt                            |
+|4.2.2.   |Add Course - Users click the add button on a course, which adds said course to the users course list           |
+|4.2.3.   |Register as Tutor - During registration a user can choose to be a tutor rather than a student                  |
+|4.3.1.   |Create Study Group - Users enter class, location and meeting times to create a study group                     |
+|4.3.2.   |Search for Study Group - Users will enter the class number and will be to a list of Study Groups for said class|
+|4.3.3.   |Join Study Group - User is added to a list of users in the study group                                         |
+|4.3.4.   |Leave Study Group - User is removed from the list of users in that study group                                 |
+|4.4.1    |Upload Notes - Users can either drag and drop or browse through their system for notes to upload               |
+|4.4.2    |Search for Notes - Users will enter a keyword, then will be brought to a list of notes that have that keyword  |
 
 ## 2.3User Classes and Characteristics
 
