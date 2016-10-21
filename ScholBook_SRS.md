@@ -146,11 +146,8 @@ It is assumed that all developers will have access to Visual Studios 2015 & mySQ
 # 3.External Interface Requirements
 
 ## 3.1User Interfaces
-<<<<<<< Updated upstream
-=======
-## 3.1
->>>>>>> Stashed changes
-All objects' layout properties are percentage values set according to the resolution of the users screen. This allows each screen's contents to self-arrange themselves for any given screen size. All objects are given minimum dimension constraints to avoid being too small for a user. The structure and display for each screen follows W3C's HTML and CSS guidelines. Errors messages and notifications follow the MSDN guidelines. User Interfaces are needed for registration, login, tutor registration, uploading and searching notes, password reset, joining, searching, and leaving study groups, updating profile, and creating study group.
+
+All objects' layout properties are percentage values set according to the resolution of the users screen. This allows each screen's contents to self-arrange themselves for any given screen size. All objects are given minimum dimension constraints to avoid being too small for a user. The structure and display for each screen follows W3C's HTML and CSS guidelines. Errors messages and notifications follow the MSDN guidelines. User Interfaces are needed for registration, login, tutor registration, uploading and searching notes, password reset, joining, searching, and leaving study groups, updating profile, and creating study group. Fig1.1 is a screenshot of our introductory page.
 
 ## 3.2Hardware Interfaces
 SchoolBook is able to run on any device with a browser supporting HTML5 and CSS3. The site can receive both physical and touch input. The backend database is run on a linux server using MYSQL 5.7.17. SchoolBook will allow notes stored on the server to be downloaded to user's local machines. 
@@ -159,12 +156,15 @@ SchoolBook is able to run on any device with a browser supporting HTML5 and CSS3
 SchoolBook's frontend is developed on Xamarin Studio 6.1.1 using CSS3 libraries for display. The frontend connects to the backend Linux server using MYSQL 5.7.17. The frontend sends user creditials for authentication to the server. If user is authorized, then the server relays information surrounding the user's study groups - Date/Time, location, students, and student tutors - and available notes - course ID/Name, upload date, upload user. If the user isn't authorized then the frontend sends user data needed for student creation to the serve: email, password, university, current courses. 
 
 ## 3.4Communications Interfaces
-Schoolbook will communicate with the sever using HTTP protocols
-&lt;Describe the requirements associated with any communications functions required by this product, including e-mail, web browser, network server communications protocols, electronic forms, and so on. Define any pertinent message formatting. Identify any communication standards that will be used, such as FTP or HTTP. Specify any communication security or encryption issues, data transfer rates, and synchronization mechanisms.&gt;
+Schoolbook will communicate with the sever using HTTP protocols, emails will be sent using the ASP.NET email protocol.
 
 # 4.System Features
 
-&lt;This template illustrates organizing the functional requirements for the product by system features, the major services provided by the product. You may prefer to organize this section by use case, mode of operation, user class, object class, functional hierarchy, or combinations of these, whatever makes the most logical sense for your product.&gt;
+In this section we will describe the various system features available in SchooBook, each System Feature is describe in the following format.
+a) Description and priority of that feature
+b) Interaction between Users & Systems
+c) Functional Requirements Table
+d) Use Case of the feature.
 
 ## 4.1.1 Registration
 
@@ -610,20 +610,20 @@ d. Use Case
 
 ## 5.1Performance Requirements
 
-&lt;The searching for notes functional requirement must have a worst case runtime of O(n log n). Uploading and downloading notes should time-out if duration of individual object exceeds 60 seconds. Data pertaining to notes uploaded, groups created, profile update functionality should be updated within 30 seconds of their completion on users screens. 
+The searching for notes functional requirement must have a worst case runtime of O(n log n). Uploading and downloading notes should time-out if duration of individual object exceeds 60 seconds. Data pertaining to notes uploaded, groups created, profile update functionality should be updated within 30 seconds of their completion on users screens. 
 
 ## 5.2Safety Requirements
 
-&lt;All individuals that register must do so with a .edu email, users may only see other user or tutor profiles if they share a course. Tutor's must undergo an application process and background check in accordance with EEOC and FTC guidelines. Only after approval shall a tutor be available to students.
+All individuals that register must do so with a .edu email, users may only see other user or tutor profiles if they share a course. Tutor's must undergo an application process and background check in accordance with EEOC and FTC guidelines. Only after approval shall a tutor be available to students.
 
 ## 5.3Security Requirements
 
-&lt;All individuals that register must do so with a .edu email. All user data being stored on the server or in transition between the site and server must follow the Advanced Encryption Standard(AES). Tutors must be vetted and checked according to the EEOC and FTC guidelines before being hired.
-Specify any requirements regarding security or privacy issues surrounding use of the product or protection of the data used or created by the product. Define any user identity authentication requirements. Refer to any external policies or regulations containing security issues that affect the product. Define any security or privacy certifications that must be satisfied.&gt;
+All individuals that register must do so with a .edu email. All user data being stored on the server or in transition between the site and server must follow the Advanced Encryption Standard(AES). Tutors must be vetted and checked according to the EEOC and FTC guidelines before being hired.
+Specify any requirements regarding security or privacy issues surrounding use of the product or protection of the data used or created by the product. Define any user identity authentication requirements. Refer to any external policies or regulations containing security issues that affect the product. Define any security or privacy certifications that must be satisfied.
 
 ## 5.4Software Quality Attributes
 
-&lt;Specify any additional quality characteristics for the product that will be important to either the customers or the developers. Some to consider are: adaptability, availability, correctness, flexibility, interoperability, maintainability, portability, reliability, reusability, robustness, testability, and usability. Write these to be specific, quantitative, and verifiable when possible. At the least, clarify the relative preferences for various attributes, such as ease of use over ease of learning.&gt;
+Specify any additional quality characteristics for the product that will be important to either the customers or the developers. Some to consider are: adaptability, availability, correctness, flexibility, interoperability, maintainability, portability, reliability, reusability, robustness, testability, and usability. Write these to be specific, quantitative, and verifiable when possible. At the least, clarify the relative preferences for various attributes, such as ease of use over ease of learning.
 
 ## 5.5Business Rules
 
