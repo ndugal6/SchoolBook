@@ -59,7 +59,7 @@ Revision History
 | Name | Date | Reason For Changes | Version |
 | --- | --- | --- | --- |
 |  Steffano Soh | 10/19/2016  | document template Creation  | 1.0  |
-|   |   |   |   |
+|  Clayton Samson | 10/19/2016  | Study group requirments defined. FR:  | 1.2  |
 
 
 # 1.Introduction
@@ -228,6 +228,88 @@ c. Functional Requirements
 | **Requirements** | The System should provide a Password Reset form and a Submit button for users to enter new Password and submit their Password Reset request, System should verify that the New Password inserted by the user is in accordance to table REG6.1's password format, if in accordance, system will update account password, display sucess message, send email to user and user will be redirected back to introductory page with Login form, if password is not in accordance, system will display error message.   |
 | **References**   |  REG6.1: User account data input requirements   |
 
+## 4.3.1 Create Study Group
+a. Description and Priority
+The create study group feature will allow users to setup a study group by specifing a location, time, course, and if a tutor will be requested.  Once all study group information is entered correctly the users will be presented with a confirmatoin / failure message and retured to their home screen.
+
+b. Stimulus / Response Sequences
+  1. A verified user is successfully logged into the system.
+  2. From either the home page menu or a specific course page's menu the user selects the setup study group function.
+  3. The system presents the user with the setup study group page.
+  4. User specifies what course, location, time, and if they request a tutor or not.
+  5. System will check input data for errors.
+  6. System will display success / failure message, and returns them to the home screen.
+
+c. Functional Requirements
+| **Title**        |  **Description** |
+|  ----            |     -----               |
+| **Item**         |  FR-4.3.1: Setup Study Group |
+| **Summary**      | The system will provide a setup study group feature that will allow students to setup study groups with their classmates. |
+| **Rational**     | The system is a way for students to be better connected with their classmates, setting up and attending study groups is an important part of a student’s education. Therefore, it is an important component to this system.  |
+| **Requirements** | The user must be successfully logged into the system, and selected setup study group form either the home page menu or the course page's menu.  The system presents the user with a study group setup screen, the user specifies the course, location, time, and whether or not they want a tutor to attend. The system will display a success or failure message after checking the input data.  |
+| **References**   |  -Nil-    |
+
+## 4.3.2 Find Study Group
+a. Description and Priority
+The search for study group feature will allow uses to search for study groups based on the course department and ID.  The system will present the user with a list of the upcoming scheduled study groups for that course.
+
+b. Stimulus / Response Sequences
+  1. A verified user is successfully logged into the system.
+  2. From either the home page menu or a specific course page menu the user selects the find study group function.
+  3. The system presents the user with a find study group screen.
+  4. The user specifies the course's department and course ID.
+  5. The system displays a list of upcoming scheduled study groups for the specified course and its details.
+  6. The user selects a study group from the list.
+  7. System displays a screen showing the details of the study group and a join study group option. 
+
+c. Functional Requirements
+| **Title**        |  **Description** |
+|  ----            |     -----               |
+| **Item**         |  FR-4.3.2: Find Study Group |
+| **Summary**      | The system will provide a find study group feature that will allow students to find study goups for the courses they are enrolled in. |
+| **Rational**     | The system provides a setup study group function, so the system must include a find study group function for users to find study groups that have already been setup.  |
+| **Requirements** | The user must be successfully logged into the system, and selected find study group form either the home page menu or the course page's menu. The user provides a course department and course ID. The system presents the user with a list of upcoming scheduled study groups for the specified course. |
+| **References**   |  REG4.3.1: Create Study Group    |
+
+## 4.3.3 Join Study Group
+a. Description and priority
+The join study group feature will allow users to join study groups from the find study group search results screen.
+
+b. Stimulus / Response Sequences
+  1. A verified user has selected a specific study group from the find study group function results.
+  2. System displays a screen showing the details of the study group and a join study gruop option.
+  3. User selects the join study group option.
+  4. System displays a success / failure message and returns the user to the study group's details page.
+
+c. Functional Requirements
+| **Title**        |  **Description** |
+|  ----            |     -----               |
+| **Item**         |  FR-4.3.3: Join Study Group |
+| **Summary**      | The system will provide a join study group feature that will allow students to join study groups  for the courses they are enrolled in. |
+| **Rational**     | The system provides a setup study group function, so the system should include a join study group function for users to join study groups that have already been setup.  |
+| **Requirements** | The user must be successfully logged into the system, and selected join study group form the study group's details page, the system displays a success / failure message and returns the user to the study group's details page. |
+| **References**   |  REG4.3.2: Find Study Group    |
+
+## 4.3.4 Leave Study Group
+a. Description and priority
+The leave study group feature will allow users to leave study groups  that they have previously joined.
+
+b. Stimulus / Response Sequences
+  1. A verified user has successfully logged into the system and joined a study group.
+  2. The user selects the leave study group feature from the home page menu.
+  3. The system displays a list of the study groups that the user has previously joined.
+  4. The user selects the study group that they intend to leave from the list.
+  5. The system displays a confirmation message asking if the user intends to leave the selected course displaying the study group’s details.
+  6. If the user confirms the action the system removes the user from the study group, displays a success / failure message and returns the user to the home page. If the user denies the action the system returns the user back to the list of study groups they can leave without removing the user from the study group.
+
+c. Functional Requirements
+| **Title**        |  **Description** |
+|  ----            |     -----               |
+| **Item**         |  FR-4.3.4: Leave Study Group |
+| **Summary**      | The system will provide a leave study group feature that will allow students to leave study groups they have previously joined. |
+| **Rational**     | The system provides a setup study group function, and a join study group function, so the system should also provide a leave study group function.  |
+| **Requirements** | The user must be successfully logged into the system, have previously used the find and join study group functions to join a study group. The user selects the leave study group function from the home page menu.  The system displays list of the study groups that the user has previously joined. The user selects the study group they wish to leave from the list. The system presents a confirmation message to the user.  If the user confirms the action the user is removed from the study group, the system presents a success / failure message and returns the user to the home page. If the user denies the action the user is not removed from the study group and is returned to the leave study group page containing the list of study groups they have previously joined. |
+| **References**   |  REG4.3.3: Join Study Group    |
 
 ## 4.4.1 Uploading Notes
 
