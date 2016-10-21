@@ -170,6 +170,7 @@ In this section, the various system features of SchoolBook will be explained, Sc
   4. 4.4.x : Notes Management.
 
 Each portion will be explained in the following format:
+
   a. Description and priority of the system feature
   
   b. How the interaction between User and server will take place, stimulus from the User and response for the server.
