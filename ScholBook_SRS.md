@@ -241,6 +241,7 @@ b. Stimulus / Response Sequences
   6. System will display success / failure message, and returns them to the home screen.
 
 c. Functional Requirements
+
 | **Title**        |  **Description** |
 |  ----            |     -----               |
 | **Item**         |  FR-4.3.1: Setup Study Group |
@@ -263,6 +264,7 @@ b. Stimulus / Response Sequences
   7. System displays a screen showing the details of the study group and a join study group option. 
 
 c. Functional Requirements
+
 | **Title**        |  **Description** |
 |  ----            |     -----               |
 | **Item**         |  FR-4.3.2: Find Study Group |
@@ -282,6 +284,7 @@ b. Stimulus / Response Sequences
   4. System displays a success / failure message and returns the user to the study group's details page.
 
 c. Functional Requirements
+
 | **Title**        |  **Description** |
 |  ----            |     -----               |
 | **Item**         |  FR-4.3.3: Join Study Group |
@@ -303,6 +306,7 @@ b. Stimulus / Response Sequences
   6. If the user confirms the action the system removes the user from the study group, displays a success / failure message and returns the user to the home page. If the user denies the action the system returns the user back to the list of study groups they can leave without removing the user from the study group.
 
 c. Functional Requirements
+
 | **Title**        |  **Description** |
 |  ----            |     -----               |
 | **Item**         |  FR-4.3.4: Leave Study Group |
