@@ -304,9 +304,9 @@ d. Use Case
 | **Summary**     |  The system should allow the user to update, edit or add information to their already existing account.  |   
 | **Rational** |The system should allow the user to change anything on their profile in the event of pre existing information that is now invalid(ex. transfer of schools, new email address).|    
 | **Users** | Students & Student Tutors |
-| **Pre-Conditions** | User must have a registered account with School Book |
+| **Pre-Conditions** | User Must be Logged in |
 | **Basic Course Of Events** |<ol><li>User Visits SchoolBook URL www.SchoolBook.com</li><li>System displays login page. </li><li>User keys in their username/password and clicks Login Button</li><li>System will direct user to the Homepage after successfully logging in. </li><li>User select their profile account.</li><li>User selects edit profile.</li></ol> |
-| **References** | UC-4.1.1: Registration, REG6.1: User account data input requirements, FR-4.2.1: Update Profile  |
+| **References** | UC-4.1.1: Registration, REG6.1: User account data input requirements, FR-4.2.1: Update Profile, UC-4.1.2: Login  |
 
 ## 4.2.2 Add Course
 a. Description and Priority 
@@ -331,8 +331,8 @@ c. Functional Requirements
 | **Summary**     |   The system allows the user to add a or multiple courses to their profile. 
 |
 | **Rational**    |  The system should allow the user to select any course offered at the attached university established in their profile  |
-| **Requirements**|   In order for the user to add courses, the user must first establish which school they attend in the registration page and/or update profile to their current school. After selecting a school, the user will then have access to add single or multiple courses that are offered by the school.  
-| **References**  |   REG6.1: User account data input requirements. 
+| **Requirements**|   In order for the user to add courses, the user must first establish which school they attend in the registration page and/or update profile to their current school. After selecting a school, the user will then have access to add single or multiple courses that are offered by the school.  |
+| **References**  |   REG6.1: User account data input requirements. |
 
 d. Use Case
 
@@ -342,9 +342,9 @@ d. Use Case
 | **Summary**     |  The system allows the user to add a or multiple courses to their profile.   |   
 | **Rational** |The system should allow the user to select any course offered at the attached university established in their profile | 
 | **Users** | Students & Student Tutors |
-| **Pre-Conditions** | User must have a registered account with School Book |
+| **Pre-Conditions** | User Must be Logged in |
 | **Basic Course Of Events** |<ol><li>User visits Schoolbook URL www.schoolbook.com.</li><li>System displays introductory page which contains the login form.</li><li>User keys in username/password and clicks Login button.</li><li>System displays home page. </li><li>User clicks add course on the home page.</li><li> System checks user’s profile based on the college the student is enrolled in.</li><li>System will upload courses offered at college after successful validation.</li><li>System will display course department, number and section. </li></ol> |
-| **References** | UC-4.1.1: Registration  |
+| **References** | UC-4.1.2: Login  |
 
 ## 4.2.3 Register as Tutor
 a. Description and Priority
@@ -372,7 +372,7 @@ c. Functional Requirements
 |
 | **Rational**    |  The system should allow the user to select any course offered at the attached university established in their profile. The user then should be able to select register as tutor and upload their verification files.  |
 | **Requirements**|   In order for the user to add courses, the user must first establish which school they attend in the registration page and/or update profile to their current school. After selecting a school, the user will then have access to add single or multiple courses that are offered by the school. Once the user has established a course, they are able to select register as a tutor for that course. The system presents the user with a screen to upload their past grades in a predetermined format. The system will display a success or failure message after the user uploads the file. The user must be prompted on if they have been approved or denied as a tutor. |
-| **References**  |    |
+| **References**  |  UC-4.1.2: Login  |
 
 d. Use Case
 
@@ -382,9 +382,9 @@ d. Use Case
 | **Summary**     |   The system allows the user to register their profile as a tutor for a study group and course.     |   
 | **Rational** |The system should allow the user to select any course offered at the attached university established in their profile. The user then should be able to select register as tutor and upload their verification files.  | 
 | **Users** | Students & Student Tutors |
-| **Pre-Conditions** | User must have a registered account with School Book, User must provide justification for the course he / she is registering to be a tutor as |
+| **Pre-Conditions** | User Must be Logged in, User must provide justification for the course he / she is registering to be a tutor as |
 | **Basic Course Of Events** |<ol><li>User visits Schoolbook URL www.schoolbook.com.</li><li>System displays introductory page which contains the login form. </li><li>User keys in username/password and clicks Login button. </li><li>System displays home page.  </li><li>User selects a course. </li><li>User selects and clicks on 'Register as tutor'. </li><li>System will prompt user to upload a file of the users grades to the related course. </li><li>System will display success message after file has been upload. </li><li>User's file will be screened by a site DBM or Schoolbook admin.</li><li>User will be approved or denied as a tutor. </li></ol> |
-| **References** |  FR-4.2.3 Register as tutor  |
+| **References** |  FR-4.2.3 Register as tutor , UC-4.1.2: Login  |
 
 ## 4.3.1 Create Study Group
 a. Description and Priority
@@ -407,7 +407,7 @@ c. Functional Requirements
 | **Summary**      | The system will provide a setup study group feature that will allow students to setup study groups with their classmates. |
 | **Rational**     | The system is a way for students to be better connected with their classmates, setting up and attending study groups is an important part of a student’s education. Therefore, it is an important component to this system.  |
 | **Requirements** | The user must be successfully logged into the system, and selected setup study group form either the home page menu or the course page's menu.  The system presents the user with a study group setup screen, the user specifies the course, location, time, and whether or not they want a tutor to attend. The system will display a success or failure message after checking the input data.  |
-| **References**   |  -Nil-    |
+| **References**   | UC-4.1.2: Login    |
 
 d. Use Case
 
@@ -417,9 +417,9 @@ d. Use Case
 | **Summary**     |   The system will provide a setup study group feature that will allow students to setup study groups with their classmates.    |   
 | **Rational** |The system is a way for students to be better connected with their classmates, setting up and attending study groups is an important part of a student’s education. Therefore, it is an important component to this system.  | 
 | **Users** | Students & Student Tutors |
-| **Pre-Conditions** | User must have a registered account with School Book, User Must be Logged in |
+| **Pre-Conditions** | User Must be Logged in |
 | **Basic Course Of Events** |<ol><li> A verified user is successfully logged into the system.</li><li>From either the home page menu or a specific course page's menu the user selects the setup study group function.</li><li>The system presents the user with the setup study group page.</li><li>User specifies what course, location, time, and if they request a tutor or not.</li><li>System will check input data for errors.</li><li>System will display success / failure message, and returns them to the home screen.</li></ol> |
-| **References** |  -Nil-  |
+| **References** |  UC-4.1.2: Login  |
 
 ## 4.3.2 Find Study Group
 a. Description and Priority
@@ -453,10 +453,10 @@ d. Use Case
 | **Summary**     |   The system will provide a find study group feature that will allow students to find study goups for the courses they are enrolled in.    |   
 | **Rational** |The system provides a setup study group function, so the system must include a find study group function for users to find study groups that have already been setup.   | 
 | **Users** | Students & Student Tutors |
-| **Pre-Conditions** | User must have a registered account with School Book, User Must be Logged in |
+| **Pre-Conditions** | User Must be Logged in |
 | **Basic Course Of Events** |<ol><li>A verified user is successfully logged into the system.</li><li>From either the home page menu or a specific course page menu the user selects the find study group function.</li><li>The system presents the user with a find study group screen.</li><li>The user specifies the course's department and course ID.</li><li>The system displays a list of upcoming scheduled study groups for the specified course and its details.</li><li>The user selects a study group from the list.</li><li>System displays a screen showing the details of the study group and a join study group option. 
 </li></ol> |
-| **References** |  -Nil-  |
+| **References** |  UC-4.1.2: Login  |
 
 ## 4.3.3 Join Study Group
 a. Description and priority
@@ -487,9 +487,9 @@ d. Use Case
 | **Summary**     |   The system will provide a join study group feature that will allow students to join study groups  for the courses they are enrolled in.  |   
 | **Rational** |The system provides a setup study group function, so the system should include a join study group function for users to join study groups that have already been setup.   | 
 | **Users** | Students & Student Tutors |
-| **Pre-Conditions** | User must have a registered account with School Book, User Must be Logged in |
+| **Pre-Conditions** | User Must be Logged in |
 | **Basic Course Of Events** |<ol><li>A verified user has selected a specific study group from the find study group function results.</li><li>System displays a screen showing the details of the study group and a join study gruop option.</li><li>TUser selects the join study group option.</li><li>System displays a success / failure message and returns the user to the study group's details page.</li></ol> |
-| **References** |  -Nil-  |
+| **References** |  UC-4.1.2: Login  |
 
 ## 4.3.4 Leave Study Group
 a. Description and priority
@@ -522,9 +522,9 @@ d. Use Case
 | **Summary**     |   The system will provide a leave study group feature that will allow students to leave study groups they have previously joined.  |   
 | **Rational** |The system provides a setup study group function, and a join study group function, so the system should also provide a leave study group function.    | 
 | **Users** | Students & Student Tutors |
-| **Pre-Conditions** | User must have a registered account with School Book, User Must be Logged in, User Must be part of an exsisting Study Group |
+| **Pre-Conditions** | User Must be Logged in, User Must be part of an exsisting Study Group |
 | **Basic Course Of Events** |<ol><li>A verified user has successfully logged into the system and joined a study group.</li><li>The user selects the leave study group feature from the home page menu.</li><li>The system displays a list of the study groups that the user has previously joined.</li><li>The user selects the study group that they intend to leave from the list.</li><li>The system displays a confirmation message asking if the user intends to leave the selected course displaying the study group’s details.</li><li>If the user confirms the action the system removes the user from the study group, displays a success / failure message and returns the user to the home page. If the user denies the action the system returns the user back to the list of study groups they can leave without removing the user from the study group.</li></ol> |
-| **References** |  -Nil-  |
+| **References** |  UC-4.1.2: Login  |
 
 ## 4.4.1 Uploading Notes
 
@@ -548,6 +548,18 @@ c. Functional Requirements
 | **Rational**     | The main purpose for 'SchoolBook' is to allow students to access notes and study aids from other students in need of help. In order for students to access notes, an upload feature is needed.|
 | **Requirements** | In order for the user to upload notes, the user must first register as a student at a specific university. After registering for SchoolBook, the user will then be able to upload the notes of their choice for the specific course.   |
 | **References**   | -Nil-   |
+
+d. Use Case
+
+| **Title**       | **Description**  |
+| -------------   |-------------     |
+| **Item**        |  UC-4.4.1: Uploading Notes  |
+| **Summary**     |  The system provides the user with the ability to add notes for specific courses for a specific semester |   
+| **Rational** |The main purpose for 'SchoolBook' is to allow students to access notes and study aids from other students in need of help. In order for students to access notes, an upload feature is needed.|    
+| **Users** | Students & Student Tutors |
+| **Pre-Conditions** | User Must be logged in |
+| **Basic Course Of Events** |<ol><li>User Visits SchoolBook URL www.SchoolBook.com.</li><li>User logs in and accesses student profile.</li><li>User is brought to their own personal page if previously registered. </li><li>Select the course and semester/year in which the notes are being used for.</li><li> By clicking the upload button, notes are added to the selected course page. </li></ol> |
+| **References** | UC-4.1.2: Login |
 
 ## 4.4.2 Searching for Notes
 
@@ -573,6 +585,17 @@ c. Functional Requirements
 | **Requirements** | The user must search for a course offered at the University of their choice in order to access notes.  |
 | **References**   |  -Nil-    |
 
+d. Use Case
+
+| **Title**       | **Description**  |
+| -------------   |-------------     |
+| **Item**        |  UC-4.4.2: Searching for Notes  |
+| **Summary**     |  The system will provide users with the ability to search for courses throughout the database and select from a list of list of previously uploaded documents |   
+| **Rational** |The search bar is used to search for courses offered at the University, therefore the user must search for a valid course in order to access notes.|    
+| **Users** | Students & Student Tutors |
+| **Pre-Conditions** | User Must be logged in |
+| **Basic Course Of Events** |<ol><li>User Visits SchoolBook URL www.SchoolBook.com.</li><li>User logs in and accesses student profile.</li><li>User is brought to their own personal page if previously registered. </li><li>The top bar of the main page will provide users with a search bar.</li><li>  By typing into the search bar, results will reveal a list of courses throughout the database.</li><li>By selecting a course in the list, the user will be provided with a list of previously uploaded notes for that specific course.</li></ol> |
+| **References** | UC-4.1.2: Login |
 
 # 5.Other Nonfunctional Requirements
 
