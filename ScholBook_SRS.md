@@ -209,12 +209,24 @@ c. Functional Requirements
 
 b. Use Case
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-| <ul><li>item1</li><li>item2</li></ul>| See the list | from the first column|
+| **Title**       | **Description**  |
+| -------------   |-------------     |
+| **Item**        |  UC-4.1.2: Login |
+| **Summary**     |  The system should provide a Login feature to allow users to access their account and consume services provided by SchoolBook |   
+| **Rational** |The system will need retrieve unique user-specific information from the database so that relevant information can be displayed to the logged-in user.|    
+| **Users** | Students & Student Tutors |
+| **Pre-Conditions** | User must have a registered account with School Book |
+| **Basic Course Of Events** |
+<ol>
+<li>User Visits SchoolBook URL www.SchoolBook.com.</li>
+<li>System Displays introductory page which contains the Login form.</li>
+<li>User keys in Email Address & Password and clicks Login Button.</li>
+<li>System compares input values with UserAccounts database table and checks if input data exsists in the database.</li>
+<li> System will redirect user to the Login Hompage on sucessful verification.</li>
+<li>System will display error message on verification failure.</li>
+</ol> |
+| **References** | UC-4.1.1: Registration |
+
 
 ## 4.1.3 Password Reset
 
