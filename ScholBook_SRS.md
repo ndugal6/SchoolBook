@@ -340,7 +340,7 @@ c. Functional Requirements
 | **Requirements** | In order for the user to upload notes, the user must first register as a student at a specific university. After registering for SchoolBook, the user will then be able to upload the notes of their choice for the specific course.   |
 | **References**   | -Nil-   |
 
-## 4.1.2 Searching for Notes
+## 4.4.2 Searching for Notes
 
 a. Description and Priority
 The search feature will allow students to search and filter throughout the database for specific courses. The search results will allow the user to select that course in which then a list of previously uploaded notes will appear for that specific course. 
