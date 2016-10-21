@@ -75,6 +75,8 @@ Functional requirements are deonted by FR4.x.x. For example:
   2. FR4.2.x : User Profile Management
   3. FR4.3.x : Study Group Management
   4. FR4.4.x : Notes Management
+Non-Functional Requirements are denoted by NF-x For example:
+  1.NF- 5.3.1: Security requirements for sensitive information
 
 Use Cases are denoted by UC4.x.x. For example:
   1. UC4.1.x : Registration/Login Management
@@ -147,7 +149,6 @@ It is assumed that all developers will have access to Visual Studios 2015 & mySQ
 
 ## 3.1User Interfaces
 ## 3.1
->>>>>>> Stashed changes
 All objects' layout properties are percentage values set according to the resolution of the users screen. This allows each screen's contents to self-arrange themselves for any given screen size. All objects are given minimum dimension constraints to avoid being too small for a user. The structure and display for each screen follows W3C's HTML and CSS guidelines. Errors messages and notifications follow the MSDN guidelines. User Interfaces are needed for registration, login, tutor registration, uploading and searching notes, password reset, joining, searching, and leaving study groups, updating profile, and creating study group.
 
 ## 3.2Hardware Interfaces
