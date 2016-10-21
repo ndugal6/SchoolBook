@@ -48,11 +48,8 @@ Clayton R Samson, Justin A Bougere, Nicholas A Dugal, Sean M Marino, Soh Guo Hao
 |      5.3        Security Requirements        |
 |      5.4        Software Quality Attributes        |
 |      5.5        Business Rules        |
-| **Appendix A: Glossary**         |
-| **Appendix B: Analysis Models**         |
-| **Appendix C: To Be Determined List**         |
-
-
+| **Appendix A: Analysis Models**         |
+| **Appendix B: To Be Determined List**         |
 
 Revision History
 
@@ -649,11 +646,7 @@ Specify any additional quality characteristics for the product that will be impo
 
 &lt;Define any other requirements not covered elsewhere in the SRS. This might include database requirements, internationalization requirements, legal requirements, reuse objectives for the project, and so on. Add any new sections that are pertinent to the project.&gt;
 
-Appendix A: Glossary
-
-&lt;Define all the terms necessary to properly interpret the SRS, including acronyms and abbreviations. You may wish to build a separate glossary that spans multiple projects or the entire organization, and just include terms specific to a single project in each SRS.&gt;
-
-# Appendix B: Analysis Models
+# Appendix A: Analysis Models
 
 ## Use-Case Diagram
 ![alt tag](https://raw.githubusercontent.com/ndugal6/SchoolBook/master/SRSimgs/SchoolBookUseCaseDiagram.gif)
@@ -667,7 +660,7 @@ Appendix A: Glossary
 ## Database ER Diagram
 ![alt tag](https://raw.githubusercontent.com/ndugal6/SchoolBook/master/Database/SchoolBookERv1.2.gif)
 
-Appendix C: To Be Determined List
+# Appendix B: To Be Determined List
 
 | no. | Function | Last Review Date  | Able to Achieve? |
 | --- |   ---    |     --------      |    -------       |
