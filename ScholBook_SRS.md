@@ -424,7 +424,7 @@ Appendix A: Glossary
 
 Appendix C: To Be Determined List
 
-| no. | Function | Last Date Reviewed | Able to Achieve? |
-| --- |   ---    |     --------       |    -------       |
+| no. | Function | Last Review Date  | Able to Achieve? |
+| --- |   ---    |     --------      |    -------       |
 |1.   | Multi-Threaded realtime chat | 10/20/2016 | No   |
 |2.   | IOS/Android Application      | 10/20/2016 | No   |
