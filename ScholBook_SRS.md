@@ -207,6 +207,25 @@ c. Functional Requirements
 | **Requirements** | The System should provide a Login form and a Login button for users to enter account details and submit their Login request, System should verify that the account details inserted by the user Exsists in the SchoolBook Database, Upon sucessful verification, user will be redirected to the user Homepage, upon verification failure, system will display error message   |
 | **References**   |  -Nil-    |
 
+b. Use Case
+
+| **Title**        |  **Description** |
+|  ----            |     -----               |
+| **Item**         |  FR-4.1.2: Login |
+| **Summary**      | The system should provide a Login feature to allow users to access their account and consume services provided by SchoolBook |
+| **Rational**     | The system will need retrieve unique user-specific information from the database so that relevant information can be displayed to the logged-in user.|
+| **Users** |  New Students  |
+| **Pre-Conditions** | E-Mail must not be registered with SchoolBook  |
+| **Basic Course of events** | 
+  1. User Visits SchoolBook URL www.SchoolBook.com.
+  2. System Displays introductory page which contains the Login form.
+  3. User keys in Email Address & Password and clicks Login Button.
+  4. System compares input values with UserAccounts database table and checks if input data exsists in the database.
+  5. System will redirect user to the Login Hompage on sucessful verification.
+  6. System will display error message on verification failure.
+|
+| **References**   |  -Nil-    |
+
 ## 4.1.3 Password Reset
 
 a. Description and Priority
