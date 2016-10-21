@@ -70,7 +70,11 @@ The product that will have its requirements specified in this document is School
 
 ## 1.2Document Conventions
 
-Functional requirements are deonted by FR4.x.x. For example, FR4.4.x are notes management functions.
+Functional requirements are deonted by FR4.x.x. For example:
+  1. FR4.1.x : Registration/Login Management
+  2. FR4.2.x : User Profile Management
+  3. FR4.3.x : Study Group Management
+  4. FR4.4.x : Notes Management
 
 ## 1.3Intended Audience and Reading Suggestions
 
@@ -92,29 +96,28 @@ SchoolBook is a new, self contained product that was developed by a group of LSU
 
 ## 2.2Product Functions
 
-a. Registration - Users register an account to SchoolBook
-b. Login - Users enter their email and password to enter the SchoolBook application
-c. Password Reset - Users enter their email in order to recieve their new password
-d. Update Profile - Users enter/edit their account information after a password prompt
-e. Add Course - Users click the add button on a course, which adds said course to the users course list
-f. Register as Tutor - During registration a user can choose to be a tutor rather than a student
-g. Upload Notes - Users can either drag and drop or browse through their system for notes to upload
-h. Search for Notes - Users will enter a keyword, then will be brought to a list of notes that have that keyword
-i. Create Study Group - Users enter class, location and meeting times to create a study group
-j. Search for Study Group - Users will enter the class number and will be to a list of Study Groups for said class
-k. Join Study Group - User is added to a list of users in the study group
-l. Leave Study Group - User is removed from the list of users in that study group
+| **no.** | **Functions** |
+| --- | --------- |
+|a.   |Registration - Users register an account to SchoolBook                                                         |
+|b.   |Login - Users enter their email and password to enter the SchoolBook application                               |
+|c.   |Password Reset - Users enter their email in order to recieve their new password                                |
+|d.   |Update Profile - Users enter/edit their account information after a password prompt                            |
+|e.   |Add Course - Users click the add button on a course, which adds said course to the users course list           |
+|f.   |Register as Tutor - During registration a user can choose to be a tutor rather than a student                  |
+|g.   |Upload Notes - Users can either drag and drop or browse through their system for notes to upload               |
+|h.   |Search for Notes - Users will enter a keyword, then will be brought to a list of notes that have that keyword  |
+|i.   |Create Study Group - Users enter class, location and meeting times to create a study group                     |
+|j.   |Search for Study Group - Users will enter the class number and will be to a list of Study Groups for said class|
+|k.   |Join Study Group - User is added to a list of users in the study group                                         |
+|l.   |Leave Study Group - User is removed from the list of users in that study group                                 |
 
 ## 2.3User Classes and Characteristics
 
-a. User 1 - Tutor
-This user will only use SchoolBook when someone requests them as a tutor.
-
-b. User 2 - Avid Student User
-This user will use SchoolBook frequently for notes, tutors and/or study groups. 
-
-c. User 3 - Occasional Student User
-This user will use SchoolBook on occasion for a multitude of feautures.
+| **User** | **Description** |
+|   ---       |    ---------    |
+| Students   | A Student User will create an account with SchoolBook & consume the various services that are provided by School Book, a Student user will interact with the system through the web application |
+| Student Tutor | A Student tutor extends from a student, after submitting proof / verification, a student may be a tutor for a certain course that he or she has completed, a Student Tutor user will interact with the system through the web application |
+| Adminstrator | An adminstrator will have direct access to the database so that they are able to access and approve tutor applications submitted by student user, an adminstrator will be running scripts from the database workbench to perform the validation |
 
 ## 2.4Operating Environment
 
@@ -130,7 +133,7 @@ There are no user documents currently.
 
 ## 2.7Assumptions and Dependencies
 
-It is assumed that all developers will have access to Visual Studios to devolop this application.
+It is assumed that all developers will have access to Visual Studios 2015 & mySQL community server 5.7 to devolop this application.
 
 # 3.External Interface Requirements
 
@@ -271,7 +274,7 @@ c. Functional Requirements
 | **Summary**      | The system will provide a find study group feature that will allow students to find study goups for the courses they are enrolled in. |
 | **Rational**     | The system provides a setup study group function, so the system must include a find study group function for users to find study groups that have already been setup.  |
 | **Requirements** | The user must be successfully logged into the system, and selected find study group form either the home page menu or the course page's menu. The user provides a course department and course ID. The system presents the user with a list of upcoming scheduled study groups for the specified course. |
-| **References**   |  REG4.3.1: Create Study Group    |
+| **References**   |  FR4.3.1: Create Study Group    |
 
 ## 4.3.3 Join Study Group
 a. Description and priority
@@ -291,7 +294,7 @@ c. Functional Requirements
 | **Summary**      | The system will provide a join study group feature that will allow students to join study groups  for the courses they are enrolled in. |
 | **Rational**     | The system provides a setup study group function, so the system should include a join study group function for users to join study groups that have already been setup.  |
 | **Requirements** | The user must be successfully logged into the system, and selected join study group form the study group's details page, the system displays a success / failure message and returns the user to the study group's details page. |
-| **References**   |  REG4.3.2: Find Study Group    |
+| **References**   |  FR4.3.2: Find Study Group    |
 
 ## 4.3.4 Leave Study Group
 a. Description and priority
@@ -313,7 +316,7 @@ c. Functional Requirements
 | **Summary**      | The system will provide a leave study group feature that will allow students to leave study groups they have previously joined. |
 | **Rational**     | The system provides a setup study group function, and a join study group function, so the system should also provide a leave study group function.  |
 | **Requirements** | The user must be successfully logged into the system, have previously used the find and join study group functions to join a study group. The user selects the leave study group function from the home page menu.  The system displays list of the study groups that the user has previously joined. The user selects the study group they wish to leave from the list. The system presents a confirmation message to the user.  If the user confirms the action the user is removed from the study group, the system presents a success / failure message and returns the user to the home page. If the user denies the action the user is not removed from the study group and is returned to the leave study group page containing the list of study groups they have previously joined. |
-| **References**   |  REG4.3.3: Join Study Group    |
+| **References**   |  FR4.3.3: Join Study Group    |
 
 ## 4.4.1 Uploading Notes
 
@@ -417,9 +420,9 @@ Appendix A: Glossary
 ## Database ER Diagram
 ![alt tag](https://raw.githubusercontent.com/ndugal6/SchoolBook/master/Database/SchoolBookERv1.2.gif)
 
-
-&lt;Optionally, include any pertinent analysis models, such as data flow diagrams, class diagrams, state-transition diagrams, or entity-relationship diagrams.&gt;
-
 Appendix C: To Be Determined List
 
-&lt;Collect a numbered list of the TBD (to be determined) references that remain in the SRS so they can be tracked to closure.&gt;
+| no. | Function | Last Date Reviewed | Able to Achieve? |
+| --- |   ---    |     --------       |    -------       |
+|1.   | Multi-Threaded realtime chat | 10/20/2016 | No   |
+|2.   | IOS/Android Application      | 10/20/2016 | No   |
