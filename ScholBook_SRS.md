@@ -82,8 +82,9 @@ Use Cases are denoted by UC4.x.x. For example:
   3. UC4.3.x : Study Group Management
   4. UC4.4.x : Notes Management
   
-Non-Functional Requirements are denoted by NF-x For example:
-  1.NF- 5.3.1: Security requirements for sensitive information
+Non-Functional Requirements are denoted by NF-x For example::
+  1. NF- 5.3.1: Security requirements for sensitive information.
+
 
 ## 1.3Intended Audience and Reading Suggestions
 
