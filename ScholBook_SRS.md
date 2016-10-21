@@ -293,8 +293,20 @@ c. Functional Requirements
 | **Summary**     |   The system should allow the user to update, edit or add information to their already existing account. 
 |
 | **Rational**    |   The system should allow the user to change anything on their profile in the event of pre existing information that is now invalid(ex. transfer of schools, new email address).   |
-| **Requirements**|   The user must have a pre existing account. The user must be successfully logged into the system The user must present all profile information completed after deleting or changing profile information before saving changes. 
-| **References**  |   REG6.1: User account data input requirements. 
+| **Requirements**|   The user must have a pre existing account. The user must be successfully logged into the system The user must present all profile information completed after deleting or changing profile information before saving changes. |
+| **References**  |   REG6.1: User account data input requirements. |
+
+d. Use Case
+
+| **Title**       | **Description**  |
+| -------------   |-------------     |
+| **Item**        |  UC-4.2.1: Update Profile |
+| **Summary**     |  The system should allow the user to update, edit or add information to their already existing account.  |   
+| **Rational** |The system should allow the user to change anything on their profile in the event of pre existing information that is now invalid(ex. transfer of schools, new email address).|    
+| **Users** | Students & Student Tutors |
+| **Pre-Conditions** | User must have a registered account with School Book |
+| **Basic Course Of Events** |<ol><li>User Visits SchoolBook URL www.SchoolBook.com</li><li>System displays login page. </li><li>User keys in their username/password and clicks Login Button</li><li>System will direct user to the Homepage after successfully logging in. </li><li>User select their profile account.</li><li>User selects edit profile.</li></ol> |
+| **References** | UC-4.1.1: Registration, REG6.1: User account data input requirements, FR-4.2.1: Update Profile  |
 
 ## 4.2.2 Add Course
 a. Description and Priority 
