@@ -146,16 +146,20 @@ It is assumed that all developers will have access to Visual Studios 2015 & mySQ
 # 3.External Interface Requirements
 
 ## 3.1User Interfaces
+<<<<<<< Updated upstream
+=======
+## 3.1
+>>>>>>> Stashed changes
 All objects' layout properties are percentage values set according to the resolution of the users screen. This allows each screen's contents to self-arrange themselves for any given screen size. All objects are given minimum dimension constraints to avoid being too small for a user. The structure and display for each screen follows W3C's HTML and CSS guidelines. Errors messages and notifications follow the MSDN guidelines. User Interfaces are needed for registration, login, tutor registration, uploading and searching notes, password reset, joining, searching, and leaving study groups, updating profile, and creating study group.
 
 ## 3.2Hardware Interfaces
-&lt;SchoolBook is able to run on any device with a browser supporting HTML5 and CSS3. The site can receive both physical and touch input. The backend database is run on a linux server using MYSQL 5.7.17. SchoolBook will allow notes stored on the server to be downloaded to user's local machines. 
+SchoolBook is able to run on any device with a browser supporting HTML5 and CSS3. The site can receive both physical and touch input. The backend database is run on a linux server using MYSQL 5.7.17. SchoolBook will allow notes stored on the server to be downloaded to user's local machines. 
 
 ## 3.3Software Interfaces
-&lt; SchoolBook's frontend is developed on Xamarin Studio 6.1.1 using CSS3 libraries for display. The frontend connects to the backend Linux server using MYSQL 5.7.17. The frontend sends user creditials for authentication to the server. If user is authorized, then the server relays information surrounding the user's study groups - Date/Time, location, students, and student tutors - and available notes - course ID/Name, upload date, upload user. If the user isn't authorized then the frontend sends user data needed for student creation to the serve: email, password, university, current courses. 
+SchoolBook's frontend is developed on Xamarin Studio 6.1.1 using CSS3 libraries for display. The frontend connects to the backend Linux server using MYSQL 5.7.17. The frontend sends user creditials for authentication to the server. If user is authorized, then the server relays information surrounding the user's study groups - Date/Time, location, students, and student tutors - and available notes - course ID/Name, upload date, upload user. If the user isn't authorized then the frontend sends user data needed for student creation to the serve: email, password, university, current courses. 
 
 ## 3.4Communications Interfaces
-&lt; Schoolbook will communicate with the sever using HTTP protocols
+Schoolbook will communicate with the sever using HTTP protocols
 &lt;Describe the requirements associated with any communications functions required by this product, including e-mail, web browser, network server communications protocols, electronic forms, and so on. Define any pertinent message formatting. Identify any communication standards that will be used, such as FTP or HTTP. Specify any communication security or encryption issues, data transfer rates, and synchronization mechanisms.&gt;
 
 # 4.System Features
@@ -261,7 +265,7 @@ c. Functional Requirements
 | **Item**         |  FR-4.1.3: Password Reset |
 | **Summary**      | The system should provide a Password Reset feature to allow users to Reset their password in any event that they forgot their password. |
 | **Rational**     | The System should allow users to reset their password if users forgets it so that user can still keep their accounts with their previous data.|
-| **Requirements** | The System should provide a Password Reset form and a Submit button for users to enter new Password and submit their Password Reset request, System should verify that the New Password inserted by the user is in accordance to table REG6.1's password format, if in accordance, system will update account password, display sucess message, send email to user and user will be redirected back to introductory page with Login form, if password is not in accordance, system will display error message.   |
+| **Requirements** | The System should provide a Password Reset form and a Submit button for users to enter new Password and submit their Password Reset request, System should verify that the New Password inserted by the user is in accordance to table REG6.1's password format, if in accordance, system will update account password, display success message, send email to user and user will be redirected back to introductory page with Login form, if password is not in accordance, system will display error message.   |
 | **References**   |  REG6.1: User account data input requirements   |
 
 d. Use Case
@@ -606,15 +610,16 @@ d. Use Case
 
 ## 5.1Performance Requirements
 
-&lt;If there are performance requirements for the product under various circumstances, state them here and explain their rationale, to help the developers understand the intent and make suitable design choices. Specify the timing relationships for real time systems. Make such requirements as specific as possible. You may need to state performance requirements for individual functional requirements or features.&gt;
+&lt;The searching for notes functional requirement must have a worst case runtime of O(n log n). Uploading and downloading notes should time-out if duration of individual object exceeds 60 seconds. Data pertaining to notes uploaded, groups created, profile update functionality should be updated within 30 seconds of their completion on users screens. 
 
 ## 5.2Safety Requirements
 
-&lt;Specify those requirements that are concerned with possible loss, damage, or harm that could result from the use of the product. Define any safeguards or actions that must be taken, as well as actions that must be prevented. Refer to any external policies or regulations that state safety issues that affect the product&#39;s design or use. Define any safety certifications that must be satisfied.&gt;
+&lt;All individuals that register must do so with a .edu email, users may only see other user or tutor profiles if they share a course. Tutor's must undergo an application process and background check in accordance with EEOC and FTC guidelines. Only after approval shall a tutor be available to students.
 
 ## 5.3Security Requirements
 
-&lt;Specify any requirements regarding security or privacy issues surrounding use of the product or protection of the data used or created by the product. Define any user identity authentication requirements. Refer to any external policies or regulations containing security issues that affect the product. Define any security or privacy certifications that must be satisfied.&gt;
+&lt;All individuals that register must do so with a .edu email. All user data being stored on the server or in transition between the site and server must follow the Advanced Encryption Standard(AES). Tutors must be vetted and checked according to the EEOC and FTC guidelines before being hired.
+Specify any requirements regarding security or privacy issues surrounding use of the product or protection of the data used or created by the product. Define any user identity authentication requirements. Refer to any external policies or regulations containing security issues that affect the product. Define any security or privacy certifications that must be satisfied.&gt;
 
 ## 5.4Software Quality Attributes
 
