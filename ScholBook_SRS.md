@@ -409,6 +409,18 @@ c. Functional Requirements
 | **Requirements** | The user must be successfully logged into the system, and selected setup study group form either the home page menu or the course page's menu.  The system presents the user with a study group setup screen, the user specifies the course, location, time, and whether or not they want a tutor to attend. The system will display a success or failure message after checking the input data.  |
 | **References**   |  -Nil-    |
 
+d. Use Case
+
+| **Title**       | **Description**  |
+| -------------   |-------------     |
+| **Item**        |  UC-4.3.1: Setup Study Group |
+| **Summary**     |   The system will provide a setup study group feature that will allow students to setup study groups with their classmates.    |   
+| **Rational** |The system is a way for students to be better connected with their classmates, setting up and attending study groups is an important part of a student’s education. Therefore, it is an important component to this system.  | 
+| **Users** | Students & Student Tutors |
+| **Pre-Conditions** | User must have a registered account with School Book, User Must be Logged in |
+| **Basic Course Of Events** |<ol><li> A verified user is successfully logged into the system.</li><li>From either the home page menu or a specific course page's menu the user selects the setup study group function.</li><li>The system presents the user with the setup study group page.</li><li>User specifies what course, location, time, and if they request a tutor or not.</li><li>System will check input data for errors.</li><li>System will display success / failure message, and returns them to the home screen.</li></ol> |
+| **References** |  -Nil-  |
+
 ## 4.3.2 Find Study Group
 a. Description and Priority
 
@@ -433,6 +445,19 @@ c. Functional Requirements
 | **Requirements** | The user must be successfully logged into the system, and selected find study group form either the home page menu or the course page's menu. The user provides a course department and course ID. The system presents the user with a list of upcoming scheduled study groups for the specified course. |
 | **References**   |  FR4.3.1: Create Study Group    |
 
+d. Use Case
+
+| **Title**       | **Description**  |
+| -------------   |-------------     |
+| **Item**        |  UC-4.3.2: Find Study Group|
+| **Summary**     |   The system will provide a find study group feature that will allow students to find study goups for the courses they are enrolled in.    |   
+| **Rational** |The system provides a setup study group function, so the system must include a find study group function for users to find study groups that have already been setup.   | 
+| **Users** | Students & Student Tutors |
+| **Pre-Conditions** | User must have a registered account with School Book, User Must be Logged in |
+| **Basic Course Of Events** |<ol><li>A verified user is successfully logged into the system.</li><li>From either the home page menu or a specific course page menu the user selects the find study group function.</li><li>The system presents the user with a find study group screen.</li><li>The user specifies the course's department and course ID.</li><li>The system displays a list of upcoming scheduled study groups for the specified course and its details.</li><li>The user selects a study group from the list.</li><li>System displays a screen showing the details of the study group and a join study group option. 
+</li></ol> |
+| **References** |  -Nil-  |
+
 ## 4.3.3 Join Study Group
 a. Description and priority
 
@@ -453,6 +478,18 @@ c. Functional Requirements
 | **Rational**     | The system provides a setup study group function, so the system should include a join study group function for users to join study groups that have already been setup.  |
 | **Requirements** | The user must be successfully logged into the system, and selected join study group form the study group's details page, the system displays a success / failure message and returns the user to the study group's details page. |
 | **References**   |  FR4.3.2: Find Study Group    |
+
+d. Use Case
+
+| **Title**       | **Description**  |
+| -------------   |-------------     |
+| **Item**        |  UC-4.3.3: Join Study Group |
+| **Summary**     |   The system will provide a join study group feature that will allow students to join study groups  for the courses they are enrolled in.  |   
+| **Rational** |The system provides a setup study group function, so the system should include a join study group function for users to join study groups that have already been setup.   | 
+| **Users** | Students & Student Tutors |
+| **Pre-Conditions** | User must have a registered account with School Book, User Must be Logged in |
+| **Basic Course Of Events** |<ol><li>A verified user has selected a specific study group from the find study group function results.</li><li>System displays a screen showing the details of the study group and a join study gruop option.</li><li>TUser selects the join study group option.</li><li>System displays a success / failure message and returns the user to the study group's details page.</li></ol> |
+| **References** |  -Nil-  |
 
 ## 4.3.4 Leave Study Group
 a. Description and priority
@@ -476,6 +513,18 @@ c. Functional Requirements
 | **Rational**     | The system provides a setup study group function, and a join study group function, so the system should also provide a leave study group function.  |
 | **Requirements** | The user must be successfully logged into the system, have previously used the find and join study group functions to join a study group. The user selects the leave study group function from the home page menu.  The system displays list of the study groups that the user has previously joined. The user selects the study group they wish to leave from the list. The system presents a confirmation message to the user.  If the user confirms the action the user is removed from the study group, the system presents a success / failure message and returns the user to the home page. If the user denies the action the user is not removed from the study group and is returned to the leave study group page containing the list of study groups they have previously joined. |
 | **References**   |  FR4.3.3: Join Study Group    |
+
+d. Use Case
+
+| **Title**       | **Description**  |
+| -------------   |-------------     |
+| **Item**        |  UC-4.3.4: Leave Study Group|
+| **Summary**     |   The system will provide a leave study group feature that will allow students to leave study groups they have previously joined.  |   
+| **Rational** |The system provides a setup study group function, and a join study group function, so the system should also provide a leave study group function.    | 
+| **Users** | Students & Student Tutors |
+| **Pre-Conditions** | User must have a registered account with School Book, User Must be Logged in, User Must be part of an exsisting Study Group |
+| **Basic Course Of Events** |<ol><li>A verified user has successfully logged into the system and joined a study group.</li><li>The user selects the leave study group feature from the home page menu.</li><li>The system displays a list of the study groups that the user has previously joined.</li><li>The user selects the study group that they intend to leave from the list.</li><li>The system displays a confirmation message asking if the user intends to leave the selected course displaying the study group’s details.</li><li>If the user confirms the action the system removes the user from the study group, displays a success / failure message and returns the user to the home page. If the user denies the action the system returns the user back to the list of study groups they can leave without removing the user from the study group.</li></ol> |
+| **References** |  -Nil-  |
 
 ## 4.4.1 Uploading Notes
 
