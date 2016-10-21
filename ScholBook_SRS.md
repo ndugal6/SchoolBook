@@ -48,9 +48,8 @@ Clayton R Samson, Justin A Bougere, Nicholas A Dugal, Sean M Marino, Soh Guo Hao
 |      5.3        Security Requirements        |
 |      5.4        Software Quality Attributes        |
 |      5.5        Business Rules        |
-| **Appendix A: Glossary**         |
-| **Appendix B: Analysis Models**         |
-| **Appendix C: To Be Determined List**         |
+| **Appendix A: Analysis Models**         |
+| **Appendix B: To Be Determined List**         |
 
 
 
@@ -75,6 +74,7 @@ Functional requirements are deonted by FR4.x.x. For example:
   2. FR4.2.x : User Profile Management
   3. FR4.3.x : Study Group Management
   4. FR4.4.x : Notes Management
+  
 Non-Functional Requirements are denoted by NF-x For example:
   1.NF- 5.3.1: Security requirements for sensitive information
 
@@ -162,7 +162,17 @@ Schoolbook will communicate with the server using HTTP protocols. The database u
 
 # 4.System Features
 
-&lt;This template illustrates organizing the functional requirements for the product by system features, the major services provided by the product. You may prefer to organize this section by use case, mode of operation, user class, object class, functional hierarchy, or combinations of these, whatever makes the most logical sense for your product.&gt;
+In this section, the various system features of SchoolBook will be explained, SchoolBook is seperated into th following:
+  1. 4.1.x : Login/Registration Management
+  2. 4.2.x : User Profile Management
+  3. 4.3.x : Study Group Management
+  4. 4.4.x : Notes Management.
+
+Each portion will be explained in the following format:
+  a. Description and priority of the system feature
+  b. How the interaction between User and server will take place, stimulus from the User and response for the server.
+  c. Functional requirements table
+  d. Use Case for the System Feature
 
 ## 4.1.1 Registration
 
@@ -667,13 +677,7 @@ Guest users may register to be a student but may not access any material. Studen
 | Gender                | Radio Button, with display value of Male & Female, only able to select one                        |
 | University            | Drop-down list of all the available universities, user only able to select one                    |
 
-&lt;Define any other requirements not covered elsewhere in the SRS. This might include database requirements, internationalization requirements, legal requirements, reuse objectives for the project, and so on. Add any new sections that are pertinent to the project.&gt;
-
-Appendix A: Glossary
-
-&lt;Define all the terms necessary to properly interpret the SRS, including acronyms and abbreviations. You may wish to build a separate glossary that spans multiple projects or the entire organization, and just include terms specific to a single project in each SRS.&gt;
-
-# Appendix B: Analysis Models
+# Appendix A: Analysis Models
 
 ## Use-Case Diagram
 ![alt tag](https://raw.githubusercontent.com/ndugal6/SchoolBook/master/SRSimgs/SchoolBookUseCaseDiagram.gif)
@@ -687,7 +691,7 @@ Appendix A: Glossary
 ## Database ER Diagram
 ![alt tag](https://raw.githubusercontent.com/ndugal6/SchoolBook/master/Database/SchoolBookERv1.2.gif)
 
-Appendix C: To Be Determined List
+# Appendix B: To Be Determined List
 
 | no. | Function | Last Review Date  | Able to Achieve? |
 | --- |   ---    |     --------      |    -------       |
