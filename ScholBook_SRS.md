@@ -233,6 +233,56 @@ c. Functional Requirements
 | **Requirements** | The System should provide a Password Reset form and a Submit button for users to enter new Password and submit their Password Reset request, System should verify that the New Password inserted by the user is in accordance to table REG6.1's password format, if in accordance, system will update account password, display sucess message, send email to user and user will be redirected back to introductory page with Login form, if password is not in accordance, system will display error message.   |
 | **References**   |  REG6.1: User account data input requirements   |
 
+## Update Profile
+a. Description and Priority 
+Allows existing users to edit, update or add their user information within their Schoolbook account. This requirement should be considered a middle priority as this event may not occur. 
+
+b. Stimulus/Response Sequences
+  1. User Visits SchoolBook URL www.SchoolBook.com
+  2. System displays login page. 
+  3. User keys in their username/password and clicks Login Button
+  4. System will direct user to the Homepage after successfully logging in. 
+  5. User select their profile account.
+  6. User selects edit profile. 
+  
+c. Functional Requirements
+
+|**Title**        |  **Description** |
+| ----            |     -----               |
+| **Item**        |   FR-4.2.1: Update Profile |
+| **Summary**     |   The system should allow the user to update, edit or add information to their already existing account. 
+|
+| **Rational**    |   The system should allow the user to change anything on their profile in the event of pre existing information that is now invalid(ex. transfer of schools, new email address).   |
+| **Requirements**|   The user must have a pre existing account. The user must be successfully logged into the system The user must present all profile information completed after deleting or changing profile information before saving changes. 
+| **References**  |   REG6.1: User account data input requirements. 
+
+## 4.2.2 Add Course
+a. Description and Priority 
+Allow users to add courses to their profiles, which gains them access to that specific course’s notes, classmates and tutors. This requirement should be of high priority as users would need to add courses in order to gain access to the courses’ tools and information. 
+
+b. Stimulus / Response Sequences
+  1. User visits Schoolbook URL www.schoolbook.com.
+  2. System displays introductory page which contains the login form. 
+  3. User keys in username/password and clicks Login button. 
+  4. System displays home page.
+  5. User clicks add course on the home page.
+  6. System checks user’s profile based on the college the student is enrolled in.
+  7. System will upload courses offered at college after successful validation.
+  8. System will display course department, number and section. 
+
+c. Functional Requirements 
+
+|**Title**        |  **Description** |
+| ----            |     -----               |
+| **Item**        |   FR-4.2.2 Add Course |
+| **Summary**     |   The system allows the user to add a or multiple courses to their profile. 
+|
+| **Rational**    |  The system should allow the user to select any course offered at the attached university established in their profile  |
+| **Requirements**|   In order for the user to add courses, the user must first establish which school they attend in the registration page and/or update profile to their current school. After selecting a school, the user will then have access to add single or multiple courses that are offered by the school.  
+| **References**  |   REG6.1: User account data input requirements. 
+
+4.2.3 Register as tutor
+
 ## 4.3.1 Create Study Group
 a. Description and Priority
 The create study group feature will allow users to setup a study group by specifing a location, time, course, and if a tutor will be requested.  Once all study group information is entered correctly the users will be presented with a confirmatoin / failure message and retured to their home screen.
