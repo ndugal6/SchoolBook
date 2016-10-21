@@ -157,7 +157,7 @@ Fig1.1
 SchoolBook is able to run on any device with a browser supporting HTML5 and CSS3. The site can receive both physical and touch input. The backend database is run on a linux server using MYSQL 5.7.17. SchoolBook will allow notes stored on the server to be downloaded to user's local machines. 
 
 ## 3.3Software Interfaces
-SchoolBook's frontend is developed on Xamarin Studio 6.1.1 using CSS3 libraries for display. The frontend connects to the backend Linux server using MYSQL 5.7.17. The frontend sends user creditials for authentication to the server. If user is authorized, then the server relays information surrounding the user's study groups - Date/Time, location, students, and student tutors - and available notes - course ID/Name, upload date, upload user. If the user isn't authorized then the frontend sends user data needed for student creation to the serve: email, password, university, current courses. 
+SchoolBook's frontend is developed on Miscrosoft Visual Studios 2015 ASP.NET 4.0 using HTML,CSS3,Javascripts and JQuery libraries for display. The backend Linux server is using MYSQL 5.7.17. The frontend sends user creditials for authentication to the server. If user is authorized, then the server relays information surrounding the user's study groups - Date/Time, location, students, and student tutors - and available notes - course ID/Name, upload date, upload user. If the user isn't authorized then the frontend sends user data needed for student creation to the serve: email, password, university, current courses. 
 
 ## 3.4Communications Interfaces
 Schoolbook will communicate with the sever using HTTP protocols, emails will be sent using the ASP.NET email protocol.
