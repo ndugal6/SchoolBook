@@ -160,6 +160,7 @@ It is assumed that all developers will have access to Visual Studios 2015 & mySQ
 ## 4.1.1 Registration
 
 a. Description and Priority
+
 Allows new users to register an account with SchoolBook to gain access to the various functions and information available. This Requirement should be of high priority as users would need to have an account before they are able to consume any services from SchoolBook.
 
 b. Stimulus/Response Sequences
@@ -185,6 +186,7 @@ c. Functional Requirements
 ## 4.1.2 Login
 
 a. Description and Priority
+
 Allows Registered users to gain access to the system. This Requirement should be of high priority as this is the first step a user needs to satisfy before being able to gain access to the services provided by SchoolBook.
 
 b. Stimulus/Response Sequences
@@ -208,6 +210,7 @@ c. Functional Requirements
 ## 4.1.3 Password Reset
 
 a. Description and Priority
+
 Allows Registered users to gain access to reset their password in an event that they forgot their password. This Requirement should be of middle priority as this event may not necessary occur.
 
 b. Stimulus/Response Sequences
@@ -233,6 +236,7 @@ c. Functional Requirements
 
 ## Update Profile
 a. Description and Priority 
+
 Allows existing users to edit, update or add their user information within their Schoolbook account. This requirement should be considered a middle priority as this event may not occur. 
 
 b. Stimulus/Response Sequences
@@ -256,6 +260,7 @@ c. Functional Requirements
 
 ## 4.2.2 Add Course
 a. Description and Priority 
+
 Allow users to add courses to their profiles, which gains them access to that specific course’s notes, classmates and tutors. This requirement should be of high priority as users would need to add courses in order to gain access to the courses’ tools and information. 
 
 b. Stimulus / Response Sequences
@@ -281,6 +286,7 @@ c. Functional Requirements
 
 ## 4.2.3 Register as Tutor
 a. Description and Priority
+
 The register as tutor feature will allow users to setup their profile as a tutor to specific courses. The profile will go through a manual verifcation process by allowing the user to uploas their past grades in the related course. This requirement should be of high priority as the best tutors will be vital to each courses' study group. 
 
 b. Stimulus / Response Sequences
@@ -306,6 +312,7 @@ b. Stimulus / Response Sequences
 
 ## 4.3.1 Create Study Group
 a. Description and Priority
+
 The create study group feature will allow users to setup a study group by specifing a location, time, course, and if a tutor will be requested.  Once all study group information is entered correctly the users will be presented with a confirmatoin / failure message and retured to their home screen.
 
 b. Stimulus / Response Sequences
@@ -328,6 +335,7 @@ c. Functional Requirements
 
 ## 4.3.2 Find Study Group
 a. Description and Priority
+
 The search for study group feature will allow uses to search for study groups based on the course department and ID.  The system will present the user with a list of the upcoming scheduled study groups for that course.
 
 b. Stimulus / Response Sequences
@@ -351,6 +359,7 @@ c. Functional Requirements
 
 ## 4.3.3 Join Study Group
 a. Description and priority
+
 The join study group feature will allow users to join study groups from the find study group search results screen.
 
 b. Stimulus / Response Sequences
@@ -371,6 +380,7 @@ c. Functional Requirements
 
 ## 4.3.4 Leave Study Group
 a. Description and priority
+
 The leave study group feature will allow users to leave study groups  that they have previously joined.
 
 b. Stimulus / Response Sequences
@@ -394,6 +404,7 @@ c. Functional Requirements
 ## 4.4.1 Uploading Notes
 
 a. Description and Priority
+
 Allows users to upload documents, class notes, and study tools for a specific course. Users will be able to access these notes by accessing the course page for which the notes were uploaded for. 
 
 b. Stimulus/Response Sequences
@@ -416,6 +427,7 @@ c. Functional Requirements
 ## 4.4.2 Searching for Notes
 
 a. Description and Priority
+
 The search feature will allow students to search and filter throughout the database for specific courses. The search results will allow the user to select that course in which then a list of previously uploaded notes will appear for that specific course. 
 
 b. Stimulus/Response Sequences
