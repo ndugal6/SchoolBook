@@ -35,13 +35,13 @@ Clayton R Samson, Justin A Bougere, Nicholas A Dugal, Sean M Marino, Soh Guo Hao
 |      4.1.3        Password Reset        |
 |      4.2.1        Update Profile        |
 |      4.2.2        Add Course        |
-|      4.2.3        Register as Tutor        |
+|      4.2.3        Register As Tutor        |
 |      4.3.1        Create Study Group         |
 |      4.3.2        Search for study Group        |
 |      4.3.3        Join Study Group        |
 |      4.3.4        Leave Study Grp        |
 |      4.4.1        Upload Notes        |
-|      4.4.2        Search for Notes        |
+|      4.4.2        Search For Notes        |
 | **5. Other Non-Functional Requirements** |
 |      5.1        Performance Requirements        |
 |      5.2        Safety Requirements        |
@@ -56,13 +56,13 @@ Clayton R Samson, Justin A Bougere, Nicholas A Dugal, Sean M Marino, Soh Guo Hao
 
 Revision History
 
-| Name | Date | Reason for Changes | Version |
+| Name | Date | Reason For Changes | Version |
 | --- | --- | --- | --- |
 |   |  |   |   |
 |   |  |  |   |
 
 
-# 1. Introduction
+# 1.Introduction
 
 ## 1.1Purpose
 
@@ -70,7 +70,7 @@ The product that will have its requirements specified in this document is School
 
 ## 1.2Document Conventions
 
-Functional requirements are denoted by FR4.x.x. For example:
+Functional requirements are deonted by FR4.x.x. For example:
   1. FR4.1.x : Registration/Login Management
   2. FR4.2.x : User Profile Management
   3. FR4.3.x : Study Group Management
@@ -78,21 +78,21 @@ Functional requirements are denoted by FR4.x.x. For example:
 
 ## 1.3Intended Audience and Reading Suggestions
 
-This document is intended solely for the developers of SchoolBook. It is recommended that developers read through this doc in order to gain a full understanding of the system. The rest of the document is organized in this respective order: An overall description, external interface requirements, a list and explanation of features, non-functional requirements, and other requirements.
+This document is intended solely for the developers of SchoolBook. It is recommeded that developers read through this doc in order to gain a full understanding of the system. The rest of the document is organized in this respective order: An overall description, external interface requirements, a list and explanation of features, non-functional requirements, and other requirements.
 
 ## 1.4Product Scope
 
-SchoolBook was produced to augment the studies of college students. This was done by providing students easy access to study groups and other students notes.
+SchoolBook was produced to augment the studies of college students. This was done by providing students easy acess to study groups and other students notes.
 
 ## 1.5References
 
 There are no documents that this SRS document refers to.
 
-# 2. Overall Description
+# 2.Overall Description
 
 ## 2.1Product Perspective
 
-SchoolBook is a new, self-contained product that was developed by a group of LSU Computer Science students.
+SchoolBook is a new, self contained product that was developed by a group of LSU Computer Science students.
 
 ## 2.2Product Functions
 
@@ -100,7 +100,7 @@ SchoolBook is a new, self-contained product that was developed by a group of LSU
 | --- | --------- |
 |4.1.1.   |Registration - Users register an account to SchoolBook                                                         |
 |4.1.2.   |Login - Users enter their email and password to enter the SchoolBook application                               |
-|4.1.3.   |Password Reset - Users enter their email in order to receive their new password                                |
+|4.1.3.   |Password Reset - Users enter their email in order to recieve their new password                                |
 |4.2.1.   |Update Profile - Users enter/edit their account information after a password prompt                            |
 |4.2.2.   |Add Course - Users click the add button on a course, which adds said course to the users course list           |
 |4.2.3.   |Register as Tutor - During registration a user can choose to be a tutor rather than a student                  |
@@ -117,7 +117,7 @@ SchoolBook is a new, self-contained product that was developed by a group of LSU
 |   ---       |    ---------    |
 | Students   | A Student User will create an account with SchoolBook & consume the various services that are provided by School Book, a Student user will interact with the system through the web application |
 | Student Tutor | A Student tutor extends from a student, after submitting proof / verification, a student may be a tutor for a certain course that he or she has completed, a Student Tutor user will interact with the system through the web application |
-| Administrator | An administrator will have direct access to the database so that they are able to access and approve tutor applications submitted by student user, an administrator will be running scripts from the database workbench to perform the validation |
+| Adminstrator | An adminstrator will have direct access to the database so that they are able to access and approve tutor applications submitted by student user, an adminstrator will be running scripts from the database workbench to perform the validation |
 
 ## 2.4Operating Environment
 
@@ -125,9 +125,9 @@ Since SchoolBook is a webapp, this application can be used by any OS, as long as
 
 ## 2.5Design and Implementation Constraints
 
-SchoolBook is to be developed as a web application using ASP.NET 4.0 Frame Work and programmed in c#, it should be programmed to be uniform across different browsers.
+SchoolBook is to be developed as a web application using ASP.NET 4.0 Frame Work and programmed in c#, it should be programmed to be uniform accross different browsers.
 
-SchoolBook is to be designed to maximize interactivity by using HTML, CSS, JavaScript & JQuery.
+SchholBook is to be designed to maximize interactivity by using HTML, CSS, JavaScript & JQuery.
 
 ## 2.6User Documentation
 
@@ -135,19 +135,19 @@ There are no user documents currently.
 
 ## 2.7Assumptions and Dependencies
 
-It is assumed that all developers will have access to Visual Studios 2015 & MySQL community server 5.7 to develop this application.
+It is assumed that all developers will have access to Visual Studios 2015 & mySQL community server 5.7 to devolop this application.
 
 # 3.External Interface Requirements
 
 ## 3.1User Interfaces
 ## 3.1
-&lt;All objects' layout properties are percentage values set according to the resolution of the user's screen. This allows each screen's contents to self-arrange themselves for any given screen size. All objects are given minimum dimension constraints to avoid being too small for a user. The structure and display for each screen follows W3C's HTML and CSS guidelines. Errors messages and notifications follow the MSDN guidelines. User Interfaces are needed for registration, login, tutor registration, uploading and searching notes, password reset, joining, searching, and leaving study groups, updating profile, and creating study group.
+&lt;All objects' layout properties are percentage values set according to the resolution of the users screen. This allows each screen's contents to self-arrange themselves for any given screen size. All objects are given minimum dimension constraints to avoid being too small for a user. The structure and display for each screen follows W3C's HTML and CSS guidelines. Errors messages and notifications follow the MSDN guidelines. User Interfaces are needed for registration, login, tutor registration, uploading and searching notes, password reset, joining, searching, and leaving study groups, updating profile, and creating study group.
 
 ## 3.2Hardware Interfaces
-&lt;SchoolBook is able to run on any device with a browser supporting HTML5 and CSS3. The site can receive both physical and touch input. The backend database is run on a Linux server using MySQL 5.7.17. SchoolBook will allow notes stored on the server to be downloaded to user's local machines. 
+&lt;SchoolBook is able to run on any device with a browser supporting HTML5 and CSS3. The site can receive both physical and touch input. The backend database is run on a linux server using MYSQL 5.7.17. SchoolBook will allow notes stored on the server to be downloaded to user's local machines. 
 
 ## 3.3Software Interfaces
-&lt; SchoolBook's frontend is developed on Xamarin Studio 6.1.1 using CSS3 libraries for display. The frontend connects to the backend Linux server using MySQL 5.7.17. The frontend sends user credentials for authentication to the server. If user is authorized, then the server relays information surrounding the user's study groups - Date/Time, location, students, and student tutors - and available notes - course ID/Name, upload date, upload user. If the user isn't authorized then the frontend sends user data needed for student creation to the serve: email, password, university, current courses. 
+&lt; SchoolBook's frontend is developed on Xamarin Studio 6.1.1 using CSS3 libraries for display. The frontend connects to the backend Linux server using MYSQL 5.7.17. The frontend sends user creditials for authentication to the server. If user is authorized, then the server relays information surrounding the user's study groups - Date/Time, location, students, and student tutors - and available notes - course ID/Name, upload date, upload user. If the user isn't authorized then the frontend sends user data needed for student creation to the serve: email, password, university, current courses. 
 
 ## 3.4Communications Interfaces
 &lt; Schoolbook will communicate with the sever using HTTP protocols
@@ -171,7 +171,7 @@ b. Stimulus/Response Sequences
   5. User fills up registration form with fields: Email-Address, Password, Confirm Email-Address, Confirm Password, Date of Birth, Full      Name, Gender and University.
   6. User Clicks on register button after form is filled.
   7. System will check input data for error.
-8. System will display success / failure message; a confirmation email will be sent to user upon success.
+  8. System will display success / failure message, a confirmation email will be sent to user upon sucess.
 
 c. Functional Requirements
 
@@ -193,8 +193,8 @@ b. Stimulus/Response Sequences
   1. User Visits SchoolBook URL www.SchoolBook.com.
   2. System Displays introductory page which contains the Login form.
   3. User keys in Email Address & Password and clicks Login Button.
-  4. System compares input values with UserAccounts database table and checks if input data exists in the database.
-  5. System will redirect user to the Login Homepage on successful verification.
+  4. System compares input values with UserAccounts database table and checks if input data exsists in the database.
+  5. System will redirect user to the Login Hompage on sucessful verification.
   6. System will display error message on verification failure.
 
 c. Functional Requirements
@@ -204,7 +204,7 @@ c. Functional Requirements
 | **Item**         |  FR-4.1.2: Login |
 | **Summary**      | The system should provide a Login feature to allow users to access their account and consume services provided by SchoolBook |
 | **Rational**     | The system will need retrieve unique user-specific information from the database so that relevant information can be displayed to the logged-in user.|
-| **Requirements** | The System should provide a Login form and a Login button for users to enter account details and submit their Login request, System should verify that the account details inserted by the user Exists in the SchoolBook Database, upon successful verification, user will be redirected to the user Homepage, upon verification failure, system will display error message   |
+| **Requirements** | The System should provide a Login form and a Login button for users to enter account details and submit their Login request, System should verify that the account details inserted by the user Exsists in the SchoolBook Database, Upon sucessful verification, user will be redirected to the user Homepage, upon verification failure, system will display error message   |
 | **References**   |  -Nil-    |
 
 b. Use Case
@@ -216,8 +216,7 @@ b. Use Case
 | **Rational**     | The system will need retrieve unique user-specific information from the database so that relevant information can be displayed to the logged-in user.|
 | **Users** |  New Students  |
 | **Pre-Conditions** | E-Mail must not be registered with SchoolBook  |
-| **Basic Course of events** | 
-  1. User Visits SchoolBook URL www.SchoolBook.com.
+| **Basic Course of events** | 1. User Visits SchoolBook URL www.SchoolBook.com.
   2. System Displays introductory page which contains the Login form.
   3. User keys in Email Address & Password and clicks Login Button.
   4. System compares input values with UserAccounts database table and checks if input data exsists in the database.
@@ -235,11 +234,11 @@ b. Stimulus/Response Sequences
   1. User Visits SchoolBook URL www.SchoolBook.com.
   2. System Displays introductory page which contains the Forgot Password Link.
   3. User keys in Email Address and clicks Retrieve Button.
-  4. System checks if email address exists in SchoolBook database & if it exists, sends an email containing a link to user email            account, if email does not exist, system displays error message.
+  4. System checks if email address exsists in SchoolBook database & if it exsists, sends an email containing a link to user email            account, if email does not exsist, system displays error message.
   5. User accesses email and click on link sent.
   6. System displays Password Reset Page
-  7. user keys in new password in accordance to table REG6.1 password field and clicks submit.
-  8. System will display success message, update account password and send confirmation email to user email. User will be redirected to        introductory page with Login Form.
+  7. user keys in new password in accordance to table REG6.1 password field and clickssubmit.
+  8. System will display sucess message, update account password and send confirmation email to user email. User will be redirected to        introductory page with Login Form.
   9. if password entered is not in accordance with table REG6.1, system will display error message.
 
 c. Functional Requirements
@@ -248,8 +247,8 @@ c. Functional Requirements
 |  ----            |     -----               |
 | **Item**         |  FR-4.1.2: Password Reset |
 | **Summary**      | The system should provide a Password Reset feature to allow users to Reset their password in any event that they forgot their password. |
-| **Rational**     | The System should allow users to reset their password if users forget it so that user can still keep their accounts with their previous data.|
-| **Requirements** | The System should provide a Password Reset form and a Submit button for users to enter new Password and submit their Password Reset request, System should verify that the New Password inserted by the user is in accordance to table REG6.1's password format, if in accordance, system will update account password, display success message, send email to user and user will be redirected back to introductory page with Login form, if password is not in accordance, system will display error message.   |
+| **Rational**     | The System should allow users to reset their password if users forgets it so that user can still keep their accounts with their previous data.|
+| **Requirements** | The System should provide a Password Reset form and a Submit button for users to enter new Password and submit their Password Reset request, System should verify that the New Password inserted by the user is in accordance to table REG6.1's password format, if in accordance, system will update account password, display sucess message, send email to user and user will be redirected back to introductory page with Login form, if password is not in accordance, system will display error message.   |
 | **References**   |  REG6.1: User account data input requirements   |
 
 ## Update Profile
@@ -272,8 +271,8 @@ c. Functional Requirements
 | **Item**        |   FR-4.2.1: Update Profile |
 | **Summary**     |   The system should allow the user to update, edit or add information to their already existing account. 
 |
-| **Rational**    |   The system should allow the user to change anything on their profile in the event of preexisting information that is now invalid (ex. transfer of schools, new email address).   |
-| **Requirements**|   The user must have a preexisting account. The user must be successfully logged into the system The user must present all profile information completed after deleting or changing profile information before saving changes. 
+| **Rational**    |   The system should allow the user to change anything on their profile in the event of pre existing information that is now invalid(ex. transfer of schools, new email address).   |
+| **Requirements**|   The user must have a pre existing account. The user must be successfully logged into the system The user must present all profile information completed after deleting or changing profile information before saving changes. 
 | **References**  |   REG6.1: User account data input requirements. 
 
 ## 4.2.2 Add Course
@@ -296,7 +295,7 @@ c. Functional Requirements
 |**Title**        |  **Description** |
 | ----            |     -----               |
 | **Item**        |   FR-4.2.2 Add Course |
-| **Summary**     |   The system allows the user to add single or multiple courses to their profile. 
+| **Summary**     |   The system allows the user to add a or multiple courses to their profile. 
 |
 | **Rational**    |  The system should allow the user to select any course offered at the attached university established in their profile  |
 | **Requirements**|   In order for the user to add courses, the user must first establish which school they attend in the registration page and/or update profile to their current school. After selecting a school, the user will then have access to add single or multiple courses that are offered by the school.  
@@ -304,12 +303,8 @@ c. Functional Requirements
 
 ## 4.2.3 Register as Tutor
 a. Description and Priority
-<<<<<<< HEAD
-The register as tutor feature will allow users to setup their profile as a tutor to specific courses. The profile will go through a manual verification process by allowing the user to uploads their past grades in the related course. This requirement should be of high priority as the best tutors will be vital to each courses' study group. 
-=======
 
 The register as tutor feature will allow users to setup their profile as a tutor to specific courses. The profile will go through a manual verifcation process by allowing the user to uploas their past grades in the related course. This requirement should be of high priority as the best tutors will be vital to each courses' study group. 
->>>>>>> origin/master
 
 b. Stimulus / Response Sequences
 1. User visits Schoolbook URL www.schoolbook.com.
@@ -334,12 +329,8 @@ b. Stimulus / Response Sequences
 
 ## 4.3.1 Create Study Group
 a. Description and Priority
-<<<<<<< HEAD
-The create study group feature will allow users to setup a study group by specifying a location, time, course, and if a tutor will be requested.  Once all study group information is entered correctly the users will be presented with a confirmation / failure message and returned to their home screen.
-=======
 
 The create study group feature will allow users to setup a study group by specifing a location, time, course, and if a tutor will be requested.  Once all study group information is entered correctly the users will be presented with a confirmatoin / failure message and retured to their home screen.
->>>>>>> origin/master
 
 b. Stimulus / Response Sequences
   1. A verified user is successfully logged into the system.
@@ -378,7 +369,7 @@ c. Functional Requirements
 | **Title**        |  **Description** |
 |  ----            |     -----               |
 | **Item**         |  FR-4.3.2: Find Study Group |
-| **Summary**      | The system will provide a find study group feature that will allow students to find study groups for the courses they are enrolled in. |
+| **Summary**      | The system will provide a find study group feature that will allow students to find study goups for the courses they are enrolled in. |
 | **Rational**     | The system provides a setup study group function, so the system must include a find study group function for users to find study groups that have already been setup.  |
 | **Requirements** | The user must be successfully logged into the system, and selected find study group form either the home page menu or the course page's menu. The user provides a course department and course ID. The system presents the user with a list of upcoming scheduled study groups for the specified course. |
 | **References**   |  FR4.3.1: Create Study Group    |
@@ -390,7 +381,7 @@ The join study group feature will allow users to join study groups from the find
 
 b. Stimulus / Response Sequences
   1. A verified user has selected a specific study group from the find study group function results.
-  2. System displays a screen showing the details of the study group and a join study group option.
+  2. System displays a screen showing the details of the study group and a join study gruop option.
   3. User selects the join study group option.
   4. System displays a success / failure message and returns the user to the study group's details page.
 
@@ -399,19 +390,15 @@ c. Functional Requirements
 | **Title**        |  **Description** |
 |  ----            |     -----               |
 | **Item**         |  FR-4.3.3: Join Study Group |
-| **Summary**      | The system will provide a join study group feature that will allow students to join study groups for the courses they are enrolled in. |
+| **Summary**      | The system will provide a join study group feature that will allow students to join study groups  for the courses they are enrolled in. |
 | **Rational**     | The system provides a setup study group function, so the system should include a join study group function for users to join study groups that have already been setup.  |
 | **Requirements** | The user must be successfully logged into the system, and selected join study group form the study group's details page, the system displays a success / failure message and returns the user to the study group's details page. |
 | **References**   |  FR4.3.2: Find Study Group    |
 
 ## 4.3.4 Leave Study Group
 a. Description and priority
-<<<<<<< HEAD
-The leave study group feature will allow users to leave study groups that they have previously joined.
-=======
 
 The leave study group feature will allow users to leave study groups  that they have previously joined.
->>>>>>> origin/master
 
 b. Stimulus / Response Sequences
   1. A verified user has successfully logged into the system and joined a study group.
@@ -506,11 +493,11 @@ c. Functional Requirements
 ## REG6.1 - User account data input requirements
 | Field Name            | Requirements                                                                                      | 
 | ---                   | ---                                                                                               |
-| E-Mail Address        | Characters in the format of xxxxxx@xxxxx.xx (x == characters)                                      |
-| Password              | minimum of 12 alphanumeric characters, compulsory use of a number and an alphabet                  |
-| Confirm Email-Address | Must be exactly the same as what was entered in E-Mail Address field                               |
+| E-Mail Address        | Characters in the format of xxxxxx@xxxxx.xx (x == charcters)                                      |
+| Password              | minimum of 12 alphanumeric characters, compulsory use of a number and a alphabet                  |
+| Confirm Email-Address | Must be exactly the same a what was entered in E-Mail Address field                               |
 | Confirm Password      | Must be exactly the same as what was entered in password field                                    |
-| Date of Birth         | entered in the format of MM/DD/YYYY; The value entered must be of a valid Gregorian calendar date |
+| Date of Birth         | entered in the formac of MM/DD/YYYY, The value entered must be of a valid Gregorian calendar date |
 | Full Name             | Maximum of 40 characters                                                                          |
 | Gender                | Radio Button, with display value of Male & Female, only able to select one                        |
 | University            | Drop-down list of all the available universities, user only able to select one                    |
@@ -539,5 +526,5 @@ Appendix C: To Be Determined List
 
 | no. | Function | Last Review Date  | Able to Achieve? |
 | --- |   ---    |     --------      |    -------       |
-|1.   | Multi-Threaded real-time chat | 10/20/2016 | No   |
+|1.   | Multi-Threaded realtime chat | 10/20/2016 | No   |
 |2.   | IOS/Android Application      | 10/20/2016 | No   |
