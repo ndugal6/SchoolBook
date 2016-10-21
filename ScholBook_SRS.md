@@ -171,8 +171,11 @@ In this section, the various system features of SchoolBook will be explained, Sc
 
 Each portion will be explained in the following format:
   a. Description and priority of the system feature
+  
   b. How the interaction between User and server will take place, stimulus from the User and response for the server.
+  
   c. Functional requirements table
+  
   d. Use Case for the System Feature
 
 ## 4.1.1 Registration
