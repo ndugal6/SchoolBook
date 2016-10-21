@@ -150,7 +150,6 @@ It is assumed that all developers will have access to Visual Studios 2015 & mySQ
 # 3.External Interface Requirements
 
 ## 3.1User Interfaces
-## 3.1
 All objects' layout properties are percentage values set according to the resolution of the users screen. This allows each screen's contents to self-arrange themselves for any given screen size. All objects are given minimum dimension constraints to avoid being too small for a user. The structure and display for each screen follows W3C's HTML and CSS guidelines. Errors messages and notifications follow the MSDN guidelines. User Interfaces are needed for registration, login, tutor registration, uploading and searching notes, password reset, joining, searching, and leaving study groups, updating profile, and creating study group.
 
 ## 3.2Hardware Interfaces
