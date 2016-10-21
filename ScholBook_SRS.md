@@ -48,8 +48,11 @@ Clayton R Samson, Justin A Bougere, Nicholas A Dugal, Sean M Marino, Soh Guo Hao
 |      5.3        Security Requirements        |
 |      5.4        Software Quality Attributes        |
 |      5.5        Business Rules        |
-| **Appendix A: Analysis Models**         |
-| **Appendix B: To Be Determined List**         |
+| **Appendix A: Glossary**         |
+| **Appendix B: Analysis Models**         |
+| **Appendix C: To Be Determined List**         |
+
+
 
 Revision History
 
@@ -143,29 +146,25 @@ It is assumed that all developers will have access to Visual Studios 2015 & mySQ
 # 3.External Interface Requirements
 
 ## 3.1User Interfaces
-
-All objects' layout properties are percentage values set according to the resolution of the users screen. This allows each screen's contents to self-arrange themselves for any given screen size. All objects are given minimum dimension constraints to avoid being too small for a user. The structure and display for each screen follows W3C's HTML and CSS guidelines. Errors messages and notifications follow the MSDN guidelines. User Interfaces are needed for registration, login, tutor registration, uploading and searching notes, password reset, joining, searching, and leaving study groups, updating profile, and creating study group. 
-Fig1.1 is a screenshot of our introductory page.
-
-![alt tag](https://raw.githubusercontent.com/ndugal6/SchoolBook/master/SRSimgs/SS_min.png)
-Fig1.1
+<<<<<<< Updated upstream
+=======
+## 3.1
+>>>>>>> Stashed changes
+All objects' layout properties are percentage values set according to the resolution of the users screen. This allows each screen's contents to self-arrange themselves for any given screen size. All objects are given minimum dimension constraints to avoid being too small for a user. The structure and display for each screen follows W3C's HTML and CSS guidelines. Errors messages and notifications follow the MSDN guidelines. User Interfaces are needed for registration, login, tutor registration, uploading and searching notes, password reset, joining, searching, and leaving study groups, updating profile, and creating study group.
 
 ## 3.2Hardware Interfaces
 SchoolBook is able to run on any device with a browser supporting HTML5 and CSS3. The site can receive both physical and touch input. The backend database is run on a linux server using MYSQL 5.7.17. SchoolBook will allow notes stored on the server to be downloaded to user's local machines. 
 
 ## 3.3Software Interfaces
-SchoolBook's frontend is developed on Miscrosoft Visual Studios 2015 ASP.NET 4.0 using HTML,CSS3,Javascripts and JQuery libraries for display. The backend Linux server is using MYSQL 5.7.17. The frontend sends user creditials for authentication to the server. If user is authorized, then the server relays information surrounding the user's study groups - Date/Time, location, students, and student tutors - and available notes - course ID/Name, upload date, upload user. If the user isn't authorized then the frontend sends user data needed for student creation to the serve: email, password, university, current courses. 
+SchoolBook's frontend is developed on Xamarin Studio 6.1.1 using HTML5 and CSS3 libraries for display and content structure. The frontend uses a .cs file to connect and transfers data to the backend Linux server using MYSQL 5.7.17. The frontend sends user creditials for authentication to the server. If user is authorized, then the server relays and populates the client with information surrounding the user's study groups - Date/Time, location, students, and student tutors - and available notes - course ID/Name, upload date, upload user. If the user isn't authorized then the frontend .cs file sends user data needed for student creation to the server: email, password, university, current courses. 
 
 ## 3.4Communications Interfaces
-Schoolbook will communicate with the sever using HTTP protocols, emails will be sent using the ASP.NET email protocol.
+Schoolbook will communicate with the server using HTTP protocols. The database uses .cs files to retrieve data from the HTML frontend.Data traffic will follow AES standards for security. The .cs communicate line allows the source code to be hidden from clients
+&lt;Describe the requirements associated with any communications functions required by this product, including e-mail, web browser, network server communications protocols, electronic forms, and so on. Define any pertinent message formatting. Identify any communication standards that will be used, such as FTP or HTTP. Specify any communication security or encryption issues, data transfer rates, and synchronization mechanisms.&gt;
 
 # 4.System Features
 
-In this section we will describe the various system features available in SchooBook, each System Feature is describe in the following format.
-a) Description and priority of that feature
-b) Interaction between Users & Systems
-c) Functional Requirements Table
-d) Use Case of the feature.
+&lt;This template illustrates organizing the functional requirements for the product by system features, the major services provided by the product. You may prefer to organize this section by use case, mode of operation, user class, object class, functional hierarchy, or combinations of these, whatever makes the most logical sense for your product.&gt;
 
 ## 4.1.1 Registration
 
@@ -610,21 +609,47 @@ d. Use Case
 # 5.Other Nonfunctional Requirements
 
 ## 5.1Performance Requirements
+| **Title**       | **Description**  |
+| -------------   |-------------     |
+| **Item**        | NF- 5.1.1: Performance requirements for searching |
+| **Summary**     | The search function must have a worst case runtime of O(n log n).
+| **Rational**    | Finding notes and groups should be quick and easy. Students in a rush don't have time to waste |
+| **Reference**   | FR-4.3.2 FR-4.4.2 | 
 
-The searching for notes functional requirement must have a worst case runtime of O(n log n). Uploading and downloading notes should time-out if duration of individual object exceeds 60 seconds. Data pertaining to notes uploaded, groups created, profile update functionality should be updated within 30 seconds of their completion on users screens. 
+| **Item**        | NF- 5.1.2: Performance requirements for uploading and downloading |
+| **Summary**     | Uploading and downloading should time-out if duration of individual object exceeds 60 seconds.
+| **Rational**    | Excessively long times are a nuisance and may indicate connectivity issues. Best to time out and have the user try again later |
+| **Reference**   | FR-4.4.2 FR-4.4.1 |
 
-## 5.2Safety Requirements
 
-All individuals that register must do so with a .edu email, users may only see other user or tutor profiles if they share a course. Tutor's must undergo an application process and background check in accordance with EEOC and FTC guidelines. Only after approval shall a tutor be available to students.
+## 5.2 Safety Requirements
+| **Title**       | **Description**  |
+| -------------   |-------------     |
+| **Item**        | NF- 5.2.1: Safety requirements for tutors |
+| **Summary**     | Tutor's must undergo an application process and background check in accordance with EEOC and FTC guidelines. Only after approval shall a tutor be available to students. |
+| **Rational**    | This protects the students from people with harmful intentions or who are underqualified |
+| **Reference**   | FR-4.2.3 | 
+
+| **Title**       | **Description**  |
+| -------------   |-------------     |
+| **Item**        | NF- 5.2.2: Safety requirements for registration |
+| **Summary**     | All individuals that register must do so with a .edu email. |
+| **Rational**    | This protects the students from people with harmful intentions or who don't belong. |
+| **Reference**   | FR-4.1.1 |
+
 
 ## 5.3Security Requirements
 
-All individuals that register must do so with a .edu email. All user data being stored on the server or in transition between the site and server must follow the Advanced Encryption Standard(AES). Tutors must be vetted and checked according to the EEOC and FTC guidelines before being hired.
-Specify any requirements regarding security or privacy issues surrounding use of the product or protection of the data used or created by the product. Define any user identity authentication requirements. Refer to any external policies or regulations containing security issues that affect the product. Define any security or privacy certifications that must be satisfied.
+| **Title**       | **Description**  |
+| -------------   |-------------     |
+| **Item**        | NF- 5.3.1: Security requirements for sensitive information |
+| **Summary**     | All data containing user information must follow the Advanced Encryption Standard(AES). |
+| **Rational**    | This protects the students from hackers and indentity theft. |
+| **Reference**   | FR-4.1.1, FR-4.1.2, FR-4.1.3, FR-4.2.1 |
 
 ## 5.4Software Quality Attributes
-
-Specify any additional quality characteristics for the product that will be important to either the customers or the developers. Some to consider are: adaptability, availability, correctness, flexibility, interoperability, maintainability, portability, reliability, reusability, robustness, testability, and usability. Write these to be specific, quantitative, and verifiable when possible. At the least, clarify the relative preferences for various attributes, such as ease of use over ease of learning.
+Site should be portable and usable with mobile and desktop screens. The tutor vetting process must be reliable with preference for increased security over increased ease of acceptance. 
+&lt;Specify any additional quality characteristics for the product that will be important to either the customers or the developers. Some to consider are: adaptability, availability, correctness, flexibility, interoperability, maintainability, portability, reliability, reusability, robustness, testability, and usability. Write these to be specific, quantitative, and verifiable when possible. At the least, clarify the relative preferences for various attributes, such as ease of use over ease of learning.&gt;
 
 ## 5.5Business Rules
 
@@ -646,7 +671,11 @@ Specify any additional quality characteristics for the product that will be impo
 
 &lt;Define any other requirements not covered elsewhere in the SRS. This might include database requirements, internationalization requirements, legal requirements, reuse objectives for the project, and so on. Add any new sections that are pertinent to the project.&gt;
 
-# Appendix A: Analysis Models
+Appendix A: Glossary
+
+&lt;Define all the terms necessary to properly interpret the SRS, including acronyms and abbreviations. You may wish to build a separate glossary that spans multiple projects or the entire organization, and just include terms specific to a single project in each SRS.&gt;
+
+# Appendix B: Analysis Models
 
 ## Use-Case Diagram
 ![alt tag](https://raw.githubusercontent.com/ndugal6/SchoolBook/master/SRSimgs/SchoolBookUseCaseDiagram.gif)
@@ -660,7 +689,7 @@ Specify any additional quality characteristics for the product that will be impo
 ## Database ER Diagram
 ![alt tag](https://raw.githubusercontent.com/ndugal6/SchoolBook/master/Database/SchoolBookERv1.2.gif)
 
-# Appendix B: To Be Determined List
+Appendix C: To Be Determined List
 
 | no. | Function | Last Review Date  | Able to Achieve? |
 | --- |   ---    |     --------      |    -------       |
