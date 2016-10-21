@@ -222,8 +222,7 @@ b. Use Case
   3. User keys in Email Address & Password and clicks Login Button.
   4. System compares input values with UserAccounts database table and checks if input data exsists in the database.
   5. System will redirect user to the Login Hompage on sucessful verification.
-  6. System will display error message on verification failure.
-|
+  6. System will display error message on verification failure.|
 | **References**   |  -Nil-    |
 
 ## 4.1.3 Password Reset
