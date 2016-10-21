@@ -160,6 +160,7 @@ It is assumed that all developers will have access to Visual Studios 2015 & MySQ
 ## 4.1.1 Registration
 
 a. Description and Priority
+
 Allows new users to register an account with SchoolBook to gain access to the various functions and information available. This Requirement should be of high priority as users would need to have an account before they are able to consume any services from SchoolBook.
 
 b. Stimulus/Response Sequences
@@ -185,6 +186,7 @@ c. Functional Requirements
 ## 4.1.2 Login
 
 a. Description and Priority
+
 Allows Registered users to gain access to the system. This Requirement should be of high priority as this is the first step a user needs to satisfy before being able to gain access to the services provided by SchoolBook.
 
 b. Stimulus/Response Sequences
@@ -205,9 +207,29 @@ c. Functional Requirements
 | **Requirements** | The System should provide a Login form and a Login button for users to enter account details and submit their Login request, System should verify that the account details inserted by the user Exists in the SchoolBook Database, upon successful verification, user will be redirected to the user Homepage, upon verification failure, system will display error message   |
 | **References**   |  -Nil-    |
 
+b. Use Case
+
+| **Title**        |  **Description** |
+|  ----            |     -----               |
+| **Item**         |  FR-4.1.2: Login |
+| **Summary**      | The system should provide a Login feature to allow users to access their account and consume services provided by SchoolBook |
+| **Rational**     | The system will need retrieve unique user-specific information from the database so that relevant information can be displayed to the logged-in user.|
+| **Users** |  New Students  |
+| **Pre-Conditions** | E-Mail must not be registered with SchoolBook  |
+| **Basic Course of events** | 
+  1. User Visits SchoolBook URL www.SchoolBook.com.
+  2. System Displays introductory page which contains the Login form.
+  3. User keys in Email Address & Password and clicks Login Button.
+  4. System compares input values with UserAccounts database table and checks if input data exsists in the database.
+  5. System will redirect user to the Login Hompage on sucessful verification.
+  6. System will display error message on verification failure.
+|
+| **References**   |  -Nil-    |
+
 ## 4.1.3 Password Reset
 
 a. Description and Priority
+
 Allows Registered users to gain access to reset their password in an event that they forgot their password. This Requirement should be of middle priority as this event may not necessary occur.
 
 b. Stimulus/Response Sequences
@@ -233,6 +255,7 @@ c. Functional Requirements
 
 ## Update Profile
 a. Description and Priority 
+
 Allows existing users to edit, update or add their user information within their Schoolbook account. This requirement should be considered a middle priority as this event may not occur. 
 
 b. Stimulus/Response Sequences
@@ -256,6 +279,7 @@ c. Functional Requirements
 
 ## 4.2.2 Add Course
 a. Description and Priority 
+
 Allow users to add courses to their profiles, which gains them access to that specific course’s notes, classmates and tutors. This requirement should be of high priority as users would need to add courses in order to gain access to the courses’ tools and information. 
 
 b. Stimulus / Response Sequences
@@ -281,7 +305,12 @@ c. Functional Requirements
 
 ## 4.2.3 Register as Tutor
 a. Description and Priority
+<<<<<<< HEAD
 The register as tutor feature will allow users to setup their profile as a tutor to specific courses. The profile will go through a manual verification process by allowing the user to uploads their past grades in the related course. This requirement should be of high priority as the best tutors will be vital to each courses' study group. 
+=======
+
+The register as tutor feature will allow users to setup their profile as a tutor to specific courses. The profile will go through a manual verifcation process by allowing the user to uploas their past grades in the related course. This requirement should be of high priority as the best tutors will be vital to each courses' study group. 
+>>>>>>> origin/master
 
 b. Stimulus / Response Sequences
 1. User visits Schoolbook URL www.schoolbook.com.
@@ -306,7 +335,12 @@ b. Stimulus / Response Sequences
 
 ## 4.3.1 Create Study Group
 a. Description and Priority
+<<<<<<< HEAD
 The create study group feature will allow users to setup a study group by specifying a location, time, course, and if a tutor will be requested.  Once all study group information is entered correctly the users will be presented with a confirmation / failure message and returned to their home screen.
+=======
+
+The create study group feature will allow users to setup a study group by specifing a location, time, course, and if a tutor will be requested.  Once all study group information is entered correctly the users will be presented with a confirmatoin / failure message and retured to their home screen.
+>>>>>>> origin/master
 
 b. Stimulus / Response Sequences
   1. A verified user is successfully logged into the system.
@@ -328,6 +362,7 @@ c. Functional Requirements
 
 ## 4.3.2 Find Study Group
 a. Description and Priority
+
 The search for study group feature will allow uses to search for study groups based on the course department and ID.  The system will present the user with a list of the upcoming scheduled study groups for that course.
 
 b. Stimulus / Response Sequences
@@ -351,6 +386,7 @@ c. Functional Requirements
 
 ## 4.3.3 Join Study Group
 a. Description and priority
+
 The join study group feature will allow users to join study groups from the find study group search results screen.
 
 b. Stimulus / Response Sequences
@@ -371,7 +407,12 @@ c. Functional Requirements
 
 ## 4.3.4 Leave Study Group
 a. Description and priority
+<<<<<<< HEAD
 The leave study group feature will allow users to leave study groups that they have previously joined.
+=======
+
+The leave study group feature will allow users to leave study groups  that they have previously joined.
+>>>>>>> origin/master
 
 b. Stimulus / Response Sequences
   1. A verified user has successfully logged into the system and joined a study group.
@@ -394,6 +435,7 @@ c. Functional Requirements
 ## 4.4.1 Uploading Notes
 
 a. Description and Priority
+
 Allows users to upload documents, class notes, and study tools for a specific course. Users will be able to access these notes by accessing the course page for which the notes were uploaded for. 
 
 b. Stimulus/Response Sequences
@@ -416,6 +458,7 @@ c. Functional Requirements
 ## 4.4.2 Searching for Notes
 
 a. Description and Priority
+
 The search feature will allow students to search and filter throughout the database for specific courses. The search results will allow the user to select that course in which then a list of previously uploaded notes will appear for that specific course. 
 
 b. Stimulus/Response Sequences
