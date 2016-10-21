@@ -74,15 +74,16 @@ Functional requirements are deonted by FR4.x.x. For example:
   2. FR4.2.x : User Profile Management
   3. FR4.3.x : Study Group Management
   4. FR4.4.x : Notes Management
-
-Non-Functional Requirements are denoted by NF-x For example:
-  1.NF- 5.3.1: Security requirements for sensitive information
-
+  
+  
 Use Cases are denoted by UC4.x.x. For example:
   1. UC4.1.x : Registration/Login Management
   2. UC4.2.x : User Profile Management
   3. UC4.3.x : Study Group Management
   4. UC4.4.x : Notes Management
+  
+Non-Functional Requirements are denoted by NF-x For example:
+  1.NF- 5.3.1: Security requirements for sensitive information
 
 ## 1.3Intended Audience and Reading Suggestions
 
