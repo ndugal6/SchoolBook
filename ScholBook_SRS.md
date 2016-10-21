@@ -216,15 +216,7 @@ b. Use Case
 | **Rational** |The system will need retrieve unique user-specific information from the database so that relevant information can be displayed to the logged-in user.|    
 | **Users** | Students & Student Tutors |
 | **Pre-Conditions** | User must have a registered account with School Book |
-| **Basic Course Of Events** |
-<ol>
-<li>User Visits SchoolBook URL www.SchoolBook.com.</li>
-<li>System Displays introductory page which contains the Login form.</li>
-<li>User keys in Email Address & Password and clicks Login Button.</li>
-<li>System compares input values with UserAccounts database table and checks if input data exsists in the database.</li>
-<li> System will redirect user to the Login Hompage on sucessful verification.</li>
-<li>System will display error message on verification failure.</li>
-</ol> |
+| **Basic Course Of Events** |<ol><li>User Visits SchoolBook URL www.SchoolBook.com.</li><li>System Displays introductory page which contains the Login form.</li><li>User keys in Email Address & Password and clicks Login Button.</li><li>System compares input values with UserAccounts database table and checks if input data exsists in the database.</li><li> System will redirect user to the Login Hompage on sucessful verification.</li><li>System will display error message on verification failure.</li></ol> |
 | **References** | UC-4.1.1: Registration |
 
 
