@@ -334,6 +334,18 @@ c. Functional Requirements
 | **Requirements**|   In order for the user to add courses, the user must first establish which school they attend in the registration page and/or update profile to their current school. After selecting a school, the user will then have access to add single or multiple courses that are offered by the school.  
 | **References**  |   REG6.1: User account data input requirements. 
 
+d. Use Case
+
+| **Title**       | **Description**  |
+| -------------   |-------------     |
+| **Item**        |  UC-4.2.2 Add Course |
+| **Summary**     |  The system allows the user to add a or multiple courses to their profile.   |   
+| **Rational** |The system should allow the user to select any course offered at the attached university established in their profile | 
+| **Users** | Students & Student Tutors |
+| **Pre-Conditions** | User must have a registered account with School Book |
+| **Basic Course Of Events** |<ol><li>User visits Schoolbook URL www.schoolbook.com.</li><li>System displays introductory page which contains the login form.</li><li>User keys in username/password and clicks Login button.</li><li>System displays home page. </li><li>User clicks add course on the home page.</li><li> System checks user’s profile based on the college the student is enrolled in.</li><li>System will upload courses offered at college after successful validation.</li><li>System will display course department, number and section. </li></ol> |
+| **References** | UC-4.1.1: Registration  |
+
 ## 4.2.3 Register as Tutor
 a. Description and Priority
 
@@ -351,14 +363,28 @@ b. Stimulus / Response Sequences
 9. User's file will be screened by a site DBM or Schoolbook admin. 
 10. User will be approved or denied as a tutor. 
 
+c. Functional Requirements
+
 |**Title**        |  **Description** |
 | ----            |     -----               |
 | **Item**        |   FR-4.2.3 Register as tutor |
 | **Summary**     |   The system allows the user to register their profile as a tutor for a study group and course.  
 |
 | **Rational**    |  The system should allow the user to select any course offered at the attached university established in their profile. The user then should be able to select register as tutor and upload their verification files.  |
-| **Requirements**|   In order for the user to add courses, the user must first establish which school they attend in the registration page and/or update profile to their current school. After selecting a school, the user will then have access to add single or multiple courses that are offered by the school. Once the user has established a course, they are able to select register as a tutor for that course. The system presents the user with a screen to upload their past grades in a predetermined format. The system will display a success or failure message after the user uploads the file. The user must be prompted on if they have been approved or denied as a tutor. 
-| **References**  |   REG6.1: User account data input requirements. 
+| **Requirements**|   In order for the user to add courses, the user must first establish which school they attend in the registration page and/or update profile to their current school. After selecting a school, the user will then have access to add single or multiple courses that are offered by the school. Once the user has established a course, they are able to select register as a tutor for that course. The system presents the user with a screen to upload their past grades in a predetermined format. The system will display a success or failure message after the user uploads the file. The user must be prompted on if they have been approved or denied as a tutor. |
+| **References**  |    |
+
+d. Use Case
+
+| **Title**       | **Description**  |
+| -------------   |-------------     |
+| **Item**        |  UC-4.2.3 Register as tutor |
+| **Summary**     |   The system allows the user to register their profile as a tutor for a study group and course.     |   
+| **Rational** |The system should allow the user to select any course offered at the attached university established in their profile. The user then should be able to select register as tutor and upload their verification files.  | 
+| **Users** | Students & Student Tutors |
+| **Pre-Conditions** | User must have a registered account with School Book, User must provide justification for the course he / she is registering to be a tutor as |
+| **Basic Course Of Events** |<ol><li>User visits Schoolbook URL www.schoolbook.com.</li><li>System displays introductory page which contains the login form. </li><li>User keys in username/password and clicks Login button. </li><li>System displays home page.  </li><li>User selects a course. </li><li>User selects and clicks on 'Register as tutor'. </li><li>System will prompt user to upload a file of the users grades to the related course. </li><li>System will display success message after file has been upload. </li><li>User's file will be screened by a site DBM or Schoolbook admin.</li><li>User will be approved or denied as a tutor. </li></ol> |
+| **References** |  FR-4.2.3 Register as tutor  |
 
 ## 4.3.1 Create Study Group
 a. Description and Priority
