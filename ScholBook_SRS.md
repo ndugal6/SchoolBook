@@ -281,7 +281,7 @@ c. Functional Requirements
 | **Requirements**|   In order for the user to add courses, the user must first establish which school they attend in the registration page and/or update profile to their current school. After selecting a school, the user will then have access to add single or multiple courses that are offered by the school.  
 | **References**  |   REG6.1: User account data input requirements. 
 
-## 4.2.3 Register as tutor
+## 4.2.3 Register as Tutor
 a. Description and Priority
 The register as tutor feature will allow users to setup their profile as a tutor to specific courses. The profile will go through a manual verifcation process by allowing the user to uploas their past grades in the related course. This requirement should be of high priority as the best tutors will be vital to each courses' study group. 
 
