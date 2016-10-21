@@ -216,8 +216,7 @@ b. Use Case
 | **Rational**     | The system will need retrieve unique user-specific information from the database so that relevant information can be displayed to the logged-in user.|
 | **Users** |  New Students  |
 | **Pre-Conditions** | E-Mail must not be registered with SchoolBook  |
-| **Basic Course of events** | 1. User Visits SchoolBook URL www.SchoolBook.com.
-  2. System Displays introductory page which contains the Login form.
+| **Basic Course of events** | 1. User Visits SchoolBook URL www.SchoolBook.com. 2. System Displays introductory page which contains the Login form.
   3. User keys in Email Address & Password and clicks Login Button.
   4. System compares input values with UserAccounts database table and checks if input data exsists in the database.
   5. System will redirect user to the Login Hompage on sucessful verification.
