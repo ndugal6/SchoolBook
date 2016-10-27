@@ -181,7 +181,24 @@ The following sections will describe how SchoolBook UI is designed, there will a
 <p align="left">The User Interface is designed to be intuitive and self-explainatory, so it will not confuse users, SchoolBook will consist of 2 very different sets of UI, the introductory UI(public) and the navigation UI(Registered Users), the introductory UI is accessible by the public. In the introductory UI, visitors are able to find out more about what SchoolBook is about, it is also in this page where visitors can register and log in into the SchoolBook system. This UI should look attractive and professional so as to give a good first impression to the visitors, it should also be infomative. The introductory page should be interactive and attractive , at the very top of the page there is a login form followed by a button to toggle the form to a registration form. Next it would display an introduction of SchoolBook and the various social media platform we are on, below there will be screenshots of the navigation UI which is only accessable by registered users, After the screenshots, there would be a counter to show visitors how many student , studet tutors and universities are using SchoolBook, last but not least, at the bottom of the page there will be a get in touch form where users can fill up if they have any questions and it will be sent as an email to the schoolbook email. The navigation UI will be kept as simple as possible as it will provide maximum interactivity and usability to registered users, so there will only be a navigation menu on the right hand side of the page and users can select which functions they would like to perform and the middle of the page would be loaded with forms and information for the user to interact with the server.</p> 
 
 ## 5.2 User-Interface Diagrams  
+**Introductory View**
+![alt tag](https://raw.githubusercontent.com/ndugal6/SchoolBook/master/SRSimages/SS1.png)
+This is the first view of SchoolBook when visitors accesses the webApp. if visitors click on the register button, the register form will show up, this is displayed in the screen below.
+![alt tag](https://raw.githubusercontent.com/ndugal6/SchoolBook/master/SRSimages/SS2.png)
+When user Scrolls down , the content below the registration / login portion would be the app description and social media links, this is displayed in the screen below.
+![alt tag](https://raw.githubusercontent.com/ndugal6/SchoolBook/master/SRSimages/SS3.png)
+further down the page would be the screenshots section, this section would display screenshots from the view of a registered user, as of now, the image links are broken as the App is not yet fully developed, once the App is fully developed, the images would be displayed correctly.
+![alt tag](https://raw.githubusercontent.com/ndugal6/SchoolBook/master/SRSimages/SS4.png)
+Further down the page will display the total numbers of student , tutors & universities that are using SchoolBook.
+![alt tag](https://raw.githubusercontent.com/ndugal6/SchoolBook/master/SRSimages/SS5.png)
+Lastly at the most bottom of the page, there would be a contact us form which will allow visiotrs to send us an email directly from the webpage.
+![alt tag](https://raw.githubusercontent.com/ndugal6/SchoolBook/master/SRSimages/SS6.png)
 
+**Navigation View**
+Below would be screenshots of what registered users would see when they log in to SchoolBook, as of now this portion of the application is still under developement, however on log in, every user would have their own spcific welcom messgae and information about their registered course as shown below.
+![alt tag](https://raw.githubusercontent.com/ndugal6/SchoolBook/master/SRSimages/SS7.png)
+Users can navigate on the left menu portion to perform various system functions.
+![alt tag](https://raw.githubusercontent.com/ndugal6/SchoolBook/master/SRSimages/SS8.png)
 
 # 6. Database Design
 
