@@ -166,6 +166,7 @@ Clayton R Samson, Justin A Bougere, Nicholas A Dugal, Sean M Marino, Soh Guo Hao
 ## 4.4 Work-Assignment View
 
 Work Assignments:
+
 | **Portion** | **Member Allocated** |
 |---|---|
 | UI / Front-End Design | Steffano Soh |
