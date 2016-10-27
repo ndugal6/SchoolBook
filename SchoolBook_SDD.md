@@ -54,7 +54,11 @@ Clayton R Samson, Justin A Bougere, Nicholas A Dugal, Sean M Marino, Soh Guo Hao
 ## &nbsp;&nbsp; 1.4  Design Summary
  *Content Here*
 
+# 2. Conceptual Design Architecture
 
+## &nbsp;&nbsp; 2.1 Accounts
 
+### &nbsp;&nbsp;&nbsp;&nbsp; 2.1.1 Registration
+*Content Here*
 
 
