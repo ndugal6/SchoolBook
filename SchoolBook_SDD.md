@@ -216,3 +216,4 @@ Below is the Database ER Diagram , Primary key attributes are underlined and for
 
 # 7. Element Catalog
 ![alt tag](https://raw.githubusercontent.com/ndugal6/SchoolBook/master/SRSimages/View%20Keys.png)
+![alt tag](https://raw.githubusercontent.com/ndugal6/SchoolBook/master/SRSimages/UIElements.png)
