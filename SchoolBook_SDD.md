@@ -167,8 +167,8 @@ Clayton R Samson, Justin A Bougere, Nicholas A Dugal, Sean M Marino, Soh Guo Hao
 
 Work Assignments:
 | **Portion** | **Member Allocated** |
-|     ---     |       ---            |
-| UI / Front-End Design | Steffano Soh|
+|---|---|
+| UI / Front-End Design | Steffano Soh |
 | Application Developement | Clayton R Samson, Justin A Bougere, Nicholas A Dugal, Sean M Marino, Zachary J Robicheaux |
 | Database Design / Management | Steffano Soh |
 
