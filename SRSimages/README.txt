@@ -1,1 +1,1 @@
-SRS images here
+SDD images here
