@@ -201,11 +201,17 @@ Users can navigate on the left menu portion to perform various system functions.
 ![alt tag](https://raw.githubusercontent.com/ndugal6/SchoolBook/master/SRSimages/SS8.png)
 
 # 6. Database Design
+The following sections below will describe the considerations taken while designing the database SchoolBook, followed by a Database Entity Relation Diagram for SchoolBook in 6.2.
 
 ## 6.1 Database Description 
-*Content Here*
+<p> SchoolBook will bee using a MySQL Database hosted on a MySQL Server.</p>
+<p>The database design for SchoolBook is determined to be mildly complicated, The database is designed in a way that it includes data required to perform functions that are yet to be determined, such as chat history table is created to support chats functionality which is a function yet to be determined.</p>
+<p>Every row in a table can be identified by a unique primary key which is a unique attribute to that row of recored, also a compisite key which is a compisition of attributes which permutated would be able to identify a single row of record, being a relational database, the whole designed is normalized to reduce data redundancy, an improve data integrity. Foreign key Contraints are imposed on table attributes which are used to relate one table to another so as to ensure data integrity.</p>
+<p>Every relation between tables are described by one to many (1..*) , one to one (1..1) and many to many (*..*), 1..1 relations on both ends of the tables are eliminated as this means that the 2 tables can be combined into one to save resources as having a table with n attributes require less resources compared to having 2 tables with n/2 attributes each and 1..1 relation on both ends means that every row on either side will correspond to one row on the other side.</p>
+<p>Database Secrity is an iportant factor to take note, currently, when in developement stage, all programmers will access the database as root user but they are encouraged to not alter the database design, if an alteration is require they are to consult the database architect. After developement a seperate Mysql account would be provided for access to the database with different level of permissions assigned to the accounts.</p>
 
 ## 6.2 Database ER Diagram 
-*Content Here*
+Below is the Database ER Diagram , Primary key attributes are underlined and foregin key attributes are denoted with (FK) (eg. UniversityID (FK)).
+![alt tag](https://raw.githubusercontent.com/ndugal6/SchoolBook/master/Database/SchoolBookER_v1.3.gif)
 
 # 7. Elemnt Catalog
