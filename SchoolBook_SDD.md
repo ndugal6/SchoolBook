@@ -14,13 +14,13 @@ Clayton R Samson, Justin A Bougere, Nicholas A Dugal, Sean M Marino, Soh Guo Hao
 |      1.2        Intended Audience        |
 |      1.3        Scope        |
 |      1.4        Design Summary        |
-| **2. Conceptual Design Architecture**   |
+| **2. Conceptual System Architecture**   |
 |      2.1        Overview        |
 |      2.2        Accounts <br/> &nbsp;&nbsp; 2.2.1     Registration<br/> &nbsp;&nbsp; 2.2.2     Login<br/> &nbsp;&nbsp; 2.2.3     Password Reset|   
 |      2.3        Profiles<br/> &nbsp;&nbsp; 2.3.1     Update Profile<br/> &nbsp;&nbsp; 2.3.2     Add Course<br/> &nbsp;&nbsp; 2.3.3     Register as Tutor        |
 |      2.4        Study Groups<br/> &nbsp;&nbsp; 2.4.1     Create Study Group<br/> &nbsp;&nbsp; 2.4.2     Search for study Group<br/> &nbsp;&nbsp; 2.4.3     Join Study Group<br/> &nbsp;&nbsp; 2.4.4     Leave Study Group        |
 |      2.5        Notes<br/> &nbsp;&nbsp; 2.5.1    Upload Notes<br/> &nbsp;&nbsp; 2.5.2     Search for Notes        |
-| **3. Techinical Design Architecture** |
+| **3. Techinical System Architecture** |
 |      3.1        Overview        |
 |      3.2        Accounts <br/> &nbsp;&nbsp; 3.2.1     Registration<br/> &nbsp;&nbsp; 3.2.2     Login<br/> &nbsp;&nbsp; 3.2.3     Password Reset|   
 |      3.3        Profiles<br/> &nbsp;&nbsp; 3.3.1     Update Profile<br/> &nbsp;&nbsp; 3.3.2     Add Course<br/> &nbsp;&nbsp; 3.3.3     Register as Tutor        |
@@ -42,23 +42,144 @@ Clayton R Samson, Justin A Bougere, Nicholas A Dugal, Sean M Marino, Soh Guo Hao
 
 # 1. Introduction
 
-## &nbsp;&nbsp; 1.1 Purpose
+##  1.1 Purpose
  *Content Here*
 
-## &nbsp;&nbsp; 1.2 Intended Audience
+##  1.2 Intended Audience
  *Content Here*
 
-## &nbsp;&nbsp; 1.3 Scope
+##  1.3 Scope
  *Content Here*
 
-## &nbsp;&nbsp; 1.4  Design Summary
+##  1.4  Design Summary
  *Content Here*
 
-# 2. Conceptual Design Architecture
+# 2. Conceptual System Architecture
 
-## &nbsp;&nbsp; 2.1 Accounts
-
-### &nbsp;&nbsp;&nbsp;&nbsp; 2.1.1 Registration
+## 2.1 Overview
 *Content Here*
 
+##  2.2 Accounts
 
+###  2.2.1 Registration
+*Content Here*
+
+###  2.2.2 Login
+*Content Here*
+
+###  2.2.3 Password Reset
+*Content Here*
+
+##  2.3 Profile
+
+###  2.3.1 Update Profile
+*Content Here*
+
+### 2.3.2 Add Course
+*Content Here*
+
+### 2.3.3 Register as Tutor
+*COntent Here*
+
+## 2.4 Study Groups
+
+### 2.4.1 Create Study Group
+*Content Here*
+
+### 2.4.2 Search for study Group
+*Content Here*
+
+### 2.4.3 Join Study Group
+*Content Here*
+
+### 2.4.4 Leave Study Group
+*Content Here*
+
+## 2.5 Notes
+
+### 2.5.1 Upload Notes
+*Content Here*
+
+### 2.5.2 Search For Notes
+*Content Here*
+
+# 3. Techinical System Architecture
+
+## 3.1 Overview
+*Content Here*
+
+##  3.2 Accounts
+
+###  3.2.1 Registration
+*Content Here*
+
+###  3.2.2 Login
+*Content Here*
+
+###  3.2.3 Password Reset
+*Content Here*
+
+##  3.3 Profile
+
+###  3.3.1 Update Profile
+*Content Here*
+
+### 3.3.2 Add Course
+*Content Here*
+
+### 3.3.3 Register as Tutor
+*COntent Here*
+
+## 3.4 Study Groups
+
+### 3.4.1 Create Study Group
+*Content Here*
+
+### 3.4.2 Search for study Group
+*Content Here*
+
+### 3.4.3 Join Study Group
+*Content Here*
+
+### 3.4.4 Leave Study Group
+*Content Here*
+
+## 3.5 Notes
+
+### 3.5.1 Upload Notes
+*Content Here*
+
+### 3.5.2 Search For Notes
+*Content Here*
+
+# 4. Application Views
+
+## 4.1 Logical View
+*Content Here*
+
+## 4.2 Physical View  
+*Content Here*
+
+## 4.3 Developement View
+*Content Here*
+
+## 4.4 Work-Assignment View
+*Content Here*
+
+# 5. User-Interface Design
+
+## 5.1 User-Interface Description 
+*Content Here*
+
+## 5.2 User-Interface Diagrams  
+*Content Here*
+
+# 6. Database Design
+
+## 6.1 Database Description 
+*Content Here*
+
+## 6.2 Database ER Diagram 
+*Content Here*
+
+# 7. Elemnt Catalog
