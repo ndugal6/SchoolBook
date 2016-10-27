@@ -4,13 +4,13 @@ SDD Document updates:
 
 points 5-10 have been completed, remaining 1-4.
 
- 1.Introduction
- 2.Main system architecture (Logical view)
- 3.Sub-systems architecture   
- 4.Rational for each architectural choice    
- ~~5.Development view~~
- ~~6.Physical view~~
- ~~7.Database view~~
- ~~8.Work-assignment view~~
- ~~9.Element catalog~~
- ~~10.User interfaces~~
+ 1.Introduction<br/>
+ 2.Main system architecture (Logical view)<br/>
+ 3.Sub-systems architecture<br/>   
+ 4.Rational for each architectural choice <br/>   
+ ~~5.Development view~~<br/>
+ ~~6.Physical view~~<br/>
+ ~~7.Database view~~<br/>
+ ~~8.Work-assignment view~~<br/>
+ ~~9.Element catalog~~<br/>
+ ~~10.User interfaces~~<br/>
