@@ -214,4 +214,5 @@ The following sections below will describe the considerations taken while design
 Below is the Database ER Diagram , Primary key attributes are underlined and foregin key attributes are denoted with (FK) (eg. UniversityID (FK)).
 ![alt tag](https://raw.githubusercontent.com/ndugal6/SchoolBook/master/Database/SchoolBookER_v1.3.gif)
 
-# 7. Elemnt Catalog
+# 7. Element Catalog
+![alt tag](https://raw.githubusercontent.com/ndugal6/SchoolBook/master/SRSimages/View%20Keys.png)
