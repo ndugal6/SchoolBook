@@ -155,13 +155,13 @@ Clayton R Samson, Justin A Bougere, Nicholas A Dugal, Sean M Marino, Soh Guo Hao
 # 4. Application Views
 
 ## 4.1 Logical View
-*Content Here*
+![alt tag](https://raw.githubusercontent.com/ndugal6/SchoolBook/master/SRSimages/LogicalView.gif)
 
 ## 4.2 Physical View  
-*Content Here*
+![alt tag](https://raw.githubusercontent.com/ndugal6/SchoolBook/master/SRSimages/PhysicalView.gif)
 
 ## 4.3 Developement View
-*Content Here*
+![alt tag](https://raw.githubusercontent.com/ndugal6/SchoolBook/master/SRSimages/DevelopementView.gif)
 
 ## 4.4 Work-Assignment View
 *Content Here*
