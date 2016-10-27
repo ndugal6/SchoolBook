@@ -38,3 +38,23 @@ Clayton R Samson, Justin A Bougere, Nicholas A Dugal, Sean M Marino, Soh Guo Hao
 |      6.1        Database Description      |
 |      6.2        Database ER Diagram       |
 | **7. Element Catalog**  |
+
+
+# 1. Introduction
+
+## &nbsp;&nbsp; 1.1 Purpose
+ *Content Here*
+
+## &nbsp;&nbsp; 1.2 Intended Audience
+ *Content Here*
+
+## &nbsp;&nbsp; 1.3 Scope
+ *Content Here*
+
+## &nbsp;&nbsp; 1.4  Design Summary
+ *Content Here*
+
+
+
+
+
