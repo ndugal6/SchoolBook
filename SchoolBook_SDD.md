@@ -4,7 +4,7 @@
 
 Clayton R Samson, Justin A Bougere, Nicholas A Dugal, Sean M Marino, Soh Guo Hao Steffano, Zachary J Robicheaux
 
-**Date Prepared: 10/19/2016**
+**Date Prepared: 10/26/2016**
 
 
 | Table of Contents         |
@@ -16,8 +16,8 @@ Clayton R Samson, Justin A Bougere, Nicholas A Dugal, Sean M Marino, Soh Guo Hao
 |      1.4        Design Summary        |
 | **2. Conceptual Design Architecture**   |
 |      2.1        Overview        |
-|      2.2        Accounts        |
-|                 2.2.1     Registration  |   
+|      2.2        Accounts        
+                 2.2.1     Registration  |   
 |      2.3        Profiles        |
 |      2.4        Study Groups        |
 |      2.5        Notes        |
