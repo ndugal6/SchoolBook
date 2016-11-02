@@ -43,16 +43,16 @@ Clayton R Samson, Justin A Bougere, Nicholas A Dugal, Sean M Marino, Soh Guo Hao
 # 1. Introduction
 
 ##  1.1 Purpose
- *Content Here*
+The purpose of this Software Design Document is to describe and paint a picture of Schoolbook's layout and design, providing details for the system's construction.
 
 ##  1.2 Intended Audience
- *Content Here*
+The UI and layout is intended for use by higher-education students and recent graduates. UI features and design concepts are described for marketers, shareholders, management, and sales teams. The software architecture is visible for developers.    
 
 ##  1.3 Scope
- *Content Here*
+This software design document is intended to provide details of Schoolbook's inner-workings for affiliated parties. Those interested, such as developers, can view and understand the underlying data structures' and data connections that are normally black-boxed. The design and UI components of Schoolbook are layed out to enable users and marketers to better understand and prepare to sell the product. The Schoolbook web app is designed to immerse students in an enhanced academic environment. 
 
 ##  1.4  Design Summary
- *Content Here*
+Guest should be drawn in by the professional and simple design of the main page. Users will be able to view their content with ease on any screen size. The static menu bar on the left allows users to quickly navigate all the resources Schoolbook provides for them, class notes, groups, and tutors. The dynamic aspects of the UI have been strategically orchestrated to minimize the number of clicks a users has to make for any action. 
 
 # 2. Conceptual System Architecture
 
