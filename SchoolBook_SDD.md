@@ -106,23 +106,23 @@ Clayton R Samson, Justin A Bougere, Nicholas A Dugal, Sean M Marino, Soh Guo Hao
 # 3. Techinical System Architecture
 
 ## 3.1 Overview
-*Content Here*
+The following sections will describe how the app will accomplish each system.
 
 ##  3.2 Accounts
 
 ###  3.2.1 Registration
-*Content Here*
+The user will enter a username and password, which will be saved together in a database as their account. 
 
 ###  3.2.2 Login
-*Content Here*
+The user will enter their username and password. The app will then search through the database in order to verify that the username and password is correct. If the entered parameters don't match with an account on the database, the app will display a login error.
 
 ###  3.2.3 Password Reset
-*Content Here*
+The user will enter their email address and new password. The app will then construct and email which will include a link to a page that will change the previous password located in the database to the new password.
 
 ##  3.3 Profile
 
 ###  3.3.1 Update Profile
-*Content Here*
+The user will enter/edit their name, profile picture, summary, classification or GPA. The app will then update the user's account in the database with what they typed (for all but profile picture), or to a link to an image (for the profile picture).
 
 ### 3.3.2 Add Course
 *Content Here*
