@@ -57,29 +57,29 @@ Clayton R Samson, Justin A Bougere, Nicholas A Dugal, Sean M Marino, Soh Guo Hao
 # 2. Conceptual System Architecture
 
 ## 2.1 Overview
-*Content Here*
+<p> The following sections will describe the structure, behavior, and views of the systems architecture. </p>
 
 ##  2.2 Accounts
 
 ###  2.2.1 Registration
-*Content Here*
+<p> The registration page will require users to enter their email (username) as well as create a password in order to start using the application. The page will require the user to enter their password a second time for verification. </p>
 
 ###  2.2.2 Login
-*Content Here*
+<p> This page allows the user to enter their username and password and click the 'Login' button to enter the home page of their account. </p>
 
 ###  2.2.3 Password Reset
-*Content Here*
+<p> If a user wants to reset their password, they must first login, and then will be allowed to reset their password to a new password of their choice. A password reset notification will appear when the password is reset. </p>
 
 ##  2.3 Profile
 
 ###  2.3.1 Update Profile
-*Content Here*
+<p> The update profile page will allow users to change what is displayed on their page. This includes name, profile picture, summary, classification, classes, GPA, etc. </p>
 
 ### 2.3.2 Add Course
-*Content Here*
+<p> Adding a course will require the user to find the department name, course abbreviation, and course number. Clicking Add Course will display the course page on the user's main profile page and add the user to that specific course. When a user adds a course, he will then be able to view notes, documents, classmates for that course. </p>
 
 ### 2.3.3 Register as Tutor
-*COntent Here*
+<p> A user has the option to register their account as a tutor. Tutor's are chosen based on the grade in which they received in the course. Registering as a tutor in a course will require the 'Tutor' to find the department name, course abbreviation, course number, and professor. The 'Tutor' must also prove a grade of B- or above. Once a Tutor is registered and approved they will become available on the course page. </p>
 
 ## 2.4 Study Groups
 
@@ -204,7 +204,7 @@ Users can navigate on the left menu portion to perform various system functions.
 The following sections below will describe the considerations taken while designing the database SchoolBook, followed by a Database Entity Relation Diagram for SchoolBook in 6.2.
 
 ## 6.1 Database Description 
-<p> SchoolBook will bee using a MySQL Database hosted on a MySQL Server.</p>
+<p> SchoolBook will be using a MySQL Database hosted on a MySQL Server.</p>
 <p>The database design for SchoolBook is determined to be mildly complicated, The database is designed in a way that it includes data required to perform functions that are yet to be determined, such as chat history table is created to support chats functionality which is a function yet to be determined.</p>
 <p>Every row in a table can be identified by a unique primary key which is a unique attribute to that row of recored, also a compisite key which is a compisition of attributes which permutated would be able to identify a single row of record, being a relational database, the whole designed is normalized to reduce data redundancy, an improve data integrity. Foreign key Contraints are imposed on table attributes which are used to relate one table to another so as to ensure data integrity.</p>
 <p>Every relation between tables are described by one to many (1..*) , one to one (1..1) and many to many (*..*), 1..1 relations on both ends of the tables are eliminated as this means that the 2 tables can be combined into one to save resources as having a table with n attributes require less resources compared to having 2 tables with n/2 attributes each and 1..1 relation on both ends means that every row on either side will correspond to one row on the other side.</p>
