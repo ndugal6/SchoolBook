@@ -1,4 +1,4 @@
-# Software Requirements Specification for SchoolBook
+# Software Design Document for SchoolBook
 
 **Prepared by:** 
 
