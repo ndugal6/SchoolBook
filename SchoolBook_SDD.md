@@ -18,7 +18,7 @@ Clayton R Samson, Justin A Bougere, Nicholas A Dugal, Sean M Marino, Soh Guo Hao
 |      2.1        Overview        |
 |      2.2        Accounts <br/> &nbsp;&nbsp; 2.2.1     Registration<br/> &nbsp;&nbsp; 2.2.2     Login<br/> &nbsp;&nbsp; 2.2.3     Password Reset|   
 |      2.3        Profiles<br/> &nbsp;&nbsp; 2.3.1     Update Profile<br/> &nbsp;&nbsp; 2.3.2     Add Course<br/> &nbsp;&nbsp; 2.3.3     Register as Tutor        |
-|      2.4        Study Groups<br/> &nbsp;&nbsp; 2.4.1     Create Study Group<br/> &nbsp;&nbsp; 2.4.2     Search for Study Group<br/> &nbsp;&nbsp; 2.4.3     Join Study Group<br/> &nbsp;&nbsp; 2.4.4     Leave Study Group        |
+|      2.4        Study Groups<br/> &nbsp;&nbsp; 2.4.1     Create Study Group<br/> &nbsp;&nbsp; 2.4.2     Find Study Group<br/> &nbsp;&nbsp; 2.4.3     Join Study Group<br/> &nbsp;&nbsp; 2.4.4     Leave Study Group        |
 |      2.5        Notes<br/> &nbsp;&nbsp; 2.5.1    Upload Notes<br/> &nbsp;&nbsp; 2.5.2     Search for Notes        |
 | **3. Techinical System Architecture** |
 |      3.1        Overview        |
@@ -81,26 +81,28 @@ Clayton R Samson, Justin A Bougere, Nicholas A Dugal, Sean M Marino, Soh Guo Hao
 <p> A user has the option to register their account as a tutor. Tutor's are chosen based on the grade in which they received in the course. Registering as a tutor in a course will require the 'Tutor' to find the department name, course abbreviation, course number, and professor. The 'Tutor' must also prove a grade of B- or above. Once a Tutor is registered and approved they will become available on the course page. </p>
 
 ## 2.4 Study Groups
+<p> SchoolBook will allow users to setup and organize study groups for the courses they are enrolled in, the system will also allow users to request tutors for the study groups they setup. </p>
 
 ### 2.4.1 Create Study Group
-*Content Here*
+<p>The create study group feature will allow users to setup a study group by specifying the proposed date and time, location, course, and if they request a tutor.  Once they have successfully entered the study group information they are added to the study group and returned to the main page.  The create study group page can be accessed from the home page menu. </p>
 
-### 2.4.2 Search for Study Group
-*Content Here*
+### 2.4.2 Find Study Group
+<p> The find study group feature will allow uses to search for study groups based on the course department and ID. The system will present the user with a list of the upcoming scheduled study groups for that course. The find study group feature can be accessed from the home page menu. </p>
 
 ### 2.4.3 Join Study Group
-*Content Here*
+<p>The join study group feature will allow users to join study groups from the find study group search results screen. Once a user has selected a study group from the find study group results page they will find the join study group button below the study group’s details.  Once the user chooses to join the study group they are presented with a success / failure message and returns the user to the study group’s details page. </p>
 
 ### 2.4.4 Leave Study Group
-*Content Here*
+<p>The leave study group feature will allow users to leave study groups that they have previously joined. The leave study group page will present the user with a list of study groups they have previously joined.  The user will select the study group they wish to leave from the list.  The system will display a confirmation prompt for the user, if the user confirms they are removed from the study group and returned to the home page. If the user denies the action the system returns the user back to the list of study groups they can leave without removing the user from the study group. The leave study group function can be found from the home page menu. </p>
 
 ## 2.5 Notes
+<p> The note sharing features allows users to upload documents, class notes, and study tools for a specified course. Other users will be able to access these notes by accessing the course page for which the notes were originally uploaded to. </p>
 
 ### 2.5.1 Upload Notes
-*Content Here*
+<p> The upload notes feature allows users to upload documents, class notes, and study tools for a specified course.  To upload notes a user must navigate to their profile page from the home page menu.  From there the user chooses the upload notes button, indicated by a large + icon.  The user will specify the course department and ID as well as the year and semester which the notes are to be used for. The user will be able to browse their device for acceptable PDF documents to upload to SchoolBook.  The system will display a success / failure message once the use has input all the required information. </p>
 
 ### 2.5.2 Search For Notes
-*Content Here*
+<p>The search for notes feature will allow students to search and filter throughout the database for notes regarding specific courses. The top bar of the main page will provide users with a search bar. The user will be able to type in the search bar to specify the course department and ID for the course. The system will display a table of information for the notes that have been uploaded for that course including the file name and the note’s semester and year. The file names will by hyperlinks to the PDF documents. </p>
 
 # 3. Techinical System Architecture
 
