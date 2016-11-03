@@ -43,16 +43,16 @@ Clayton R Samson, Justin A Bougere, Nicholas A Dugal, Sean M Marino, Soh Guo Hao
 # 1. Introduction
 
 ##  1.1 Purpose
-The purpose of this document is to describe the implementation of the SchoolBook Web-application as specified in the Software Requirements Document. It is intended to unite all of the stakeholders under one vision for the application.
+The purpose of this Software Design Document is to describe and paint a picture of Schoolbook's layout and design, providing details for the system's construction.
 
 ##  1.2 Intended Audience
-While the software requirement specification document is written from a broader perspective for a more universal audience, this document is intended for those more directly involved in the development of SchoolBOok. This audience includes, but is not limited to: potential investors, shareholders, developers, consultants, marketing teams, and product distributors. For stakeholders like clients, marketing teams, and others who are not involved in the development of the application, section 2, Conceptual Architecture, will be the most pertinent. For stakeholders like programmers and testers who are directly involved in the development of the system, section 3, Technical Architecture. Either party may wish to view section 5, User Interface, for a preview of the appearance and screen flow of the application.
+The UI and layout is intended for use by higher-education students and recent graduates. UI features and design concepts are described for marketers, shareholders, management, and sales teams. The software architecture is visible for developers.    
 
 ##  1.3 Scope
-This software design document is intended to give a more detailed overview of the entire product in correlation to those who will be working closely with it, from architectural concepts for developers through system interface design for marketers. The SchoolBook web-application is intended to create a more customizable study experience for the user.
+This software design document is intended to provide details of Schoolbook's inner-workings for affiliated parties. Those interested, such as developers, can view and understand the underlying data structures' and data connections that are normally black-boxed. The design and UI components of Schoolbook are layed out to enable users and marketers to better understand and prepare to sell the product. The Schoolbook web app is designed to immerse students in an enhanced academic environment. 
 
 ##  1.4  Design Summary
-Customers should be able to encompass the maximum potential of their device. Offering multiple types of elements to incorporate is critical to what makes this product stand out. This document outlines the design, from both a conceptual and technical standpoint, for the Accounts system, Study Groups formation, and Notes Management. The model-view-controller design pattern to conceptualize the connection between the User Interface (UI) and the application logic, SchoolBook can be developed incrementally without having to overhaul the UI each time. Incorporating a client-server model for database relationship allows the application to query the database for user information.
+Guest should be drawn in by the professional and simple design of the main page. Users will be able to view their content with ease on any screen size. The static menu bar on the left allows users to quickly navigate all the resources Schoolbook provides for them, class notes, groups, and tutors. The dynamic aspects of the UI have been strategically orchestrated to minimize the number of clicks a users has to make for any action. 
 
 # 2. Conceptual System Architecture
 
