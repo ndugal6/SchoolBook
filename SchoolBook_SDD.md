@@ -43,16 +43,16 @@ Clayton R Samson, Justin A Bougere, Nicholas A Dugal, Sean M Marino, Soh Guo Hao
 # 1. Introduction
 
 ##  1.1 Purpose
-The purpose of this Software Design Document is to describe and paint a picture of Schoolbook's layout and design, providing details for the system's construction.
+ *Content Here*
 
 ##  1.2 Intended Audience
-The UI and layout is intended for use by higher-education students and recent graduates. UI features and design concepts are described for marketers, shareholders, management, and sales teams. The software architecture is visible for developers.    
+ *Content Here*
 
 ##  1.3 Scope
-This software design document is intended to provide details of Schoolbook's inner-workings for affiliated parties. Those interested, such as developers, can view and understand the underlying data structures' and data connections that are normally black-boxed. The design and UI components of Schoolbook are layed out to enable users and marketers to better understand and prepare to sell the product. The Schoolbook web app is designed to immerse students in an enhanced academic environment. 
+ *Content Here*
 
 ##  1.4  Design Summary
-Guest should be drawn in by the professional and simple design of the main page. Users will be able to view their content with ease on any screen size. The static menu bar on the left allows users to quickly navigate all the resources Schoolbook provides for them, class notes, groups, and tutors. The dynamic aspects of the UI have been strategically orchestrated to minimize the number of clicks a users has to make for any action. 
+ *Content Here*
 
 # 2. Conceptual System Architecture
 
@@ -60,7 +60,6 @@ Guest should be drawn in by the professional and simple design of the main page.
 <p> The following sections will describe the structure, behavior, and views of the systems architecture. </p>
 
 ##  2.2 Accounts
-
 ###  2.2.1 Registration
 <p> The registration page will require users to enter their email (username) as well as create a password in order to start using the application. The page will require the user to enter their password a second time for verification. </p>
 
@@ -125,32 +124,32 @@ The user will enter their email address and new password. The app will then cons
 The user will enter/edit their name, profile picture, summary, classification or GPA. The app will then update the user's account in the database with what they typed (for all but profile picture), or to a link to an image (for the profile picture).
 
 ### 3.3.2 Add Course
-*Content Here*
+<p>The add course component allows the user to add a course to their profile. The user will enter their current university that they're attending. User then will be prompted to select the department, course name and course section. If the user selects a university that they are currently attending or have attended, they will not be able to access the courses. The course will not be added to the user's profile page.</p>
 
 ### 3.3.3 Register as Tutor
-*COntent Here*
+The register tutor component is responsible for approving or denying a profile user as a course tutor. will select the university department and course name they wish to be assigned as a designated tutor. The user will then upload a PDF file through an FTP of their transcript with the course grade the user earned. Once the file has been uploaded, a site admin will access the file. If the user has a grade below B-, the user will not become a registered tutor. If the user has a grade of a B- or higher, then the user will receive an The user will be manually approved by a site adminstrator.  
 
 ## 3.4 Study Groups
 
 ### 3.4.1 Create Study Group
-*Content Here*
+The create study group component is responsible for allowing the user to establish a study group within the desired course registered on the user's profile. The component will register the student within the study group once it has been approved that the student has the course registered on their profile.  
 
 ### 3.4.2 Search for Study Group
-*Content Here*
+The search for study group component allows a user to find a specific study group attached to a course. The component will aggregate a list of created study groups attached to the specific course. 
 
 ### 3.4.3 Join Study Group
-*Content Here*
+The join study group component lets the user join a study group the user has searched for. Once the user selects the group, the component will add the user to the study group if the user has the course attached to their profile page. 
 
 ### 3.4.4 Leave Study Group
-*Content Here*
+The leave study group component will let the user drop themselves from a group. The component will remove the user's profile from the study group if the user inputs and chooses to opt out of the group. 
 
 ## 3.5 Notes
 
 ### 3.5.1 Upload Notes
-*Content Here*
+The upload notes component is responsible for sending any notes for the user's course to their profile and study group. The user will be prompted to upload formatted file to the site's FTP. The component will then retrieve the file and add it to the study group and user's profile. If the user does not upload the properly predetermined format on the file, the component will not add the file to the study group. 
 
 ### 3.5.2 Search For Notes
-*Content Here*
+The search for notes component is responsible for letting the user find any notes that are attached to a study group. The component will collect a list of previously uploaded notes and allow the user to select the notes. Once selected, the component will allow the user  to view the notes.
 
 # 4. Application Views
 
