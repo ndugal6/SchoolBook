@@ -43,16 +43,16 @@ Clayton R Samson, Justin A Bougere, Nicholas A Dugal, Sean M Marino, Soh Guo Hao
 # 1. Introduction
 
 ##  1.1 Purpose
- *Content Here*
+The purpose of this document is to describe the implementation of the SchoolBook Web-application as specified in the Software Requirements Document. It is intended to unite all of the stakeholders under one vision for the application.
 
 ##  1.2 Intended Audience
- *Content Here*
+While the software requirement specification document is written from a broader perspective for a more universal audience, this document is intended for those more directly involved in the development of SchoolBOok. This audience includes, but is not limited to: potential investors, shareholders, developers, consultants, marketing teams, and product distributors. For stakeholders like clients, marketing teams, and others who are not involved in the development of the application, section 2, Conceptual Architecture, will be the most pertinent. For stakeholders like programmers and testers who are directly involved in the development of the system, section 3, Technical Architecture. Either party may wish to view section 5, User Interface, for a preview of the appearance and screen flow of the application.
 
 ##  1.3 Scope
- *Content Here*
+This software design document is intended to give a more detailed overview of the entire product in correlation to those who will be working closely with it, from architectural concepts for developers through system interface design for marketers. The SchoolBook web-application is intended to create a more customizable study experience for the user.
 
 ##  1.4  Design Summary
- *Content Here*
+Customers should be able to encompass the maximum potential of their device. Offering multiple types of elements to incorporate is critical to what makes this product stand out. This document outlines the design, from both a conceptual and technical standpoint, for the Accounts system, Study Groups formation, and Notes Management. The model-view-controller design pattern to conceptualize the connection between the User Interface (UI) and the application logic, SchoolBook can be developed incrementally without having to overhaul the UI each time. Incorporating a client-server model for database relationship allows the application to query the database for user information.
 
 # 2. Conceptual System Architecture
 
