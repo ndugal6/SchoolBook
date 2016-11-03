@@ -2,8 +2,6 @@
 
 SDD Document updates:
 
-points 5-10 have been completed, remaining 1-4.
-
  ~~1.Introduction~~<br/>
  ~~2.Main system architecture (Logical view)~~<br/>
  ~~3.Sub-systems architecture~~<br/>   
