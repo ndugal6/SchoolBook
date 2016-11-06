@@ -23,6 +23,7 @@ https://www.sitepoint.com/jquery-infinite-scrolling-demos/
 | ~~Registration~~ | Nick | Completed |
 | ~~Login~~ | Nick | Completed |
 | ~~Send E-Mail~~ | Nick | Completed |
+| Password Reset | Nick | 20th nov |
 
 **Profile Management**
 
