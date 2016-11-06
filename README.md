@@ -16,9 +16,23 @@ https://www.sitepoint.com/jquery-infinite-scrolling-demos/
 
 ### Developement Grouping, Tasking & Deadline
 
+ **Register / Login**
+
 | Funtion | Assigned to | DeadLine|
 |  -----  |   -------   | ------- |
 | ~~Registration~~ | nil | Completed |
 | Registration Validation | nil | Not Completed|
 | ~~Login~~ | nil | Completed |
 | ~~Send E-Mail~~ | nil | Completed |
+
+**Profile Management**
+| Funtion | Assigned to | DeadLine|
+|  -----  |   -------   | ------- |
+
+**Study Group Management**
+| Funtion | Assigned to | DeadLine|
+|  -----  |   -------   | ------- |
+
+**Notes Management**
+| Funtion | Assigned to | DeadLine|
+|  -----  |   -------   | ------- |
