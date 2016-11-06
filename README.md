@@ -26,13 +26,16 @@ https://www.sitepoint.com/jquery-infinite-scrolling-demos/
 | ~~Send E-Mail~~ | nil | Completed |
 
 **Profile Management**
+
 | Funtion | Assigned to | DeadLine|
 |  -----  |   -------   | ------- |
 
 **Study Group Management**
+
 | Funtion | Assigned to | DeadLine|
 |  -----  |   -------   | ------- |
 
 **Notes Management**
+
 | Funtion | Assigned to | DeadLine|
 |  -----  |   -------   | ------- |
