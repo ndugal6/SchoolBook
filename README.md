@@ -10,3 +10,6 @@ http://www.aspsnippets.com/Articles/Display-data-from-database-in-HTML-table-in-
 
 ### MySQL sql statements
 http://www.w3schools.com/sql/default.asp
+
+### JQuery Infinite Scroll
+https://www.sitepoint.com/jquery-infinite-scrolling-demos/
