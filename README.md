@@ -20,3 +20,5 @@ https://www.sitepoint.com/jquery-infinite-scrolling-demos/
 |  -----  |   -------   | ------- |
 | ~~Registration~~ | nil | Completed |
 | Registration Validation | nil | Not Completed|
+| ~~Login~~ | nil | Completed |
+| ~~Send E-Mail~~ | nil | Completed |
