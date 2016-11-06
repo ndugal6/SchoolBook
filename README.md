@@ -18,5 +18,5 @@ https://www.sitepoint.com/jquery-infinite-scrolling-demos/
 
 | Funtion | Assigned to | DeadLine|
 |  -----  |   -------   | ------- |
-| ~~Registration | nil | Completed ~~|
+~~| Registration | nil | Completed |~~
 | Registration Validation | nil | Not Completed|
