@@ -13,3 +13,10 @@ http://www.w3schools.com/sql/default.asp
 
 ### JQuery Infinite Scroll
 https://www.sitepoint.com/jquery-infinite-scrolling-demos/
+
+### Developement Grouping, Tasking & Deadline
+
+| Funtion | Assigned to | DeadLine|
+|  -----  |   -------   | ------- |
+| Registration | nil | Completed |
+| Registration Validation | nil | Not Completed|
