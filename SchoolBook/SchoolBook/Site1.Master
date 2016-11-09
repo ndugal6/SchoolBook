@@ -1,0 +1,87 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="SchoolBook.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>
+    <asp:ContentPlaceHolder ID="Title" runat="server">
+    </asp:ContentPlaceHolder>
+    </title>
+    <asp:ContentPlaceHolder ID="Head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link href="simple-sidebar.css" rel="stylesheet" />
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+
+    <script>
+    $(document).ready(function () {
+        $("#sub-nav-prof").hide();
+        $("#sub-nav-SG").hide();
+        $("#sub-nav-n").hide();
+        $("#profilemenu").click(function () {
+            $("#sub-nav-prof").toggle(1000);
+        });
+        $("#studymenu").click(function () {
+            $("#sub-nav-SG").toggle(1000);
+        });
+        $("#notesmenu").click(function () {
+            $("#sub-nav-n").toggle(1000);
+        });
+    });
+</script>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="wrapper">
+
+            <div id="sidebar-wrapper">
+                <ul class="sidebar-nav">
+                    <div style="text-align: center; background-image: url(Images/bg.jpg); height: 170px;">
+
+                        <br />
+                        <asp:Image runat="server" ImageUrl="img/SB_Login_icon2.jpg"
+                            ID="Logo" Height="150px" Width="190px" />
+                    </div>                  
+                    <li>
+                        <a href="#" id="profilemenu">Profile</a>
+                        <ul id="sub-nav-prof" class="sub-nav">
+                            <li><a href="">Update Profile</a> </li>
+                            <li><a href="#">Add Course</a></li>
+                            <li><a href="#">Register as Tutor</a></li>
+                        </ul>
+                            
+                    </li>
+                    <li><a href="#" id ="studymenu">Study Group</a>
+                        <ul class="sub-nav" id="sub-nav-SG">
+                            <li><a href="#">Search For Study Group</a> </li>
+                            <li><a href="#">Create Study Group</a> </li>
+                            <li><a href="#">Leave Study Group</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" id ="notesmenu">Notes</a>
+                        <ul class="sub-nav" id="sub-nav-n">
+                            <li><a href="#">Search For Notes</a> </li>
+                            <li><a href="#">Download Notes</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Logout</a>
+                    </li>
+                </ul>
+                <hr width ="1" size="580" align="right"/>
+            </div>
+            <div id="page-content-wrapper">
+                <asp:ContentPlaceHolder ID="Body" runat="server">
+        
+        </asp:ContentPlaceHolder>
+            </div>
+            </div>
+    </form>
+</body>
+</html>
