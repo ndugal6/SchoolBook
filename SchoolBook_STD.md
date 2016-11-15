@@ -27,7 +27,7 @@ Clayton R Samson, Justin A Bougere, Nicholas A Dugal, Sean M Marino, Soh Guo Hao
 |      TC 4.2        Search for Notes        |
 
 ## Registration
-**Test Case No. :**                          **Test Case Name:**            <br/>
+**Test Case No. :** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp; **Test Case Name:** *CONTENT HERE*           <br/>
 **System:**                                  **Sub-System:**                 <br/>
 **Designed By:**                              **Design Date:**                 <br/>
 **Executed By:**                            **Execution Date:**                 <br/>
