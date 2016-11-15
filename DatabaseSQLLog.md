@@ -1,12 +1,12 @@
-** Login/Registration: **
+**Login/Registration:**
 
 
 
-** Profile Management: **
+**Profile Management:**
 
 
-** Study Group Management: **
+**Study Group Management:**
 
 
 
-** Notes Management: **
+**Notes Management:**
