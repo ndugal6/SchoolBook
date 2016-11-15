@@ -26,48 +26,48 @@ Clayton R Samson, Justin A Bougere, Nicholas A Dugal, Sean M Marino, Soh Guo Hao
 |      TC 4.1        Upload Notes        |
 |      TC 4.2        Search for Notes        |
 
-### Registration
+## Registration
 **Test Case No. :**                          **Test Case Name:**            <br/>
 **System:**                                  **Sub-System:**                 <br/>
 **Designed By:**                              **Design Date:**                 <br/>
-**Executed By: **                            **Execution Date:**                 <br/>
+**Executed By:**                            **Execution Date:**                 <br/>
 **Short Description:** <br/>
 
 **Pre-Conditions**
 
-### Login
+## Login
 
 
-### Password Reset
+## Password Reset
 
 
-### Update Profile
+## Update Profile
 
 
-### Add Course
+## Add Course
 
 
-### Register as Tutor
+## Register as Tutor
 
 
-### Create Study Group
-
-
-
-### Search for study Group  
+## Create Study Group
 
 
 
-### Join Study Group
+## Search for study Group  
 
 
 
-### Leave Study Group
+## Join Study Group
 
 
 
-### Upload Notes
+## Leave Study Group
 
 
 
-### Search for Notes
+## Upload Notes
+
+
+
+## Search for Notes
