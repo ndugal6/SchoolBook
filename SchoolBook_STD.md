@@ -36,8 +36,10 @@ Clayton R Samson, Justin A Bougere, Nicholas A Dugal, Sean M Marino, Soh Guo Hao
 <br/>**Pre-Conditions:**
 *CONTENT HERE*<br/>
 
-
-
+| **Step** | **Actions** | **Expected System Response** | **Pass/Fail** | **Comments**|
+| ---------| ------------| -----------------------------| --------------| ------------|
+|1.|||||
+|1.|||||
 
 ## Login
 
