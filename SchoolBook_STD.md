@@ -44,38 +44,200 @@ Clayton R Samson, Justin A Bougere, Nicholas A Dugal, Sean M Marino, Soh Guo Hao
 **Post Condition:**<br/>
 
 ## Login
+**Test Case No. :** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp; **Test Case Name:** *CONTENT HERE*           <br/>
+**System:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; **Sub-System:** *CONTENT HERE*                <br/>
+**Designed By:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp;    **Design Date:** *CONTENT HERE*                <br/>
+**Executed By:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp;   **Execution Date:** *CONTENT HERE*                <br/>
+**Short Description:** <br/>
+*CONTENT HERE*
+<br/>**Pre-Conditions:**
+*CONTENT HERE*<br/>
+
+| **Step** | **Actions** | **Expected System Response** | **Pass/Fail** | **Comments**|
+| ---------| ------------| -----------------------------| --------------| ------------|
+|1.|||||
+|2.|||||
+
+**Post Condition:**<br/>
 
 
 ## Password Reset
+**Test Case No. :** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp; **Test Case Name:** *CONTENT HERE*           <br/>
+**System:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; **Sub-System:** *CONTENT HERE*                <br/>
+**Designed By:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp;    **Design Date:** *CONTENT HERE*                <br/>
+**Executed By:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp;   **Execution Date:** *CONTENT HERE*                <br/>
+**Short Description:** <br/>
+*CONTENT HERE*
+<br/>**Pre-Conditions:**
+*CONTENT HERE*<br/>
+
+| **Step** | **Actions** | **Expected System Response** | **Pass/Fail** | **Comments**|
+| ---------| ------------| -----------------------------| --------------| ------------|
+|1.|||||
+|2.|||||
+
+**Post Condition:**<br/>
 
 
 ## Update Profile
+**Test Case No. :** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp; **Test Case Name:** *CONTENT HERE*           <br/>
+**System:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; **Sub-System:** *CONTENT HERE*                <br/>
+**Designed By:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp;    **Design Date:** *CONTENT HERE*                <br/>
+**Executed By:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp;   **Execution Date:** *CONTENT HERE*                <br/>
+**Short Description:** <br/>
+*CONTENT HERE*
+<br/>**Pre-Conditions:**
+*CONTENT HERE*<br/>
+
+| **Step** | **Actions** | **Expected System Response** | **Pass/Fail** | **Comments**|
+| ---------| ------------| -----------------------------| --------------| ------------|
+|1.|||||
+|2.|||||
+
+**Post Condition:**<br/>
 
 
 ## Add Course
+**Test Case No. :** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp; **Test Case Name:** *CONTENT HERE*           <br/>
+**System:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; **Sub-System:** *CONTENT HERE*                <br/>
+**Designed By:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp;    **Design Date:** *CONTENT HERE*                <br/>
+**Executed By:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp;   **Execution Date:** *CONTENT HERE*                <br/>
+**Short Description:** <br/>
+*CONTENT HERE*
+<br/>**Pre-Conditions:**
+*CONTENT HERE*<br/>
+
+| **Step** | **Actions** | **Expected System Response** | **Pass/Fail** | **Comments**|
+| ---------| ------------| -----------------------------| --------------| ------------|
+|1.|||||
+|2.|||||
+
+**Post Condition:**<br/>
 
 
 ## Register as Tutor
+**Test Case No. :** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp; **Test Case Name:** *CONTENT HERE*           <br/>
+**System:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; **Sub-System:** *CONTENT HERE*                <br/>
+**Designed By:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp;    **Design Date:** *CONTENT HERE*                <br/>
+**Executed By:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp;   **Execution Date:** *CONTENT HERE*                <br/>
+**Short Description:** <br/>
+*CONTENT HERE*
+<br/>**Pre-Conditions:**
+*CONTENT HERE*<br/>
+
+| **Step** | **Actions** | **Expected System Response** | **Pass/Fail** | **Comments**|
+| ---------| ------------| -----------------------------| --------------| ------------|
+|1.|||||
+|2.|||||
+
+**Post Condition:**<br/>
 
 
 ## Create Study Group
+**Test Case No. :** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp; **Test Case Name:** *CONTENT HERE*           <br/>
+**System:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; **Sub-System:** *CONTENT HERE*                <br/>
+**Designed By:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp;    **Design Date:** *CONTENT HERE*                <br/>
+**Executed By:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp;   **Execution Date:** *CONTENT HERE*                <br/>
+**Short Description:** <br/>
+*CONTENT HERE*
+<br/>**Pre-Conditions:**
+*CONTENT HERE*<br/>
+
+| **Step** | **Actions** | **Expected System Response** | **Pass/Fail** | **Comments**|
+| ---------| ------------| -----------------------------| --------------| ------------|
+|1.|||||
+|2.|||||
+
+**Post Condition:**<br/>
 
 
 
 ## Search for study Group  
+**Test Case No. :** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp; **Test Case Name:** *CONTENT HERE*           <br/>
+**System:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; **Sub-System:** *CONTENT HERE*                <br/>
+**Designed By:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp;    **Design Date:** *CONTENT HERE*                <br/>
+**Executed By:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp;   **Execution Date:** *CONTENT HERE*                <br/>
+**Short Description:** <br/>
+*CONTENT HERE*
+<br/>**Pre-Conditions:**
+*CONTENT HERE*<br/>
 
+| **Step** | **Actions** | **Expected System Response** | **Pass/Fail** | **Comments**|
+| ---------| ------------| -----------------------------| --------------| ------------|
+|1.|||||
+|2.|||||
+
+**Post Condition:**<br/>
 
 
 ## Join Study Group
+**Test Case No. :** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp; **Test Case Name:** *CONTENT HERE*           <br/>
+**System:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; **Sub-System:** *CONTENT HERE*                <br/>
+**Designed By:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp;    **Design Date:** *CONTENT HERE*                <br/>
+**Executed By:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp;   **Execution Date:** *CONTENT HERE*                <br/>
+**Short Description:** <br/>
+*CONTENT HERE*
+<br/>**Pre-Conditions:**
+*CONTENT HERE*<br/>
+
+| **Step** | **Actions** | **Expected System Response** | **Pass/Fail** | **Comments**|
+| ---------| ------------| -----------------------------| --------------| ------------|
+|1.|||||
+|2.|||||
+
+**Post Condition:**<br/>
 
 
 
 ## Leave Study Group
+**Test Case No. :** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp; **Test Case Name:** *CONTENT HERE*           <br/>
+**System:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; **Sub-System:** *CONTENT HERE*                <br/>
+**Designed By:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp;    **Design Date:** *CONTENT HERE*                <br/>
+**Executed By:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp;   **Execution Date:** *CONTENT HERE*                <br/>
+**Short Description:** <br/>
+*CONTENT HERE*
+<br/>**Pre-Conditions:**
+*CONTENT HERE*<br/>
 
+| **Step** | **Actions** | **Expected System Response** | **Pass/Fail** | **Comments**|
+| ---------| ------------| -----------------------------| --------------| ------------|
+|1.|||||
+|2.|||||
+
+**Post Condition:**<br/>
 
 
 ## Upload Notes
+**Test Case No. :** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp; **Test Case Name:** *CONTENT HERE*           <br/>
+**System:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; **Sub-System:** *CONTENT HERE*                <br/>
+**Designed By:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp;    **Design Date:** *CONTENT HERE*                <br/>
+**Executed By:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp;   **Execution Date:** *CONTENT HERE*                <br/>
+**Short Description:** <br/>
+*CONTENT HERE*
+<br/>**Pre-Conditions:**
+*CONTENT HERE*<br/>
 
+| **Step** | **Actions** | **Expected System Response** | **Pass/Fail** | **Comments**|
+| ---------| ------------| -----------------------------| --------------| ------------|
+|1.|||||
+|2.|||||
+
+**Post Condition:**<br/>
 
 
 ## Search for Notes
+**Test Case No. :** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp; **Test Case Name:** *CONTENT HERE*           <br/>
+**System:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; **Sub-System:** *CONTENT HERE*                <br/>
+**Designed By:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp;    **Design Date:** *CONTENT HERE*                <br/>
+**Executed By:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp;   **Execution Date:** *CONTENT HERE*                <br/>
+**Short Description:** <br/>
+*CONTENT HERE*
+<br/>**Pre-Conditions:**
+*CONTENT HERE*<br/>
+
+| **Step** | **Actions** | **Expected System Response** | **Pass/Fail** | **Comments**|
+| ---------| ------------| -----------------------------| --------------| ------------|
+|1.|||||
+|2.|||||
+
+**Post Condition:**<br/>
