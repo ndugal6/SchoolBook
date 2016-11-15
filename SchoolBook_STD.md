@@ -33,13 +33,15 @@ Clayton R Samson, Justin A Bougere, Nicholas A Dugal, Sean M Marino, Soh Guo Hao
 **Executed By:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp;   **Execution Date:** *CONTENT HERE*                <br/>
 **Short Description:** <br/>
 *CONTENT HERE*
-<br/>**Pre-Conditions:**
+<br/>**Pre-Conditions:**>
 *CONTENT HERE*<br/>
 
 | **Step** | **Actions** | **Expected System Response** | **Pass/Fail** | **Comments**|
 | ---------| ------------| -----------------------------| --------------| ------------|
 |1.|||||
-|1.|||||
+|2.|||||
+
+**Post Condition:**<br/>
 
 ## Login
 
