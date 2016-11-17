@@ -20,9 +20,9 @@ https://www.sitepoint.com/jquery-infinite-scrolling-demos/
 
 | Funtion | Assigned to | DeadLine| Test Case Assigned to |
 |  -----  |   -------   | ------- | --------------------- |
-| ~~Registration~~ | Nick | Completed | |
-| ~~Login~~ | Nick | Completed | |
-| ~~Send E-Mail~~ | Nick | Completed | |
+| ~~Registration~~ | Nick | Completed | Steffano Soh |
+| ~~Login~~ | Nick | Completed | Steffano Soh |
+| ~~Send E-Mail~~ | Nick | Completed | --Not Required -- |
 | Password Reset | Nick | 20th nov |  |
 
 **Profile Management**
