@@ -29,8 +29,8 @@ https://www.sitepoint.com/jquery-infinite-scrolling-demos/
 
 | Funtion | Assigned to | DeadLine| Test Case Assigned to |
 |  -----  |   -------   | ------- | --------------------- |
-| Update Profile |Zack |20th nov | |
-| Add Course |Zack | 20th nov| |
+| Update Profile |Zack |20th nov | Zack |
+| Add Course |Zack | 20th nov| Zack |
 | Tutor Registration |Zack |20th nov | |
 
 **Study Group Management**
