@@ -70,8 +70,82 @@ User Must have a Registered Account with SchoolBook<br/>
 |3.        | Click on the *Login* Button within the Login Form | System Redirects user to his Profile Homepage | |
 
 **Post Condition:**<br/>
-1. User is logged into the SchoolBook System
+1. User is logged into the SchoolBook System<br/>
 2. User sees his information in the redirected page.
+
+### Login with invalid Email & Password
+
+|  | |
+|----------------------------------- | --------------------------------    |
+| **Test Case No. :** TC 1.2.3 | **Test Case Name:** Login With invalid Email & Password  |
+| **System:** SchoolBook         | **Sub-System:** Login      |
+| **Designed By:** Steffano Soh    |  **Design Date:** 11/18/2016     |
+| **Executed By:** *CONTENT HERE*    |  **Execution Date:** *CONTENT HERE* |
+
+**Short Description:** <br/>
+Test The Login Sub System with a invalid Email & Password
+<br/>**Pre-Conditions:**
+-Nil-<br/>
+
+| **Step** | **Actions** | **Expected System Response** | **Pass/Fail** | **Comments**|
+| ---------| ------------| -----------------------------| --------------| ------------|
+|1.        | Key in __invalid@gmail.com__ in the *Email Address* Text box within the Login Form | -Nil-|||
+|2.        | Key in __invalidpassword__ in the *Password* Text box within the Login Form | -Nil-|||
+|3.        | Click on the *Login* Button within the Login Form | System displays "incorrect Userid/Password" Message | |
+
+**Post Condition:**<br/>
+1. User denied access to SchoolBook<br/>
+2. User stays in introductory page.
+
+
+### Login with valid Email & invalid Password
+
+|  | |
+|----------------------------------- | --------------------------------    |
+| **Test Case No. :** TC 1.2.3 | **Test Case Name:** Login with valid Email & invalid Password  |
+| **System:** SchoolBook         | **Sub-System:** Login      |
+| **Designed By:** Steffano Soh    |  **Design Date:** 11/18/2016     |
+| **Executed By:** *CONTENT HERE*    |  **Execution Date:** *CONTENT HERE* |
+
+**Short Description:** <br/>
+Test The Login Sub System with valid Email & invalid Password
+<br/>**Pre-Conditions:**
+-Nil-<br/>
+
+| **Step** | **Actions** | **Expected System Response** | **Pass/Fail** | **Comments**|
+| ---------| ------------| -----------------------------| --------------| ------------|
+|1.        | Key in __Test@gmail.com__ in the *Email Address* Text box within the Login Form | -Nil-|||
+|2.        | Key in __invalidpassword__ in the *Password* Text box within the Login Form | -Nil-|||
+|3.        | Click on the *Login* Button within the Login Form | System displays "incorrect Userid/Password" Message | |
+
+**Post Condition:**<br/>
+1. User denied access to SchoolBook<br/>
+2. User stays in introductory page.
+
+
+### Login with invalid Email & valid Password
+
+|  | |
+|----------------------------------- | --------------------------------    |
+| **Test Case No. :** TC 1.2.4 | **Test Case Name:** Login with invalid Email & valid Password  |
+| **System:** SchoolBook         | **Sub-System:** Login      |
+| **Designed By:** Steffano Soh    |  **Design Date:** 11/18/2016     |
+| **Executed By:** *CONTENT HERE*    |  **Execution Date:** *CONTENT HERE* |
+
+**Short Description:** <br/>
+Test The Login Sub System with invalid Email & valid Password
+<br/>**Pre-Conditions:**
+-Nil-<br/>
+
+| **Step** | **Actions** | **Expected System Response** | **Pass/Fail** | **Comments**|
+| ---------| ------------| -----------------------------| --------------| ------------|
+|1.        | Key in __invalid@gmail.com__ in the *Email Address* Text box within the Login Form | -Nil-|||
+|2.        | Key in __password__  in the *Password* Text box within the Login Form | -Nil-|||
+|3.        | Click on the *Login* Button within the Login Form | System displays "incorrect Userid/Password" Message | |
+
+**Post Condition:**<br/>
+1. User denied access to SchoolBook<br/>
+2. User stays in introductory page.
 
 ## Password Reset
 
