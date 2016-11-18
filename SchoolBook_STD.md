@@ -77,7 +77,7 @@ User Must have a Registered Account with SchoolBook<br/>
 
 |  | |
 |----------------------------------- | --------------------------------    |
-| **Test Case No. :** TC 1.2.3 | **Test Case Name:** Login With invalid Email & Password  |
+| **Test Case No. :** TC 1.2.2 | **Test Case Name:** Login With invalid Email & Password  |
 | **System:** SchoolBook         | **Sub-System:** Login      |
 | **Designed By:** Steffano Soh    |  **Design Date:** 11/18/2016     |
 | **Executed By:** *CONTENT HERE*    |  **Execution Date:** *CONTENT HERE* |
