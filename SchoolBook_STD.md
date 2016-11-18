@@ -72,10 +72,14 @@ User Must have a Registered Account with SchoolBook
 2. User sees his information in the redirected page.
 
 ## Password Reset
-**Test Case No. :** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp; **Test Case Name:** *CONTENT HERE*           <br/>
-**System:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; **Sub-System:** *CONTENT HERE*                <br/>
-**Designed By:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp;    **Design Date:** *CONTENT HERE*                <br/>
-**Executed By:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp;   **Execution Date:** *CONTENT HERE*                <br/>
+
+|  | |
+|----------------------------------- | --------------------------------    |
+| **Test Case No. :** *CONTENT HERE* | **Test Case Name:** *CONTENT HERE*  |
+| **System:** *CONTENT HERE*         | **Sub-System:** *CONTENT HERE*      |
+| **Designed By:** *CONTENT HERE*    |  **Design Date:** *CONTENT HERE*    |
+| **Executed By:** *CONTENT HERE*    |  **Execution Date:** *CONTENT HERE* |
+
 **Short Description:** <br/>
 *CONTENT HERE*
 <br/>**Pre-Conditions:**
@@ -90,10 +94,14 @@ User Must have a Registered Account with SchoolBook
 
 
 ## Update Profile
-**Test Case No. :** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp; **Test Case Name:** *CONTENT HERE*           <br/>
-**System:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; **Sub-System:** *CONTENT HERE*                <br/>
-**Designed By:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp;    **Design Date:** *CONTENT HERE*                <br/>
-**Executed By:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp;   **Execution Date:** *CONTENT HERE*                <br/>
+
+|  | |
+|----------------------------------- | --------------------------------    |
+| **Test Case No. :** *CONTENT HERE* | **Test Case Name:** *CONTENT HERE*  |
+| **System:** *CONTENT HERE*         | **Sub-System:** *CONTENT HERE*      |
+| **Designed By:** *CONTENT HERE*    |  **Design Date:** *CONTENT HERE*    |
+| **Executed By:** *CONTENT HERE*    |  **Execution Date:** *CONTENT HERE* |
+
 **Short Description:** <br/>
 *CONTENT HERE*
 <br/>**Pre-Conditions:**
@@ -108,10 +116,14 @@ User Must have a Registered Account with SchoolBook
 
 
 ## Add Course
-**Test Case No. :** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp; **Test Case Name:** *CONTENT HERE*           <br/>
-**System:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; **Sub-System:** *CONTENT HERE*                <br/>
-**Designed By:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp;    **Design Date:** *CONTENT HERE*                <br/>
-**Executed By:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp;   **Execution Date:** *CONTENT HERE*                <br/>
+
+|  | |
+|----------------------------------- | --------------------------------    |
+| **Test Case No. :** *CONTENT HERE* | **Test Case Name:** *CONTENT HERE*  |
+| **System:** *CONTENT HERE*         | **Sub-System:** *CONTENT HERE*      |
+| **Designed By:** *CONTENT HERE*    |  **Design Date:** *CONTENT HERE*    |
+| **Executed By:** *CONTENT HERE*    |  **Execution Date:** *CONTENT HERE* |
+
 **Short Description:** <br/>
 *CONTENT HERE*
 <br/>**Pre-Conditions:**
@@ -126,10 +138,14 @@ User Must have a Registered Account with SchoolBook
 
 
 ## Register as Tutor
-**Test Case No. :** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp; **Test Case Name:** *CONTENT HERE*           <br/>
-**System:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; **Sub-System:** *CONTENT HERE*                <br/>
-**Designed By:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp;    **Design Date:** *CONTENT HERE*                <br/>
-**Executed By:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp;   **Execution Date:** *CONTENT HERE*                <br/>
+
+|  | |
+|----------------------------------- | --------------------------------    |
+| **Test Case No. :** *CONTENT HERE* | **Test Case Name:** *CONTENT HERE*  |
+| **System:** *CONTENT HERE*         | **Sub-System:** *CONTENT HERE*      |
+| **Designed By:** *CONTENT HERE*    |  **Design Date:** *CONTENT HERE*    |
+| **Executed By:** *CONTENT HERE*    |  **Execution Date:** *CONTENT HERE* |
+
 **Short Description:** <br/>
 *CONTENT HERE*
 <br/>**Pre-Conditions:**
@@ -144,10 +160,14 @@ User Must have a Registered Account with SchoolBook
 
 
 ## Create Study Group
-**Test Case No. :** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp; **Test Case Name:** *CONTENT HERE*           <br/>
-**System:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; **Sub-System:** *CONTENT HERE*                <br/>
-**Designed By:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp;    **Design Date:** *CONTENT HERE*                <br/>
-**Executed By:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp;   **Execution Date:** *CONTENT HERE*                <br/>
+
+|  | |
+|----------------------------------- | --------------------------------    |
+| **Test Case No. :** *CONTENT HERE* | **Test Case Name:** *CONTENT HERE*  |
+| **System:** *CONTENT HERE*         | **Sub-System:** *CONTENT HERE*      |
+| **Designed By:** *CONTENT HERE*    |  **Design Date:** *CONTENT HERE*    |
+| **Executed By:** *CONTENT HERE*    |  **Execution Date:** *CONTENT HERE* |
+
 **Short Description:** <br/>
 *CONTENT HERE*
 <br/>**Pre-Conditions:**
@@ -163,10 +183,14 @@ User Must have a Registered Account with SchoolBook
 
 
 ## Search for study Group  
-**Test Case No. :** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp; **Test Case Name:** *CONTENT HERE*           <br/>
-**System:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; **Sub-System:** *CONTENT HERE*                <br/>
-**Designed By:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp;    **Design Date:** *CONTENT HERE*                <br/>
-**Executed By:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp;   **Execution Date:** *CONTENT HERE*                <br/>
+
+|  | |
+|----------------------------------- | --------------------------------    |
+| **Test Case No. :** *CONTENT HERE* | **Test Case Name:** *CONTENT HERE*  |
+| **System:** *CONTENT HERE*         | **Sub-System:** *CONTENT HERE*      |
+| **Designed By:** *CONTENT HERE*    |  **Design Date:** *CONTENT HERE*    |
+| **Executed By:** *CONTENT HERE*    |  **Execution Date:** *CONTENT HERE* |
+
 **Short Description:** <br/>
 *CONTENT HERE*
 <br/>**Pre-Conditions:**
@@ -181,10 +205,14 @@ User Must have a Registered Account with SchoolBook
 
 
 ## Join Study Group
-**Test Case No. :** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp; **Test Case Name:** *CONTENT HERE*           <br/>
-**System:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; **Sub-System:** *CONTENT HERE*                <br/>
-**Designed By:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp;    **Design Date:** *CONTENT HERE*                <br/>
-**Executed By:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp;   **Execution Date:** *CONTENT HERE*                <br/>
+
+|  | |
+|----------------------------------- | --------------------------------    |
+| **Test Case No. :** *CONTENT HERE* | **Test Case Name:** *CONTENT HERE*  |
+| **System:** *CONTENT HERE*         | **Sub-System:** *CONTENT HERE*      |
+| **Designed By:** *CONTENT HERE*    |  **Design Date:** *CONTENT HERE*    |
+| **Executed By:** *CONTENT HERE*    |  **Execution Date:** *CONTENT HERE* |
+
 **Short Description:** <br/>
 *CONTENT HERE*
 <br/>**Pre-Conditions:**
@@ -200,10 +228,14 @@ User Must have a Registered Account with SchoolBook
 
 
 ## Leave Study Group
-**Test Case No. :** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp; **Test Case Name:** *CONTENT HERE*           <br/>
-**System:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; **Sub-System:** *CONTENT HERE*                <br/>
-**Designed By:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp;    **Design Date:** *CONTENT HERE*                <br/>
-**Executed By:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp;   **Execution Date:** *CONTENT HERE*                <br/>
+
+|  | |
+|----------------------------------- | --------------------------------    |
+| **Test Case No. :** *CONTENT HERE* | **Test Case Name:** *CONTENT HERE*  |
+| **System:** *CONTENT HERE*         | **Sub-System:** *CONTENT HERE*      |
+| **Designed By:** *CONTENT HERE*    |  **Design Date:** *CONTENT HERE*    |
+| **Executed By:** *CONTENT HERE*    |  **Execution Date:** *CONTENT HERE* |
+
 **Short Description:** <br/>
 *CONTENT HERE*
 <br/>**Pre-Conditions:**
@@ -218,10 +250,14 @@ User Must have a Registered Account with SchoolBook
 
 
 ## Upload Notes
-**Test Case No. :** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp; **Test Case Name:** *CONTENT HERE*           <br/>
-**System:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; **Sub-System:** *CONTENT HERE*                <br/>
-**Designed By:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp;    **Design Date:** *CONTENT HERE*                <br/>
-**Executed By:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp;   **Execution Date:** *CONTENT HERE*                <br/>
+
+|  | |
+|----------------------------------- | --------------------------------    |
+| **Test Case No. :** *CONTENT HERE* | **Test Case Name:** *CONTENT HERE*  |
+| **System:** *CONTENT HERE*         | **Sub-System:** *CONTENT HERE*      |
+| **Designed By:** *CONTENT HERE*    |  **Design Date:** *CONTENT HERE*    |
+| **Executed By:** *CONTENT HERE*    |  **Execution Date:** *CONTENT HERE* |
+
 **Short Description:** <br/>
 *CONTENT HERE*
 <br/>**Pre-Conditions:**
@@ -236,10 +272,14 @@ User Must have a Registered Account with SchoolBook
 
 
 ## Search for Notes
-**Test Case No. :** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp; **Test Case Name:** *CONTENT HERE*           <br/>
-**System:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; **Sub-System:** *CONTENT HERE*                <br/>
-**Designed By:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp;    **Design Date:** *CONTENT HERE*                <br/>
-**Executed By:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp;   **Execution Date:** *CONTENT HERE*                <br/>
+
+|  | |
+|----------------------------------- | --------------------------------    |
+| **Test Case No. :** *CONTENT HERE* | **Test Case Name:** *CONTENT HERE*  |
+| **System:** *CONTENT HERE*         | **Sub-System:** *CONTENT HERE*      |
+| **Designed By:** *CONTENT HERE*    |  **Design Date:** *CONTENT HERE*    |
+| **Executed By:** *CONTENT HERE*    |  **Execution Date:** *CONTENT HERE* |
+
 **Short Description:** <br/>
 *CONTENT HERE*
 <br/>**Pre-Conditions:**
