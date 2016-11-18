@@ -27,23 +27,11 @@ Clayton R Samson, Justin A Bougere, Nicholas A Dugal, Sean M Marino, Soh Guo Hao
 |      TC 4.2        Search for Notes        |
 
 ## Registration
-<table>
-<tr>
-<td align = "left"><strong>Test Case No. :</strong> *CONTENT HERE*</td>
-<td align = "right"><strong>Test Case Name:</strong> *CONTENT HERE*</td>
-</tr>
-<tr>
-<td align = "left"></td><td align = "right"></td>
-</tr>
-<tr>
-<td align = "left"></td><td align = "right"></td>
-</tr>
-<tr>
-<td align = "left"></td><td align = "right"></td>
-</tr>
-</table>
 
-**System:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; **Sub-System:** *CONTENT HERE*                <br/>
+| **Test Case No. :** *CONTENT HERE* | **Test Case Name:** *CONTENT HERE* |
+| **System:** *CONTENT HERE*         | **Sub-System:** *CONTENT HERE*     |
+
+ &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; **Sub-System:** *CONTENT HERE*                <br/>
 **Designed By:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp;    **Design Date:** *CONTENT HERE*                <br/>
 **Executed By:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp;   **Execution Date:** *CONTENT HERE*                <br/>
 **Short Description:** <br/>
