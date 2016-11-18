@@ -29,13 +29,12 @@ Clayton R Samson, Justin A Bougere, Nicholas A Dugal, Sean M Marino, Soh Guo Hao
 ## Registration
 
 |  | |
-|----------------------------------- | --------------------------------   |
-| **Test Case No. :** *CONTENT HERE* | **Test Case Name:** *CONTENT HERE* |
-| **System:** *CONTENT HERE*         | **Sub-System:** *CONTENT HERE*     |
+|----------------------------------- | --------------------------------    |
+| **Test Case No. :** *CONTENT HERE* | **Test Case Name:** *CONTENT HERE*  |
+| **System:** *CONTENT HERE*         | **Sub-System:** *CONTENT HERE*      |
+| **Designed By:** *CONTENT HERE*    |  **Design Date:** *CONTENT HERE*    |
+| **Executed By:** *CONTENT HERE*    |  **Execution Date:** *CONTENT HERE* |
 
- &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; **Sub-System:** *CONTENT HERE*                <br/>
-**Designed By:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp;    **Design Date:** *CONTENT HERE*                <br/>
-**Executed By:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp;   **Execution Date:** *CONTENT HERE*                <br/>
 **Short Description:** <br/>
 *CONTENT HERE*
 <br/>**Pre-Conditions:**
