@@ -59,7 +59,7 @@ Clayton R Samson, Justin A Bougere, Nicholas A Dugal, Sean M Marino, Soh Guo Hao
 | **Executed By:** *CONTENT HERE*    |  **Execution Date:** *CONTENT HERE* |
 
 **Short Description:** <br/>
-Test The Login Sub System with a Registered Email & Password
+Test The Login Sub System with a Registered Email & Password<br/>
 <br/>**Pre-Conditions:**
 User Must have a Registered Account with SchoolBook<br/>
 
@@ -83,7 +83,7 @@ User Must have a Registered Account with SchoolBook<br/>
 | **Executed By:** *CONTENT HERE*    |  **Execution Date:** *CONTENT HERE* |
 
 **Short Description:** <br/>
-Test The Login Sub System with a invalid Email & Password
+Test The Login Sub System with a invalid Email & Password <br/>
 <br/>**Pre-Conditions:**
 -Nil-<br/>
 
@@ -108,7 +108,7 @@ Test The Login Sub System with a invalid Email & Password
 | **Executed By:** *CONTENT HERE*    |  **Execution Date:** *CONTENT HERE* |
 
 **Short Description:** <br/>
-Test The Login Sub System with valid Email & invalid Password
+Test The Login Sub System with valid Email & invalid Password<br/>
 <br/>**Pre-Conditions:**
 -Nil-<br/>
 
@@ -133,7 +133,7 @@ Test The Login Sub System with valid Email & invalid Password
 | **Executed By:** *CONTENT HERE*    |  **Execution Date:** *CONTENT HERE* |
 
 **Short Description:** <br/>
-Test The Login Sub System with invalid Email & valid Password
+Test The Login Sub System with invalid Email & valid Password <br/>
 <br/>**Pre-Conditions:**
 -Nil-<br/>
 
