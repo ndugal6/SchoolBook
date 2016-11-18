@@ -51,15 +51,17 @@ Clayton R Samson, Justin A Bougere, Nicholas A Dugal, Sean M Marino, Soh Guo Hao
 
 ### Login with Registered Email & Password
 
-**Test Case No. :** TC 1.2.1 &nbsp;&nbsp;&nbsp;&nbsp; **Test Case Name:** Login With Registered Email & Password<br/>
-**System:** SchoolBook &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; **Sub-System:** Login<br/>
-**Designed By:** Steffano Soh &nbsp;&nbsp;&nbsp;&nbsp;    **Design Date:** 11/18/2016                <br/>
-**Executed By:** *CONTENT HERE* &nbsp;&nbsp;&nbsp;&nbsp;   **Execution Date:** *CONTENT HERE*                <br/>
+|  | |
+|----------------------------------- | --------------------------------    |
+| **Test Case No. :** TC 1.2.1 | **Test Case Name:** Login With Registered Email & Password  |
+| **System:** SchoolBook         | **Sub-System:** Login      |
+| **Designed By:** Steffano Soh    |  **Design Date:** 11/18/2016     |
+| **Executed By:** *CONTENT HERE*    |  **Execution Date:** *CONTENT HERE* |
+
 **Short Description:** <br/>
 Test The Login Sub System with a Registered Email & Password
 <br/>**Pre-Conditions:**
-User Must have a Registered Account with SchoolBook
-<br/>
+User Must have a Registered Account with SchoolBook<br/>
 
 | **Step** | **Actions** | **Expected System Response** | **Pass/Fail** | **Comments**|
 | ---------| ------------| -----------------------------| --------------| ------------|
