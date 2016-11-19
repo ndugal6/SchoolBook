@@ -38,7 +38,7 @@ Clayton R Samson, Justin A Bougere, Nicholas A Dugal, Sean M Marino, Soh Guo Hao
 **Short Description:** <br/>
 Test the registration system with satisfactory input
 <br/>**Pre-Conditions:**
-*CONTENT HERE*<br/>
+User Must not be already registered <br/>
 
 | **Step** | **Actions** | **Expected System Response** | **Pass/Fail** | **Comments**|
 | ---------| ------------| -----------------------------| --------------| ------------|
@@ -69,7 +69,7 @@ User account information now inserted into SchoolBook Database
 **Short Description:** <br/>
 Test the registration system with unsatisfactory input
 <br/>**Pre-Conditions:**
-*CONTENT HERE*<br/>
+User Must not be already registered <br/>
 
 | **Step** | **Actions** | **Expected System Response** | **Pass/Fail** | **Comments**|
 | ---------| ------------| -----------------------------| --------------| ------------|
@@ -94,6 +94,36 @@ Test the registration system with unsatisfactory input
 **Post Condition:**<br/>
 User account not registered <br/>
 User remains in Introductory page
+
+### Registration with Email Address already registered 
+|  | |
+|----------------------------------- | --------------------------------    |
+| **Test Case No. :** TC 1.1.1 | **Test Case Name:** Registration with Email Address already registered   |
+| **System:** SchoolBook         | **Sub-System:** Login/Registration      |
+| **Designed By:** Steffano Soh    |  **Design Date:** 11/18/2016    |
+| **Executed By:** *CONTENT HERE*    |  **Execution Date:** *CONTENT HERE* |
+
+**Short Description:** <br/>
+Test the registration system with satisfactory Email Address already registered
+<br/>**Pre-Conditions:**
+-Nil- <br/>
+
+| **Step** | **Actions** | **Expected System Response** | **Pass/Fail** | **Comments**|
+| ---------| ------------| -----------------------------| --------------| ------------|
+|1.        | Click on the *Register* Button within the Login form section | System changes login form into Registration Form|||
+|2.        | Key in __Test@gmail.com__ in the *Email Address* Text field| -Nil- |||
+|3.        | Key in __password1__ in the *Password* Text field| -Nil- |||
+|4.        | Key in __Test@gmail.com__ in the *Confirm Email Address* Text field| -Nil- |||
+|5.        | Key in __password1__ in the *Confirm Password* Text field| -Nil- |||
+|6.        | Key in __01/01/1990__ in the *Date of Birth* Text field| -Nil- |||
+|7.        | Key in __Tom Riddle__ in the *Full Name* Text field| -Nil- |||
+|8.        | Select __male__ radio button | -Nil- |||
+|9.        | Select __Louisiana State University__ from the drop down list | -Nil- |||
+|10.       | Click on the *Register* Button | System Displays "Email Address already Registered" Message |||
+
+**Post Condition:**<br/>
+User is sucessfully registered <br/>
+User account information now inserted into SchoolBook Database
 
 ## Login
 
