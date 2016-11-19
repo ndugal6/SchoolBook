@@ -27,25 +27,73 @@ Clayton R Samson, Justin A Bougere, Nicholas A Dugal, Sean M Marino, Soh Guo Hao
 |      TC 4.2        Search for Notes        |
 
 ## Registration
-
+### Registration with satisfied Validation
 |  | |
 |----------------------------------- | --------------------------------    |
-| **Test Case No. :** *CONTENT HERE* | **Test Case Name:** *CONTENT HERE*  |
-| **System:** *CONTENT HERE*         | **Sub-System:** *CONTENT HERE*      |
-| **Designed By:** *CONTENT HERE*    |  **Design Date:** *CONTENT HERE*    |
+| **Test Case No. :** TC 1.1.1 | **Test Case Name:** Registration with satisfied Validation  |
+| **System:** SchoolBook         | **Sub-System:** Login/Registration      |
+| **Designed By:** Steffano Soh    |  **Design Date:** 11/18/2016    |
 | **Executed By:** *CONTENT HERE*    |  **Execution Date:** *CONTENT HERE* |
 
 **Short Description:** <br/>
-*CONTENT HERE*
+Test the registration system with satisfactory input
 <br/>**Pre-Conditions:**
 *CONTENT HERE*<br/>
 
 | **Step** | **Actions** | **Expected System Response** | **Pass/Fail** | **Comments**|
 | ---------| ------------| -----------------------------| --------------| ------------|
-|1.|||||
-|2.|||||
+|1.        | Click on the *Register* Button within the Login form section | System changes login form into Registration Form|||
+|2.        | Key in __Test2@gmail.com__ in the *Email Address* Text field| -Nil- |||
+|3.        | Key in __password1__ in the *Password* Text field| -Nil- |||
+|4.        | Key in __Test2@gmail.com__ in the *Confirm Email Address* Text field| -Nil- |||
+|5.        | Key in __password1__ in the *Confirm Password* Text field| -Nil- |||
+|6.        | Key in __01/01/1990__ in the *Date of Birth* Text field| -Nil- |||
+|7.        | Key in __Tom Riddle__ in the *Full Name* Text field| -Nil- |||
+|8.        | Select __male__ radio button | -Nil- |||
+|9.        | Select __Louisiana State University__ from the drop down list | -Nil- |||
+|10.       | Click on the *Register* Button | System Displays Registration sucessful message. |||
 
 **Post Condition:**<br/>
+User is sucessfully registered <br/>
+User account information now inserted into SchoolBook Database
+
+### Registration with unsatisfactory Validation
+
+|  | |
+|----------------------------------- | --------------------------------    |
+| **Test Case No. :** TC 1.1.2 | **Test Case Name:** Registration with unsatisfactory Validation  |
+| **System:** SchoolBook         | **Sub-System:** Login/Registration      |
+| **Designed By:** Steffano Soh    |  **Design Date:** 11/18/2016    |
+| **Executed By:** *CONTENT HERE*    |  **Execution Date:** *CONTENT HERE* |
+
+**Short Description:** <br/>
+Test the registration system with unsatisfactory input
+<br/>**Pre-Conditions:**
+*CONTENT HERE*<br/>
+
+| **Step** | **Actions** | **Expected System Response** | **Pass/Fail** | **Comments**|
+| ---------| ------------| -----------------------------| --------------| ------------|
+|1.        | Click on the *Register* Button within the Login form section | System changes login form into Registration Form|||
+|2.        | Key in __Test2__ in the *Email Address* Text field| -Nil- |||
+|3.        | Key in __password__ in the *Password* Text field| -Nil- |||
+|4.        | Key in __Test3__ in the *Confirm Email Address* Text field| -Nil- |||
+|5.        | Key in __password1__ in the *Confirm Password* Text field| -Nil- |||
+|6.        | Key in __01/01/1990__ in the *Date of Birth* Text field| -Nil- |||
+|7.        | Key in __Tom Riddle__ in the *Full Name* Text field| -Nil- |||
+|8.        | do not select any radio button | -Nil- |||
+|9.        | do not select any drop down list value | -Nil- |||
+|10.       | Click on the *Register* Button | System Displays error message shown in the block below |||
+
+> Please enter a valid email address
+> Please enter a valid password that consist of a mixture of alphaberts and numbers
+> confirm email did not match
+> confirm password did not match
+> Please select your gender
+> Please select a university
+
+**Post Condition:**<br/>
+User account not registered <br/>
+User remains in Introductory page
 
 ## Login
 
@@ -54,7 +102,7 @@ Clayton R Samson, Justin A Bougere, Nicholas A Dugal, Sean M Marino, Soh Guo Hao
 |  | |
 |----------------------------------- | --------------------------------    |
 | **Test Case No. :** TC 1.2.1 | **Test Case Name:** Login With Registered Email & Password  |
-| **System:** SchoolBook         | **Sub-System:** Login      |
+| **System:** SchoolBook         | **Sub-System:** Login/Registration      |
 | **Designed By:** Steffano Soh    |  **Design Date:** 11/18/2016     |
 | **Executed By:** *CONTENT HERE*    |  **Execution Date:** *CONTENT HERE* |
 
@@ -78,7 +126,7 @@ User Must have a Registered Account with SchoolBook<br/>
 |  | |
 |----------------------------------- | --------------------------------    |
 | **Test Case No. :** TC 1.2.2 | **Test Case Name:** Login With invalid Email & Password  |
-| **System:** SchoolBook         | **Sub-System:** Login      |
+| **System:** SchoolBook         | **Sub-System:** Login/Registration      |
 | **Designed By:** Steffano Soh    |  **Design Date:** 11/18/2016     |
 | **Executed By:** *CONTENT HERE*    |  **Execution Date:** *CONTENT HERE* |
 
@@ -103,7 +151,7 @@ Test The Login Sub System with a invalid Email & Password <br/>
 |  | |
 |----------------------------------- | --------------------------------    |
 | **Test Case No. :** TC 1.2.3 | **Test Case Name:** Login with valid Email & invalid Password  |
-| **System:** SchoolBook         | **Sub-System:** Login      |
+| **System:** SchoolBook         | **Sub-System:** Login/Registration      |
 | **Designed By:** Steffano Soh    |  **Design Date:** 11/18/2016     |
 | **Executed By:** *CONTENT HERE*    |  **Execution Date:** *CONTENT HERE* |
 
@@ -128,7 +176,7 @@ Test The Login Sub System with valid Email & invalid Password<br/>
 |  | |
 |----------------------------------- | --------------------------------    |
 | **Test Case No. :** TC 1.2.4 | **Test Case Name:** Login with invalid Email & valid Password  |
-| **System:** SchoolBook         | **Sub-System:** Login      |
+| **System:** SchoolBook         | **Sub-System:** Login/Registration      |
 | **Designed By:** Steffano Soh    |  **Design Date:** 11/18/2016     |
 | **Executed By:** *CONTENT HERE*    |  **Execution Date:** *CONTENT HERE* |
 
