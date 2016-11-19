@@ -98,7 +98,7 @@ User remains in Introductory page
 ### Registration with Email Address already registered 
 |  | |
 |----------------------------------- | --------------------------------    |
-| **Test Case No. :** TC 1.1.1 | **Test Case Name:** Registration with Email Address already registered   |
+| **Test Case No. :** TC 1.1.3 | **Test Case Name:** Registration with Email Address already registered   |
 | **System:** SchoolBook         | **Sub-System:** Login/Registration      |
 | **Designed By:** Steffano Soh    |  **Design Date:** 11/18/2016    |
 | **Executed By:** *CONTENT HERE*    |  **Execution Date:** *CONTENT HERE* |
