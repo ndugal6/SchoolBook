@@ -84,7 +84,7 @@ Test the registration system with unsatisfactory input
 |9.        | do not select any drop down list value | -Nil- |||
 |10.       | Click on the *Register* Button | System Displays error message shown in the block below |||
 
-> Please enter a valid email address
+> Please enter a valid email address <br/>
 > Please enter a valid password that consist of a mixture of alphaberts and numbers
 > confirm email did not match
 > confirm password did not match
