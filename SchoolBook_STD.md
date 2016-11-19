@@ -85,11 +85,11 @@ Test the registration system with unsatisfactory input
 |10.       | Click on the *Register* Button | System Displays error message shown in the block below |||
 
 > Please enter a valid email address <br/>
-> Please enter a valid password that consist of a mixture of alphaberts and numbers
-> confirm email did not match
-> confirm password did not match
-> Please select your gender
-> Please select a university
+> Please enter a valid password that consist of a mixture of alphaberts and numbers <br/>
+> confirm email did not match <br/>
+> confirm password did not match <br/>
+> Please select your gender <br/>
+> Please select a university 
 
 **Post Condition:**<br/>
 User account not registered <br/>
