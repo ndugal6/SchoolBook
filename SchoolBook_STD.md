@@ -249,6 +249,7 @@ Test The Login Sub System with invalid Email & valid Password <br/>
 
 ## Update Profile
 
+
 |  | |
 |----------------------------------- | --------------------------------    |
 | **Test Case No. :** *CONTENT HERE* | **Test Case Name:** *CONTENT HERE*  |
@@ -271,24 +272,53 @@ Test The Login Sub System with invalid Email & valid Password <br/>
 
 ## Add Course
 
+## Add Course with Valid Class
 |  | |
 |----------------------------------- | --------------------------------    |
-| **Test Case No. :** *CONTENT HERE* | **Test Case Name:** *CONTENT HERE*  |
-| **System:** *CONTENT HERE*         | **Sub-System:** *CONTENT HERE*      |
-| **Designed By:** *CONTENT HERE*    |  **Design Date:** *CONTENT HERE*    |
-| **Executed By:** *CONTENT HERE*    |  **Execution Date:** *CONTENT HERE* |
+| **Test Case No. :** tc 1.5.1 | **Test Case Name:**   |
+| **System:** SchoolBook        | **Sub-System:**   Add Course with Valid Class  |
+| **Designed By:** Zachary Robicheaux    |  **Design Date:** TBD    |
+| **Executed By:** Zachary Robicheaux    |  **Execution Date:** TBD |
 
 **Short Description:** <br/>
-*CONTENT HERE*
+Test the add course subsystem using valid class selection.
 <br/>**Pre-Conditions:**
-*CONTENT HERE*<br/>
+1. User has a valid account.
+<br/>
 
 | **Step** | **Actions** | **Expected System Response** | **Pass/Fail** | **Comments**|
 | ---------| ------------| -----------------------------| --------------| ------------|
-|1.|||||
-|2.|||||
+|1.|Click "Add Course" on the Homepage.|User is taken to the Add Course page; page displays all classes from the user's university|||
+|2.|Select the course labeled "test"|-Nil-|||
+|3.|Click the "Add Course" button|System displays "course added" Message|||
 
 **Post Condition:**<br/>
+1. "test" is added to the user's list of classes
+2. The page is refreshed.
+
+## Add Course that User is Enrolled in
+|  | |
+|----------------------------------- | --------------------------------    |
+| **Test Case No. :** tc 1.5.2 | **Test Case Name:**   |
+| **System:** SchoolBook        | **Sub-System:**   Add Course that User is Enrolled in  |
+| **Designed By:** Zachary Robicheaux    |  **Design Date:** TBD    |
+| **Executed By:** Zachary Robicheaux    |  **Execution Date:** TBD |
+
+**Short Description:** <br/>
+Test the add course subsystem using a class the user is already enrolled in.
+<br/>**Pre-Conditions:**
+1. User has a valid account.
+2. User is enrolled in class "test" 
+<br/>
+
+| **Step** | **Actions** | **Expected System Response** | **Pass/Fail** | **Comments**|
+| ---------| ------------| -----------------------------| --------------| ------------|
+|1.|Click "Add Course" on the Homepage.|User is taken to the Add Course page; page displays all classes from the user's university|||
+|2.|Select the course labeled "test"|-Nil-|||
+|3.|Click the "Add Course" button|System displays "already enrolled in class" Message|||
+
+**Post Condition:**<br/>
+1. The page is refreshed.
 
 
 ## Register as Tutor
