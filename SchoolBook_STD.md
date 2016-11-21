@@ -459,22 +459,23 @@ Test the add course subsystem using a class the user is already enrolled in.
 
 |  | |
 |----------------------------------- | --------------------------------    |
-| **Test Case No. :** *CONTENT HERE* | **Test Case Name:** *CONTENT HERE*  |
-| **System:** *CONTENT HERE*         | **Sub-System:** *CONTENT HERE*      |
-| **Designed By:** *CONTENT HERE*    |  **Design Date:** *CONTENT HERE*    |
+| **Test Case No. :** TC 3.3.1 | **Test Case Name:** Join Study Group  |
+| **System:** SchoolBook         | **Sub-System:** Join Study Group      |
+| **Designed By:** *Sean Marino*    |  **Design Date:** *11/20/2016*    |
 | **Executed By:** *CONTENT HERE*    |  **Execution Date:** *CONTENT HERE* |
 
 **Short Description:** <br/>
-*CONTENT HERE*
+*Select a listed study group by searching and join the specific study group*
 <br/>**Pre-Conditions:**
-*CONTENT HERE*<br/>
+*User must access the list of study groups*<br/>
 
 | **Step** | **Actions** | **Expected System Response** | **Pass/Fail** | **Comments**|
 | ---------| ------------| -----------------------------| --------------| ------------|
-|1.|||||
-|2.|||||
+|1.|Scroll through the list of available study groups|-Nil-|||
+|2.|User selects the specified study group|System displays a screen showing the details of the study group and a join study group option|||
+|3.|User selects the join study group option|System displays a success/failure message and returns the user to the study group's detail page|||
 
-**Post Condition:**<br/>
+**Post Condition:**User has successfully joined a study group<br/>
 
 
 
@@ -482,22 +483,22 @@ Test the add course subsystem using a class the user is already enrolled in.
 
 |  | |
 |----------------------------------- | --------------------------------    |
-| **Test Case No. :** *CONTENT HERE* | **Test Case Name:** *CONTENT HERE*  |
-| **System:** *CONTENT HERE*         | **Sub-System:** *CONTENT HERE*      |
-| **Designed By:** *CONTENT HERE*    |  **Design Date:** *CONTENT HERE*    |
+| **Test Case No. :** TC 3.4.1 | **Test Case Name:** Leave Study Group  |
+| **System:** SchoolBook         | **Sub-System:** Leave Study Group      |
+| **Designed By:** *Sean Marino*    |  **Design Date:** *11/20/2016*    |
 | **Executed By:** *CONTENT HERE*    |  **Execution Date:** *CONTENT HERE* |
 
 **Short Description:** <br/>
-*CONTENT HERE*
+*Allows users successfully leave the study group that they have joined
 <br/>**Pre-Conditions:**
-*CONTENT HERE*<br/>
+*User must be enrolled in a study group*<br/>
 
 | **Step** | **Actions** | **Expected System Response** | **Pass/Fail** | **Comments**|
 | ---------| ------------| -----------------------------| --------------| ------------|
-|1.|||||
-|2.|||||
-
-**Post Condition:**<br/>
+|1.|User accesses the list of currently joined study groups|-Nil-|||
+|2.|User selects the study group that they intend to leave from the list|The system displays a confirmation message asking if the user intends to leave the selected course displaying the study group's details|||
+|3.|User confirms the confirmation message to leave the study group|System displays a success/failure message and returns the user to the home page or returns the user back to the list of study groups if the user denies the confirmation message|||
+**Post Condition:**User successfully leaves the study group<br/>
 
 
 ## Upload Notes
