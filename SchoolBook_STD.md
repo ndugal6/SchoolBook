@@ -344,48 +344,79 @@ Test the add course subsystem using a class the user is already enrolled in.
 
 
 ## Create Study Group
-
+### Create Valid Study Group
 |  | |
 |----------------------------------- | --------------------------------    |
-| **Test Case No. :** *CONTENT HERE* | **Test Case Name:** *CONTENT HERE*  |
-| **System:** *CONTENT HERE*         | **Sub-System:** *CONTENT HERE*      |
-| **Designed By:** *CONTENT HERE*    |  **Design Date:** *CONTENT HERE*    |
+| **Test Case No. :** *3.1.1* | **Test Case Name:** *Create Valid Study Group*  |
+| **System:** *SchoolBook*         | **Sub-System:** *Study Group*      |
+| **Designed By:** *Nicholas Dugal*    |  **Design Date:** *11/19/2016*    |
 | **Executed By:** *CONTENT HERE*    |  **Execution Date:** *CONTENT HERE* |
 
 **Short Description:** <br/>
-*CONTENT HERE*
+*Test the study group creation with valid input*
 <br/>**Pre-Conditions:**
-*CONTENT HERE*<br/>
+*User must be logged in*<br/>
 
 | **Step** | **Actions** | **Expected System Response** | **Pass/Fail** | **Comments**|
 | ---------| ------------| -----------------------------| --------------| ------------|
-|1.|||||
-|2.|||||
+|1.|User selects setup study group function|System presents user with setup study group page|||
+|2.|User selects course|Nil|||
+|3.|User provides valid location|Checked with Location Regular Expression|||
+|4.|User provides date|Check with Date RegExpression|||
+|5.|User provides time|Checked with Time RegExpression|||
+|6.|User selects whether or not to request tutor|Nil|||
+|7.|User clicks Finalize Study Group|System display success message and returns to home screen|||
+**Post Condition:**   User in now member of created study group<br/>
 
-**Post Condition:**<br/>
-
-
-
-## Search for study Group  
-
+### Create Study Group Using Irregular Input
 |  | |
 |----------------------------------- | --------------------------------    |
-| **Test Case No. :** *CONTENT HERE* | **Test Case Name:** *CONTENT HERE*  |
-| **System:** *CONTENT HERE*         | **Sub-System:** *CONTENT HERE*      |
-| **Designed By:** *CONTENT HERE*    |  **Design Date:** *CONTENT HERE*    |
+| **Test Case No. :** *3.1.2* | **Test Case Name:** *Create Study Group Using Irregular Input*  |
+| **System:** *SchoolBook*         | **Sub-System:** *Study Group*      |
+| **Designed By:** *Nicholas Dugal*    |  **Design Date:** *11/19/2016*    |
 | **Executed By:** *CONTENT HERE*    |  **Execution Date:** *CONTENT HERE* |
 
 **Short Description:** <br/>
-*CONTENT HERE*
+*Test the study group creation form regular expression checkers*
 <br/>**Pre-Conditions:**
-*CONTENT HERE*<br/>
+*User must be logged in*<br/>
 
 | **Step** | **Actions** | **Expected System Response** | **Pass/Fail** | **Comments**|
 | ---------| ------------| -----------------------------| --------------| ------------|
-|1.|||||
-|2.|||||
+|1.|User selects setup study group function|System presents user with setup study group page|||
+|2.|User selects course|Nil|||
+|3.|User provides invalid or incorrectly formatted location|Box is highlighted red|||
+|4.|User provides past date or incorrectly formatted date|Box is highlighted red|||
+|5.|User provides past time or incorrectly formatted time|Box is highlighted red|||
+|6.|User selects whether or not to request tutor|Nil|||
+|7.|User clicks Finalize Study Group|System display failure message, requesting to fix highlighted boxes|||
+**Post Condition:**   User remains at creation screen<br/>
 
-**Post Condition:**<br/>
+
+## Search for study Group 
+### Valid Study Group Search
+
+|  | |
+|----------------------------------- | --------------------------------    |
+| **Test Case No. :** *3.2.1* | **Test Case Name:** *Valid Study Group Search*  |
+| **System:** *SchoolBook*         | **Sub-System:** *Study Group*      |
+| **Designed By:** *Nicholas Dugal*    |  **Design Date:** *11/19/2016*    |
+| **Executed By:** *CONTENT HERE*    |  **Execution Date:** *CONTENT HERE* |
+
+**Short Description:** <br/>
+*Test the search for study group function*
+<br/>**Pre-Conditions:**
+*User Must Be Logged in*<br/>
+
+| **Step** | **Actions** | **Expected System Response** | **Pass/Fail** | **Comments**|
+| ---------| ------------| -----------------------------| --------------| ------------|
+|1.|From either the home page menu or a specific course page menu the user selects the find study group function|The system presents the user with a find study group screen.|||
+|2.|User selects course department|Courses for next step are loaded|||
+|3.|User selects course|The system displays a list of upcoming scheduled study groups for the specified course and its details|||
+|4.|User a study group from the list|System displays a screen showing the details of the study group and a join study group option|||
+|5.|User selects option to join study group|System display success message and returns to homescreen|||
+
+**Post Condition:**User is now a member of the study group selected<br/>
 
 
 ## Join Study Group
