@@ -227,25 +227,50 @@ Test The Login Sub System with invalid Email & valid Password <br/>
 
 ## Password Reset
 
+### Password Reset with valid email
 |  | |
 |----------------------------------- | --------------------------------    |
-| **Test Case No. :** *CONTENT HERE* | **Test Case Name:** *CONTENT HERE*  |
-| **System:** *CONTENT HERE*         | **Sub-System:** *CONTENT HERE*      |
-| **Designed By:** *CONTENT HERE*    |  **Design Date:** *CONTENT HERE*    |
-| **Executed By:** *CONTENT HERE*    |  **Execution Date:** *CONTENT HERE* |
+| **Test Case No. :** TC 1.3.1  | **Test Case Name:** Password Reset with valid email  |
+| **System:** SchoolBook         | **Sub-System:** Login/Registration      |
+| **Designed By:** Steffano Soh    |  **Design Date:** 21/11/2016    |
+| **Executed By:** TBD    |  **Execution Date:** TBD |
 
 **Short Description:** <br/>
-*CONTENT HERE*
+Test the password Reset Function
 <br/>**Pre-Conditions:**
 *CONTENT HERE*<br/>
 
 | **Step** | **Actions** | **Expected System Response** | **Pass/Fail** | **Comments**|
 | ---------| ------------| -----------------------------| --------------| ------------|
-|1.|||||
-|2.|||||
+|1.| User Clicks on *Forget Password* link within the login form | System redirects user to password reset page|||
+|2.| Key in __Test@gmail.com__ in the *Email Address* Text box | System Sends Reset URL to specified Email Address|||
+|3.| User Visits link sent via email | -Nil- | | |
+|4.| User Keys in new password | | |
+|5.| User Clicks on *Submit* Button| System displays sucess message, Password Updated in SchoolBook Database | | |
 
 **Post Condition:**<br/>
+1. User's Password is updated in the database
 
+### Password Reset with invalid email
+|  | |
+|----------------------------------- | --------------------------------    |
+| **Test Case No. :** TC 1.3.2  | **Test Case Name:** Password Reset with invalid email  |
+| **System:** SchoolBook         | **Sub-System:** Login/Registration      |
+| **Designed By:** Steffano Soh    |  **Design Date:** 21/11/2016    |
+| **Executed By:** TBD    |  **Execution Date:** TBD |
+
+**Short Description:** <br/>
+Test the password Reset Function
+<br/>**Pre-Conditions:**
+*CONTENT HERE*<br/>
+
+| **Step** | **Actions** | **Expected System Response** | **Pass/Fail** | **Comments**|
+| ---------| ------------| -----------------------------| --------------| ------------|
+|1.| User Clicks on *Forget Password* link within the login form | System redirects user to password reset page|||
+|2.| Key in __invalid@gmail.com__ in the *Email Address* Text box | System Displays error message "Email not registered"|||
+
+**Post Condition:**<br/>
+1. User remains in Forget Password page
 
 ## Update Profile
 
@@ -361,23 +386,31 @@ Test the add course subsystem using a class the user is already enrolled in.
 
 |  | |
 |----------------------------------- | --------------------------------    |
-| **Test Case No. :** *CONTENT HERE* | **Test Case Name:** *CONTENT HERE*  |
-| **System:** *CONTENT HERE*         | **Sub-System:** *CONTENT HERE*      |
-| **Designed By:** *CONTENT HERE*    |  **Design Date:** *CONTENT HERE*    |
-| **Executed By:** *CONTENT HERE*    |  **Execution Date:** *CONTENT HERE* |
+| **Test Case No. :** TC 2.3.1 | **Test Case Name:** Register as tutor  |
+| **System:** SchoolBook         | **Sub-System:** Profile Management      |
+| **Designed By:** Steffano Soh    |  **Design Date:** 21/11/2016    |
+| **Executed By:** *TBD*    |  **Execution Date:** *TBD* |
 
 **Short Description:** <br/>
-*CONTENT HERE*
+Test the register as tutor system
 <br/>**Pre-Conditions:**
-*CONTENT HERE*<br/>
+User must be registered with SchoolBook
+User must be logged in
+<br/>
 
 | **Step** | **Actions** | **Expected System Response** | **Pass/Fail** | **Comments**|
 | ---------| ------------| -----------------------------| --------------| ------------|
-|1.|||||
-|2.|||||
+|1.| Click on the *Profile* link in the submenu| System displays submenu item |||
+|2.| Click on the *Register as Tutor* Link | System redirects user to Register as tutor page|||
+|3.| Select __Louisiana State University__ from the *university* drop down list| -Nil-|||
+|4.| Select __csc4103 - Operating Systems__ from the course codes drop down list| -Nil-|||
+|5.| click on *upload pdf* Link and select a pdf file to upload| ||
+|6.| click on *Register as tutor* Button | System Displays Message "Registration request sucessfully made" | ||
 
 **Post Condition:**<br/>
-
+1. Request to be registered as tutor made and pending for approval<br/>
+2. pdf, University and course ID selected stored in database<br/>
+3. upon approval user recieves confirmation Email.
 
 ## Create Study Group
 ### Create Valid Study Group
