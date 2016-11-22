@@ -238,7 +238,7 @@ Test The Login Sub System with invalid Email & valid Password <br/>
 **Short Description:** <br/>
 Test the password Reset Function
 <br/>**Pre-Conditions:**
-*CONTENT HERE*<br/>
+user must have a once registered with schoolbook before<br/>
 
 | **Step** | **Actions** | **Expected System Response** | **Pass/Fail** | **Comments**|
 | ---------| ------------| -----------------------------| --------------| ------------|
@@ -262,7 +262,7 @@ Test the password Reset Function
 **Short Description:** <br/>
 Test the password Reset Function
 <br/>**Pre-Conditions:**
-*CONTENT HERE*<br/>
+-Nil-<br/>
 
 | **Step** | **Actions** | **Expected System Response** | **Pass/Fail** | **Comments**|
 | ---------| ------------| -----------------------------| --------------| ------------|
