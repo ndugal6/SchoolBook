@@ -501,45 +501,89 @@ Test the add course subsystem using a class the user is already enrolled in.
 **Post Condition:**User successfully leaves the study group<br/>
 
 
-## Upload Notes
+## Upload Notes With Satisfactory Input
 
 |  | |
 |----------------------------------- | --------------------------------    |
-| **Test Case No. :** *CONTENT HERE* | **Test Case Name:** *CONTENT HERE*  |
-| **System:** *CONTENT HERE*         | **Sub-System:** *CONTENT HERE*      |
-| **Designed By:** *CONTENT HERE*    |  **Design Date:** *CONTENT HERE*    |
-| **Executed By:** *CONTENT HERE*    |  **Execution Date:** *CONTENT HERE* |
+| **Test Case No. : 4.1.1 | **Test Case Name: Upload Notes  |
+| **System: SchoolBook         | **Sub-System: Notes Management      |
+| **Designed By: Clayton Samson    |  **Design Date: 11/21/2016    |
+| **Executed By: TBD    |  **Execution Date: TBD |
 
 **Short Description:** <br/>
-*CONTENT HERE*
+Test upload notes function with satisfactory input.
+<br/>**Pre-Conditions:** 1. User has a verified account and is successfully logged into the system.<br/>
+
+| **Step** | **Actions** | **Expected System Response** | **Pass/Fail** | **Comments**|
+| ---------| ------------| -----------------------------| --------------| ------------|
+|1.| User selects upload notes button from the main menu. | System displays the upload notes page.  |||
+|2.| User specifies the course the notes are for from a list of their enrolled courses. | System updates the specified course field with the users specified element. |||
+|3.| User elects the choose file button at the bottom of the page. | System displays a file browser for the user to specify their document. |||
+|4.| User specifies a PDF file they want to upload. | System uploads file to database and displays a confirmation message.|||
+
+**Post Condition:** 1. The PDF file is uploaded to the database.<br/>
+
+
+## Upload Notes With Unsatisfactory Input
+
+|  | |
+|----------------------------------- | --------------------------------    |
+| **Test Case No. : 4.1.2 | **Test Case Name: Upload Notes  |
+| **System: SchoolBook         | **Sub-System: Notes Management      |
+| **Designed By: Clayton Samson    |  **Design Date: 11/21/2016    |
+| **Executed By: TBD    |  **Execution Date: TBD |
+
+**Short Description:** <br/>
+Test upload notes function with unsatisfactory input.
+<br/>**Pre-Conditions:** 1. User has a verified account and is successfully logged into the system.<br/>
+
+| **Step** | **Actions** | **Expected System Response** | **Pass/Fail** | **Comments**|
+| ---------| ------------| -----------------------------| --------------| ------------|
+|1.| User selects upload notes button from the main menu. | System displays the upload notes page.  |||
+|2.| User specifies the course the notes are for from a list of their enrolled courses. | System updates the specified course field with the users specified element. |||
+|3.| User selects the choose file button at the bottom of the page. | System displays a file browser for the user to specify their document. |||
+|4.| User specifies a non PDF file they want to upload. | System determines the file the user has chosen is not a PDF, stops the upload process and displays an appropriate error message. |||
+
+**Post Condition:**<br/>
+
+
+## Successful Search for Notes
+
+
+|  | |
+|----------------------------------- | --------------------------------    |
+| **Test Case No. : 4.2.1 | **Test Case Name: Search for Notes  |
+| **System: SchoolBook         | **Sub-System: Notes Management      |
+| **Designed By: Clayton Samson    |  **Design Date: 11/21/2016    |
+| **Executed By: TBD    |  **Execution Date: TBD |
+
+**Short Description:** <br/>
+A user is logged into a verified account, and there are notes in the database for the desired course.
 <br/>**Pre-Conditions:**
 *CONTENT HERE*<br/>
 
 | **Step** | **Actions** | **Expected System Response** | **Pass/Fail** | **Comments**|
 | ---------| ------------| -----------------------------| --------------| ------------|
-|1.|||||
-|2.|||||
+|1.| User selects the search bar at the top of the main page.| System takes in string input for course department and ID.|||
+|2.| User presses enter or clicks on magnifying glass to confirm they are finished with their input.| System searches for any notes with that course department ID, and displays the results as a list.|||
 
 **Post Condition:**<br/>
 
-
-## Search for Notes
+## Unsuccessful Search for Notes
 
 |  | |
 |----------------------------------- | --------------------------------    |
-| **Test Case No. :** *CONTENT HERE* | **Test Case Name:** *CONTENT HERE*  |
-| **System:** *CONTENT HERE*         | **Sub-System:** *CONTENT HERE*      |
-| **Designed By:** *CONTENT HERE*    |  **Design Date:** *CONTENT HERE*    |
-| **Executed By:** *CONTENT HERE*    |  **Execution Date:** *CONTENT HERE* |
+| **Test Case No. : 4.2.2 | **Test Case Name: Search for Notes  |
+| **System: SchoolBook         | **Sub-System: Notes Management      |
+| **Designed By: Clayton Samson    |  **Design Date: 11/21/2016    |
+| **Executed By: TBD    |  **Execution Date: TBD |
 
 **Short Description:** <br/>
-*CONTENT HERE*
+A user is logged into a verified account, and there no notes in the database for the desired course.
 <br/>**Pre-Conditions:**
 *CONTENT HERE*<br/>
 
 | **Step** | **Actions** | **Expected System Response** | **Pass/Fail** | **Comments**|
 | ---------| ------------| -----------------------------| --------------| ------------|
-|1.|||||
-|2.|||||
-
-**Post Condition:**<br/>
+|1.| User selects the search bar at the top of the main page.| System takes in string input for course department and ID.|||
+|2.| User presses enter or clicks on magnifying glass to confirm they are finished with their input.| System finds no acceptable notes in the database, and displays a message stating that there are not yet any notes uploaded for the desired course.|||
