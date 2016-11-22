@@ -23,7 +23,7 @@ https://www.sitepoint.com/jquery-infinite-scrolling-demos/
 | ~~Registration~~ | Nick | Completed | ~~Steffano Soh~~ |
 | ~~Login~~ | Nick | Completed | ~~Steffano Soh~~ |
 | ~~Send E-Mail~~ | Nick | Completed | --Not Required -- |
-| Password Reset | Nick | 20th nov |  |
+| ~~Password Reset~~ | Nick | 20th nov | ~~Stefano Soh~~ |
 
 **Profile Management**
 
@@ -31,14 +31,14 @@ https://www.sitepoint.com/jquery-infinite-scrolling-demos/
 |  -----  |   -------   | ------- | --------------------- |
 | ~~Update Profile~~ |Zack |20th nov | ~~Zack Robiceaux~~ |
 | ~~Add Course~~ |Zack | 20th nov| ~~Zack Robiceaux~~ |
-| Tutor Registration |Zack |20th nov | |
+| ~~Tutor Registration~~ |Zack |20th nov |~~Stefano Soh~~ |
 
 **Study Group Management**
 
 | Funtion | Assigned to | DeadLine| Test Case Assigned to |
 |  -----  |   -------   | ------- | ----------------------|
-| Create Study Group | Nick & Sean |20th nov | |
-|Find study group|Nick & Sean |25th Nov |  |
+|~~Create Study Group~~ | Nick & Sean |20th nov |~~Nicolas Dugal~~ |
+|~~Find study group~~|Nick & Sean |25th Nov |~~Nicolas Dugal~~  |
 |~~Join study group~~|Nick & Sean | 20th nov |~~Sean Marino~~ |
 |~~Leave study group~~|Nick & Sean | 20th nov |~~Sean Marino~~ |
 
@@ -47,7 +47,7 @@ https://www.sitepoint.com/jquery-infinite-scrolling-demos/
 | Function | Assigned to | DeadLine| Test Case Assigned to |
 |  -----  |   -------   | ------- | ----------------------|
 | ~~Upload Notes~~ | Clay & Justin |25th Nov |~~Clayton Samson~~ |
-| ~~Find Notes~~ |Clay & Justin |25th Nov |~~Clayton Samson~~ |
+| ~~Find Notes~~ |Clay & Justin |25th Nov |~~Justin Bougere~~ |
 
 **Global Validation**
  Assigned to: Nick
