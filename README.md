@@ -23,31 +23,31 @@ https://www.sitepoint.com/jquery-infinite-scrolling-demos/
 | ~~Registration~~ | Nick | Completed | ~~Steffano Soh~~ |
 | ~~Login~~ | Nick | Completed | ~~Steffano Soh~~ |
 | ~~Send E-Mail~~ | Nick | Completed | --Not Required -- |
-| ~~Password Reset~~ | Nick | 20th nov | ~~Stefano Soh~~ |
+| ~~Password Reset~~ | Nick | Completed | ~~Stefano Soh~~ |
 
 **Profile Management**
 
 | Funtion | Assigned to | DeadLine| Test Case Assigned to |
 |  -----  |   -------   | ------- | --------------------- |
-| ~~Update Profile~~ |Zack |20th nov | ~~Zack Robiceaux~~ |
-| ~~Add Course~~ |Zack | 20th nov| ~~Zack Robiceaux~~ |
-| ~~Tutor Registration~~ |Zack |20th nov |~~Stefano Soh~~ |
+| ~~Update Profile~~ | Zack | Completed | ~~Zack Robiceaux~~ |
+| ~~Add Course~~ | Zack | Completed | ~~Zack Robiceaux~~ |
+| ~~Tutor Registration~~ | Zack | Completed |~~Stefano Soh~~ |
 
 **Study Group Management**
 
 | Funtion | Assigned to | DeadLine| Test Case Assigned to |
 |  -----  |   -------   | ------- | ----------------------|
-|~~Create Study Group~~ | Nick & Sean |20th nov |~~Nicolas Dugal~~ |
-|~~Find study group~~|Nick & Sean |25th Nov |~~Nicolas Dugal~~  |
-|~~Join study group~~|Nick & Sean | 20th nov |~~Sean Marino~~ |
-|~~Leave study group~~|Nick & Sean | 20th nov |~~Sean Marino~~ |
+|~~Create Study Group~~ | Nick & Sean | Completed |~~Nicolas Dugal~~ |
+|~~Find study group~~| Nick & Sean | Completed |~~Nicolas Dugal~~  |
+|~~Join study group~~| Nick & Sean | Completed |~~Sean Marino~~ |
+|~~Leave study group~~| Nick & Sean | Completed |~~Sean Marino~~ |
 
 **Notes Management**
 
 | Function | Assigned to | DeadLine| Test Case Assigned to |
 |  -----  |   -------   | ------- | ----------------------|
-| ~~Upload Notes~~ | Clay & Justin |25th Nov |~~Clayton Samson~~ |
-| ~~Find Notes~~ |Clay & Justin |25th Nov |~~Justin Bougere~~ |
+| ~~Upload Notes~~ | Clay & Justin | Completed |~~Clayton Samson~~ |
+| ~~Find Notes~~ | Clay & Justin | Completed |~~Justin Bougere~~ |
 
 **Global Validation**
  Assigned to: Nick
