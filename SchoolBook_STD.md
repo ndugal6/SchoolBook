@@ -33,7 +33,7 @@ Clayton R Samson, Justin A Bougere, Nicholas A Dugal, Sean M Marino, Soh Guo Hao
 | **Test Case No. :** TC 1.1.1 | **Test Case Name:** Registration with satisfied Validation  |
 | **System:** SchoolBook         | **Sub-System:** Login/Registration      |
 | **Designed By:** Steffano Soh    |  **Design Date:** 11/18/2016    |
-| **Executed By:** *CONTENT HERE*    |  **Execution Date:** *CONTENT HERE* |
+| **Executed By:** *TBD*    |  **Execution Date:** *TBD* |
 
 **Short Description:** <br/>
 Test the registration system with satisfactory input
@@ -64,7 +64,7 @@ User account information now inserted into SchoolBook Database
 | **Test Case No. :** TC 1.1.2 | **Test Case Name:** Registration with unsatisfactory Validation  |
 | **System:** SchoolBook         | **Sub-System:** Login/Registration      |
 | **Designed By:** Steffano Soh    |  **Design Date:** 11/18/2016    |
-| **Executed By:** *CONTENT HERE*    |  **Execution Date:** *CONTENT HERE* |
+| **Executed By:** *TBD*    |  **Execution Date:** *TBD* |
 
 **Short Description:** <br/>
 Test the registration system with unsatisfactory input
@@ -101,7 +101,7 @@ User remains in Introductory page
 | **Test Case No. :** TC 1.1.3 | **Test Case Name:** Registration with Email Address already registered   |
 | **System:** SchoolBook         | **Sub-System:** Login/Registration      |
 | **Designed By:** Steffano Soh    |  **Design Date:** 11/18/2016    |
-| **Executed By:** *CONTENT HERE*    |  **Execution Date:** *CONTENT HERE* |
+| **Executed By:** *TBD*    |  **Execution Date:** *TBD* |
 
 **Short Description:** <br/>
 Test the registration system with satisfactory Email Address already registered
@@ -134,7 +134,7 @@ User account information now inserted into SchoolBook Database
 | **Test Case No. :** TC 1.2.1 | **Test Case Name:** Login With Registered Email & Password  |
 | **System:** SchoolBook         | **Sub-System:** Login/Registration      |
 | **Designed By:** Steffano Soh    |  **Design Date:** 11/18/2016     |
-| **Executed By:** *CONTENT HERE*    |  **Execution Date:** *CONTENT HERE* |
+| **Executed By:** *TBD*    |  **Execution Date:** *TBD* |
 
 **Short Description:** <br/>
 Test The Login Sub System with a Registered Email & Password<br/>
@@ -158,7 +158,7 @@ User Must have a Registered Account with SchoolBook<br/>
 | **Test Case No. :** TC 1.2.2 | **Test Case Name:** Login With invalid Email & Password  |
 | **System:** SchoolBook         | **Sub-System:** Login/Registration      |
 | **Designed By:** Steffano Soh    |  **Design Date:** 11/18/2016     |
-| **Executed By:** *CONTENT HERE*    |  **Execution Date:** *CONTENT HERE* |
+| **Executed By:** *TBD*    |  **Execution Date:** *TBD* |
 
 **Short Description:** <br/>
 Test The Login Sub System with a invalid Email & Password <br/>
@@ -183,7 +183,7 @@ Test The Login Sub System with a invalid Email & Password <br/>
 | **Test Case No. :** TC 1.2.3 | **Test Case Name:** Login with valid Email & invalid Password  |
 | **System:** SchoolBook         | **Sub-System:** Login/Registration      |
 | **Designed By:** Steffano Soh    |  **Design Date:** 11/18/2016     |
-| **Executed By:** *CONTENT HERE*    |  **Execution Date:** *CONTENT HERE* |
+| **Executed By:** *TBD*    |  **Execution Date:** *TBD* |
 
 **Short Description:** <br/>
 Test The Login Sub System with valid Email & invalid Password<br/>
@@ -208,7 +208,7 @@ Test The Login Sub System with valid Email & invalid Password<br/>
 | **Test Case No. :** TC 1.2.4 | **Test Case Name:** Login with invalid Email & valid Password  |
 | **System:** SchoolBook         | **Sub-System:** Login/Registration      |
 | **Designed By:** Steffano Soh    |  **Design Date:** 11/18/2016     |
-| **Executed By:** *CONTENT HERE*    |  **Execution Date:** *CONTENT HERE* |
+| **Executed By:** *TBD*    |  **Execution Date:** *TBD* |
 
 **Short Description:** <br/>
 Test The Login Sub System with invalid Email & valid Password <br/>
