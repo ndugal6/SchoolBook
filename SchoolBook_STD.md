@@ -404,7 +404,7 @@ User must be logged in
 |2.| Click on the *Register as Tutor* Link | System redirects user to Register as tutor page|||
 |3.| Select __Louisiana State University__ from the *university* drop down list| -Nil-|||
 |4.| Select __csc4103 - Operating Systems__ from the course codes drop down list| -Nil-|||
-|5.| click on *upload pdf* Link and select a pdf file to upload| ||
+|5.| click on *upload pdf* Link and select a pdf file to upload| -Nil- ||
 |6.| click on *Register as tutor* Button | System Displays Message "Registration request sucessfully made" | ||
 
 **Post Condition:**<br/>
