@@ -29,8 +29,8 @@ https://www.sitepoint.com/jquery-infinite-scrolling-demos/
 
 | Funtion | Assigned to | DeadLine| Test Case Assigned to |
 |  -----  |   -------   | ------- | --------------------- |
-| Update Profile |Zack |20th nov | Zack |
-| Add Course |Zack | 20th nov| Zack |
+| ~~Update Profile~~ |Zack |20th nov | ~~Zack Robiceaux~~ |
+| ~~Add Course~~ |Zack | 20th nov| ~~Zack Robiceaux~~ |
 | Tutor Registration |Zack |20th nov | |
 
 **Study Group Management**
@@ -39,15 +39,15 @@ https://www.sitepoint.com/jquery-infinite-scrolling-demos/
 |  -----  |   -------   | ------- | ----------------------|
 | Create Study Group | Nick & Sean |20th nov | |
 |Find study group|Nick & Sean |25th Nov |  |
-|Join study group|Nick & Sean | 20th nov |~~Sean Marino~~ |
-|Leave study group|Nick & Sean | 20th nov |~~Sean Marino~~ |
+|~~Join study group~~|Nick & Sean | 20th nov |~~Sean Marino~~ |
+|~~Leave study group~~|Nick & Sean | 20th nov |~~Sean Marino~~ |
 
 **Notes Management**
 
-| Funtion | Assigned to | DeadLine| Test Case Assigned to |
+| Function | Assigned to | DeadLine| Test Case Assigned to |
 |  -----  |   -------   | ------- | ----------------------|
-| Upload Notes | Clay & Justin |25th Nov | |
-| Find Notes |Clay & Justin |25th Nov | |
+| ~~Upload Notes~~ | Clay & Justin |25th Nov |~~Clayton Samson~~ |
+| ~~Find Notes~~ |Clay & Justin |25th Nov |~~Clayton Samson~~ |
 
 **Global Validation**
  Assigned to: Nick
