@@ -39,8 +39,8 @@ https://www.sitepoint.com/jquery-infinite-scrolling-demos/
 |  -----  |   -------   | ------- | ----------------------|
 | Create Study Group | Nick & Sean |20th nov | |
 |Find study group|Nick & Sean |25th Nov |  |
-|Join study group|Nick & Sean |20th nov | |
-|Leave study group|Nick & Sean |20th nov | |
+|~~Join study group~~|Nick & Sean | Completed |~~Sean Marino~~ |
+|~~Leave study group~~|Nick & Sean | Completed |~~Sean Marino~~ |
 
 **Notes Management**
 
