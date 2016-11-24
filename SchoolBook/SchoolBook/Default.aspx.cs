@@ -101,7 +101,7 @@ namespace SchoolBook
             }
             catch (MySqlException ex)
             {
-                loginstatuslbl.InnerHtml = "Email is already Registered!";
+                loginstatuslbl.InnerHtml = ex.ToString();
             }
 
             conn.Close();
