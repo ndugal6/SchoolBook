@@ -35,3 +35,6 @@ C:\Users\User\Documents\Visual Studio 2015\Projects\SchoolBook\SchoolBook\bin\My
 C:\Users\User\Documents\Visual Studio 2015\Projects\SchoolBook\SchoolBook\bin\MySql.Web.dll
 C:\Users\User\Documents\Visual Studio 2015\Projects\SchoolBook\SchoolBook\bin\MySql.Data.xml
 C:\Users\User\Documents\Visual Studio 2015\Projects\SchoolBook\SchoolBook\bin\MySql.Web.xml
+C:\Users\Sean\Documents\GitHub\SchoolBook\SchoolBook\SchoolBook\obj\Debug\SchoolBook.csprojResolveAssemblyReference.cache
+C:\Users\Sean\Documents\GitHub\SchoolBook\SchoolBook\SchoolBook\obj\Debug\SchoolBook.dll
+C:\Users\Sean\Documents\GitHub\SchoolBook\SchoolBook\SchoolBook\obj\Debug\SchoolBook.pdb
