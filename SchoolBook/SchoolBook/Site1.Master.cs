@@ -32,5 +32,11 @@ namespace SchoolBook
 
             }
         }
+
+        public void RedirectLeaveStudyGrp(object sender, EventArgs e)
+        {
+            string Email = Request.QueryString["Parameter"].ToString();
+            Response.Redirect("LeaveStudyGrp.aspx?Parameter=" + Email + "&SGID=" +Email);
+        }
     }
 }

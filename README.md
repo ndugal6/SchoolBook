@@ -18,36 +18,36 @@ https://www.sitepoint.com/jquery-infinite-scrolling-demos/
 
  **Register / Login**
 
-| Funtion | Assigned to | DeadLine|
-|  -----  |   -------   | ------- |
-| ~~Registration~~ | Nick | Completed |
-| ~~Login~~ | Nick | Completed |
-| ~~Send E-Mail~~ | Nick | Completed |
-| Password Reset | Nick | 20th nov |
+| Funtion | Assigned to | DeadLine| Test Case Assigned to |
+|  -----  |   -------   | ------- | --------------------- |
+| Registration | Nick | Completed | ~~Steffano Soh~~ |
+| Login | Nick | Completed | ~~Steffano Soh~~ |
+| Send E-Mail | Nick | Completed | --Not Required -- |
+| Password Reset | Nick | Completed | ~~Stefano Soh~~ |
 
 **Profile Management**
 
-| Funtion | Assigned to | DeadLine|
-|  -----  |   -------   | ------- |
-| Update Profile |Zack |20th nov |
-| Add Course |Zack | 20th nov|
-| Tutor Registration |Zack |20th nov |
+| Funtion | Assigned to | DeadLine| Test Case Assigned to |
+|  -----  |   -------   | ------- | --------------------- |
+| Update Profile | Zack | Completed | ~~Zack Robiceaux~~ |
+| Add Course | Zack | Completed | ~~Zack Robiceaux~~ |
+| Tutor Registration | Zack | Completed |~~Stefano Soh~~ |
 
 **Study Group Management**
 
-| Funtion | Assigned to | DeadLine|
-|  -----  |   -------   | ------- |
-| Create Study Group | Nick & Sean |20th nov |
-|Find study group|Nick & Sean |25th Nov | 
-|Join study group|Nick & Sean |20th nov |
-|Leave study group|Nick & Sean |20th nov |
+| Funtion | Assigned to | DeadLine| Test Case Assigned to |
+|  -----  |   -------   | ------- | ----------------------|
+|Create Study Group | Nick & Sean | Completed |~~Nicolas Dugal~~ |
+|Find study group| Nick & Sean | Completed |~~Nicolas Dugal~~  |
+|Join study group| Nick & Sean | Completed |~~Sean Marino~~ |
+|Leave study group| Nick & Sean | Completed |~~Sean Marino~~ |
 
 **Notes Management**
 
-| Funtion | Assigned to | DeadLine|
-|  -----  |   -------   | ------- |
-| Upload Notes | Clay & Justin |25th Nov |
-| Find Notes |Clay & Justin |25th Nov |
+| Function | Assigned to | DeadLine| Test Case Assigned to |
+|  -----  |   -------   | ------- | ----------------------|
+| ~~Upload Notes~~ | Clay & Justin | Completed |~~Clayton Samson~~ |
+| ~~Find Notes~~ | Clay & Justin | Completed |~~Justin Bougere~~ |
 
 **Global Validation**
  Assigned to: Nick

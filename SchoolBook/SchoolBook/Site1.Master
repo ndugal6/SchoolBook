@@ -62,7 +62,7 @@
                         <ul class="sub-nav" id="sub-nav-SG">
                             <li><a href="#">Search For Study Group</a> </li>
                             <li><a href="#">Create Study Group</a> </li>
-                            <li><a href="#">Leave Study Group</a></li>
+                            <li><a href="#" runat="server" onserverclick="RedirectLeaveStudyGrp">Leave Study Group</a></li>
                         </ul>
                     </li>
                     <li><a href="#" id ="notesmenu">Notes</a>
