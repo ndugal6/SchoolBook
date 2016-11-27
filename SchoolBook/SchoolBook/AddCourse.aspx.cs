@@ -18,6 +18,9 @@ namespace SchoolBook
     {
         string connstr = @"Data Source=localhost; Database=school_book_db; User Id=root; Password=password1";
         StringBuilder table = new StringBuilder();
+        
+        //Below code:
+        //Fills the drop down list with all courses that has the univeristy ID as the user.
         protected void Page_Load(object sender, EventArgs e)
         {
             AddCourseBtn.Visible = false;
@@ -46,7 +49,9 @@ namespace SchoolBook
         {
            
         }
-
+        //Below code:
+        //Creates a table of the course data and fill the table with the class that is selected in the drop down list. 
+        //The class data is found using a select command, which restricts the class rows to only classes that have the specified univesity ID.
         protected void Find_Click(object sender, EventArgs e)
         {
             table.Append("<table class='responstable'>");
@@ -80,14 +85,17 @@ namespace SchoolBook
             conn.Close();
             AddCourseBtn.Visible = true;
         }
-
+        //Below code adds a new row into coursetaking using the selected course info
         protected void AddCourseBtn_Click(object sender, EventArgs e)
         {
+            //Gains usesr email using QueryString. Gets course ID from the selected course in the drop down list.
             string courseid = ddlCourses.SelectedValue.ToString();
             string Email = Request.QueryString["Parameter"].ToString();
             string courseTakingID;
             MySqlConnection conn = new MySqlConnection(connstr);
-
+            //Below code:
+            //Finds unique course taking ID from the user using a select MySql command.
+            //Using an insert MySql command, a new row in coursetaking is made with the previously stated data filling the rows.
             try
             {
                 conn.Open();
