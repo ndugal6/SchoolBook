@@ -57,7 +57,7 @@ namespace SchoolBook
             }
             catch (MySqlException ex)
             {
-
+                Message.InnerHtml = ex.ToString();
             }
             conn.Close();
         }
