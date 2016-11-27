@@ -98,8 +98,9 @@ Clayton R Samson, Justin A Bougere, Nicholas A Dugal, Sean M Marino, Soh Guo Hao
 ##8. Meetings Summary
 
 **This is a test table**
-|| Index number	| Meeting Date & Time	| Members Attending	| Objective	| Outcome	||
-||t1|t2|t3|t4|t5||
+| Index number	| Meeting Date & Time	| Members Attending	| Objective	| Outcome	|
+| ---------| ------------| -----------------------------| --------------| ------------|
+|t1|t2|t3|t4|t5|
 
 
 | Index number	| Meeting Date & Time	| Members Attending	| Objective	| Outcome	|
