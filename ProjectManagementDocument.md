@@ -99,12 +99,8 @@ Clayton R Samson, Justin A Bougere, Nicholas A Dugal, Sean M Marino, Soh Guo Hao
 
 **This is a test table**
 
-| Index number	| Meeting Date & Time	| Members Attending	| Objective	| Outcome	|
-| -------------| ------------| -----------------------------| --------------| ------------|
-|t1|t2|t3|t4|t5|
-
-
-| Index number	| Meeting Date & Time	| Members Attending	| Objective	| Outcome	|
+| Index number	| Meeting Date & Time	| Members Attending	| Objective	| Outcome |
+| ------------- | --------------------- | ----------------- | --------- | ------- |
 | 8.1	| 8/31/2016 - 2:00 PM	| Clayton R Samson, Justin A Bougere, Nicholas A Dugal, Sean M Marino, Soh Guo Hao Steffano, Zachary J Robicheaux	| Determine what software to develop	| Decided to create "SchoolBook" a web application which will allow students to better connect with each other. |
 | 8.2	| 9/7/2016 - 2:00 PM	| Clayton R Samson, Justin A Bougere, Nicholas A Dugal, Sean M Marino, Soh Guo Hao Steffano, Zachary J Robicheaux	| Define main functions SchoolBook will provide	| Determined the web app will allow users to share notes, enroll in courses, setup study groups, and list onself as a tutor. |
 | 8.3	| 9/14/2016 - 2:00 PM	| Clayton R Samson, Justin A Bougere, Nicholas A Dugal, Sean M Marino, Soh Guo Hao Steffano, Zachary J Robicheaux	| Define activities for each team member to work on and begin designing the data base.	| Nick will work on the sign up page design, Sean will work on the home page design, Clayton will work on class participants design, Zach will design the login screen, Justin will design the course page, and Steffano will complete the database design.	|
