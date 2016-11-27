@@ -30,8 +30,8 @@ https://www.sitepoint.com/jquery-infinite-scrolling-demos/
 | Funtion | Assigned to | DeadLine| Test Case Assigned to |
 |  -----  |   -------   | ------- | --------------------- |
 | Update Profile | Zack | Completed | ~~Zack Robiceaux~~ |
-| Add Course | Nick | Completed | ~~Zack Robiceaux~~ |
-| Tutor Registration | Nick | Completed |~~Stefano Soh~~ |
+| Add Course | Steffano | Completed | ~~Zack Robiceaux~~ |
+| Tutor Registration | Steffano | Completed |~~Stefano Soh~~ |
 
 **Study Group Management**
 
@@ -39,8 +39,8 @@ https://www.sitepoint.com/jquery-infinite-scrolling-demos/
 |  -----  |   -------   | ------- | ----------------------|
 |Create Study Group | Nick | Completed |~~Nicolas Dugal~~ |
 |Find study group| Nick | Completed |~~Nicolas Dugal~~  |
-|Join study group| Nick & Sean | Completed |~~Sean Marino~~ |
-|Leave study group| Nick | Completed |~~Sean Marino~~ |
+|Join study group| Sean | Completed |~~Sean Marino~~ |
+|Leave study group| Steffano | Completed |~~Sean Marino~~ |
 
 **Notes Management**
 
