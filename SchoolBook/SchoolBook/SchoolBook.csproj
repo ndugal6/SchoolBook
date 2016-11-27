@@ -117,6 +117,8 @@
   <ItemGroup>
     <Content Include="scripts\ai.0.22.19-build00125.js" />
     <Content Include="scripts\ai.0.22.19-build00125.min.js" />
+    <Content Include="TutorRegistration.aspx" />
+    <Content Include="Updateprofile.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -148,6 +150,20 @@
     </Compile>
     <Compile Include="Site1.Master.designer.cs">
       <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="TutorRegistration.aspx.cs">
+      <DependentUpon>TutorRegistration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TutorRegistration.aspx.designer.cs">
+      <DependentUpon>TutorRegistration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Updateprofile.aspx.cs">
+      <DependentUpon>Updateprofile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Updateprofile.aspx.designer.cs">
+      <DependentUpon>Updateprofile.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

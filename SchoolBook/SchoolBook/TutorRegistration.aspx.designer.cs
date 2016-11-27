@@ -10,24 +10,33 @@
 namespace SchoolBook {
     
     
-    public partial class Homepage {
+    public partial class TutorRegistration {
         
         /// <summary>
-        /// Courselist control.
+        /// RegTutor1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList Courselist;
+        protected global::System.Web.UI.WebControls.DropDownList RegTutor1;
         
         /// <summary>
-        /// Fname control.
+        /// RegTutor2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl Fname;
+        protected global::System.Web.UI.WebControls.DropDownList RegTutor2;
+        
+        /// <summary>
+        /// FileUpload1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.FileUpload FileUpload1;
     }
 }

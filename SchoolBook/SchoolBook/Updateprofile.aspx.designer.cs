@@ -10,24 +10,33 @@
 namespace SchoolBook {
     
     
-    public partial class Homepage {
+    public partial class Updateprofile {
         
         /// <summary>
-        /// Courselist control.
+        /// PhoneNumber control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList Courselist;
+        protected global::System.Web.UI.WebControls.TextBox PhoneNumber;
         
         /// <summary>
-        /// Fname control.
+        /// FullName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl Fname;
+        protected global::System.Web.UI.WebControls.TextBox FullName;
+        
+        /// <summary>
+        /// UpateProfileButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button UpateProfileButton;
     }
 }

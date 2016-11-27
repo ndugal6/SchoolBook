@@ -52,9 +52,9 @@
                     <li>
                         <a href="#" id="profilemenu">Profile</a>
                         <ul id="sub-nav-prof" class="sub-nav">
-                            <li><a href="">Update Profile</a> </li>
+                            <li><a href="#" runat="server" onserverclick="RedirectUpdateProfile">Update Profile</a> </li>
                             <li><a href="#">Add Course</a></li>
-                            <li><a href="#">Register as Tutor</a></li>
+                            <li><a href="#" runat="server" onserverclick="RedirectTutorReg">Register as Tutor</a></li>
                         </ul>
                             
                     </li>
