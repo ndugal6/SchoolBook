@@ -97,8 +97,6 @@ Clayton R Samson, Justin A Bougere, Nicholas A Dugal, Sean M Marino, Soh Guo Hao
 
 ##8. Meetings Summary
 
-**This is a test table**
-
 | Index number	| Meeting Date & Time	| Members Attending	| Objective	| Outcome |
 | ------------- | --------------------- | ----------------- | --------- | ------- |
 | 8.1	| 8/31/2016 - 2:00 PM	| Clayton R Samson, Justin A Bougere, Nicholas A Dugal, Sean M Marino, Soh Guo Hao Steffano, Zachary J Robicheaux	| Determine what software to develop	| Decided to create "SchoolBook" a web application which will allow students to better connect with each other. |
