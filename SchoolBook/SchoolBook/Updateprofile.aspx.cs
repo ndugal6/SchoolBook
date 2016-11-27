@@ -15,24 +15,28 @@ namespace SchoolBook
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            MySqlConnection conn = new MySqlConnection(connstr);
-            try
+            string email = Request.QueryString["Parameter"].ToString();
+            if (!IsPostBack)
             {
-                conn.Open();
+                MySqlConnection conn = new MySqlConnection(connstr);
+                try
+                {
+                    conn.Open();
 
-                string cmd = "SELECT PhoneNo FROM school_book_db.useraccounts;";
-                string cmd2 = "SELECT FullName FROM school_book_db.useraccounts;";
-                MySqlCommand sqlcmd = new MySqlCommand(cmd, conn);
-                PhoneNumber.Text = sqlcmd.ExecuteScalar().ToString();
-                sqlcmd.CommandText = cmd2;
-                FullName.Text = sqlcmd.ExecuteScalar().ToString();
+                    string cmd = "SELECT PhoneNo FROM useraccounts where Email = '" + email + "';";
+                    string cmd2 = "SELECT FullName FROM useraccounts where Email = '" + email + "';";
+                    MySqlCommand sqlcmd = new MySqlCommand(cmd, conn);
+                    PhoneNumber.Text = sqlcmd.ExecuteScalar().ToString();
+                    sqlcmd.CommandText = cmd2;
+                    FullName.Text = sqlcmd.ExecuteScalar().ToString();
+                }
+                catch (MySqlException ex)
+                {
+
+
+                }
+                conn.Close();
             }
-            catch (MySqlException ex)
-            {
-
-
-            }
-            conn.Close();
         }
 
         protected void PhoneNumber_TextChanged(object sender, EventArgs e)
@@ -43,8 +47,8 @@ namespace SchoolBook
         protected void UpateProfileButton_Click(object sender, EventArgs e)
         {
 
-            string phoneNumber = PhoneNumber.Text.ToString();
-            string fullName = FullName.Text.ToString();
+            string PhoneNo = PhoneNumber.Text.ToString();
+            string Name = FullName.Text.ToString();
             string email = Request.QueryString["Parameter"].ToString();
             MySqlConnection conn = new MySqlConnection(connstr);
 
@@ -52,14 +56,14 @@ namespace SchoolBook
             try
             {
                 conn.Open();
-                string cmd = "UPDATE useracounts SET PhoneNo = '" + phoneNumber + "', FullName = '" + fullName + "' where email = '" + email + "';";
+                string cmd = "UPDATE useraccounts SET PhoneNo = '" + PhoneNo + "', FullName = '" + Name + "' where email = '" + email + "';";
                 MySqlCommand sqlcmd = new MySqlCommand(cmd, conn);
                 sqlcmd.ExecuteNonQuery();
                 lblmessage.Text = "Updated Sucessfully!";
             }
             catch (MySqlException ex)
             {
-
+                lblmessage.Text = ex.ToString();
             }
             conn.Close();
         }
