@@ -99,6 +99,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AddCourse.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="Homepage.aspx" />
     <Content Include="LeaveStudyGrp.aspx" />
@@ -106,6 +107,7 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="RegisterAsTutor.aspx" />
     <Content Include="Site1.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -117,9 +119,17 @@
   <ItemGroup>
     <Content Include="scripts\ai.0.22.19-build00125.js" />
     <Content Include="scripts\ai.0.22.19-build00125.min.js" />
+    <Content Include="Updateprofile.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddCourse.aspx.cs">
+      <DependentUpon>AddCourse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddCourse.aspx.designer.cs">
+      <DependentUpon>AddCourse.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -142,12 +152,26 @@
       <DependentUpon>LeaveStudyGrp.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegisterAsTutor.aspx.cs">
+      <DependentUpon>RegisterAsTutor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RegisterAsTutor.aspx.designer.cs">
+      <DependentUpon>RegisterAsTutor.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Site1.Master.cs">
       <DependentUpon>Site1.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Site1.Master.designer.cs">
       <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Updateprofile.aspx.cs">
+      <DependentUpon>Updateprofile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Updateprofile.aspx.designer.cs">
+      <DependentUpon>Updateprofile.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

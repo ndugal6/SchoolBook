@@ -83,6 +83,7 @@ namespace SchoolBook
             else if (regFemale.Value == "Female")
                 gender = "F";
             string uni = regUni.Value;
+            int coursetakindid;
 
             MySqlConnection conn = new MySqlConnection(connstr);
 
@@ -90,9 +91,33 @@ namespace SchoolBook
             {
                 conn.Open();
                 string SelUniCmd = "SELECT UniversityID FROM university WHERE UniversityName = '" + uni + "';";
+                string selCourseTakingID = "select max(CourseTakingID) from useraccounts;";
                 MySqlCommand sqlcmd = new MySqlCommand(SelUniCmd, conn);
                 string uniid = sqlcmd.ExecuteScalar().ToString();
-                string cmd = "INSERT INTO useraccounts (Email,Password,UniversityID,Gender,DOB,FullName) Values ('" + Email + "','" + password + "','" + uniid + "','" + gender + "','" + DOB + "','" + fullname + "');";
+
+               
+
+                sqlcmd.CommandText = selCourseTakingID;
+                coursetakindid = Int32.Parse(sqlcmd.ExecuteScalar().ToString());
+                coursetakindid = coursetakindid + 1;
+                string CourseTakingIDString = coursetakindid.ToString();
+
+                string selCourseTakenID = "select max(CourseTakenID) from useraccounts;";
+                sqlcmd.CommandText = selCourseTakenID;
+                int coursetakenID = Int32.Parse(sqlcmd.ExecuteScalar().ToString());
+                coursetakenID = coursetakenID + 1;
+                string CoursetakenIDString = coursetakenID.ToString();
+
+                string insertCourseTaking = "INSERT INTO coursetaking values ('" + CourseTakingIDString + "' , '0' , '0' , '' )";
+                sqlcmd.CommandText = insertCourseTaking;
+                sqlcmd.ExecuteNonQuery();
+
+                string insertCourseTaken = "INSERT INTO coursetaken values ('" + CoursetakenIDString + "', '0' , '500000000' , 'F' , 'F' , '1' , ' ' , ' ' )";
+                sqlcmd.CommandText = insertCourseTaken;
+                sqlcmd.ExecuteNonQuery();
+
+
+                string cmd = "INSERT INTO useraccounts (Email,Password,UniversityID,Gender,DOB,FullName,CourseTakingID, CourseTakenID) Values ('" + Email + "','" + password + "','" + uniid + "','" + gender + "','" + DOB + "','" + fullname + "','" +CourseTakingIDString + "','" + coursetakenID + "');";
                 sqlcmd.CommandText = cmd;
                 sqlcmd.ExecuteNonQuery();
                 loginstatuslbl.InnerHtml = "Sucessfully Registered!";

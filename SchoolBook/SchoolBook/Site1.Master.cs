@@ -38,5 +38,26 @@ namespace SchoolBook
             string Email = Request.QueryString["Parameter"].ToString();
             Response.Redirect("LeaveStudyGrp.aspx?Parameter=" + Email + "&SGID=" +Email);
         }
+
+        public void RedirectAddcourse(object sender, EventArgs e)
+        {
+            string Email = Request.QueryString["Parameter"].ToString();
+            Response.Redirect("AddCourse.aspx?Parameter=" + Email);
+        }
+
+        public void RedirectRegtut(object sender, EventArgs e)
+        {
+            string Email = Request.QueryString["Parameter"].ToString();
+            Response.Redirect("RegisterAsTutor.aspx?Parameter=" + Email);
+        }
+
+        public void RedirectUpdateProfile(object sender, EventArgs e)
+        {
+            string Email = Request.QueryString["Parameter"].ToString();
+            Response.Redirect("Updateprofile.aspx?Parameter=" + Email);
+        }
+
+        
+
     }
 }
