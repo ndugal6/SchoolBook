@@ -45,7 +45,9 @@ Clayton R Samson, Justin A Bougere, Nicholas A Dugal, Sean M Marino, Soh Guo Hao
 |		8.12		Meeting 12	|
 
 ##1. Vision
-**1.1 Content Here**
+**1.1 Vision**
+
+	content here
 
 ##2. Configuration Management Plan
 **2.1 GitHub**
