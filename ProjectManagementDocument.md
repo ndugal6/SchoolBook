@@ -36,63 +36,87 @@ Clayton R Samson, Justin A Bougere, Nicholas A Dugal, Sean M Marino, Soh Guo Hao
 |		8.3			Meeting 3	|
 |		8.4			Meeting 4	|
 |		8.5			Meeting 5	|
+|		8.6			Meeting 6	|
+|		8.7			Meeting 7	|
+|		8.8			Meeting 8	|
+|		8.9			Meeting 9	|
+|		8.10		Meeting 10	|
+|		8.11		Meeting 11	|
+|		8.12		Meeting 12	|
 
 ##1. Vision
 **1.1 Content Here**
 
 ##2. Configuration Management Plan
-**2.1 Content here for GitHub**
+**2.1 GitHub**
+
+	content here
 
 ##3. Process Model
 **3.1 Phased Development**
+
 	content here
 
 ##4. Deliverables
 **4.1 Executables**
+
 	content here
 
 **4.2 Documentation**
+
 	content here
 
 **4.3 Manuals**
+
 	content here
 
 ##5. Potential Risks
 **5.1 Human Risk**
+
 	content here
 
 **5.2 Time Risk**
+
 	content here
 
 **5.3 Resource Risk**
+
 	content here
 
 **5.4 Liability Issues**
+
 	content here
 
 ##6. Team Organization
 
 **6.1 Team Style**
+
 	content here
 
 **6.2 Team Members and Roles**
+
 	content here
 
 ##7. Project Schedule
 
 **7.1 Gantt Chart**
+
 	content here
 
 **7.2 Milestones**
+
 	content here
 
 **7.3 Rough Estimates**
+
 	content here
 
 **7.4 Weekly Schedule**
+
 	content here
 
 **7.5 Estimation Method**
+
 	content here
 
 ##8. Meetings Summary
