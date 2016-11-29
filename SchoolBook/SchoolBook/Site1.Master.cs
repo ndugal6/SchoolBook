@@ -57,7 +57,44 @@ namespace SchoolBook
             Response.Redirect("Updateprofile.aspx?Parameter=" + Email);
         }
 
-        
+        public void RedirectUploadNotes(object sender, EventArgs e)
+        {
+            string Email = Request.QueryString["Parameter"].ToString();
+            Response.Redirect("UploadFiles.aspx?Parameter=" + Email);
+        }
+
+        public void RedirectSearchNotes(object sender, EventArgs e)
+        {
+            string Email = Request.QueryString["Parameter"].ToString();
+            Response.Redirect("SearchNotes.aspx?Parameter=" + Email);
+        }
+
+        public void RedirectSearchStdyGrp(object sender, EventArgs e)
+        {
+            string Email = Request.QueryString["Parameter"].ToString();
+            Response.Redirect("Find_Join_StudyGroup.aspx?Parameter=" + Email);
+        }
+
+        public void RedirectCreateStdyGrp(object sender, EventArgs e)
+        {
+            string Email = Request.QueryString["Parameter"].ToString();
+            Response.Redirect("MyPage.aspx?Parameter=" + Email);
+        }
+
+        public void RedirectLogout(object sender, EventArgs e)
+        {
+            string Email = Request.QueryString["Parameter"].ToString();
+            Response.Redirect("Default.aspx");
+        }
+
+        public void redirectHomePage(object sender, EventArgs e)
+        {
+            string Email = Request.QueryString["Parameter"].ToString();
+            Response.Redirect("Homepage.aspx?Parameter=" + Email);
+        }
+
+
+
 
     }
 }

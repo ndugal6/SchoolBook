@@ -29,7 +29,7 @@ namespace SchoolBook
                 string Email = Request.QueryString["Parameter"].ToString();
                 using (MySqlConnection conn = new MySqlConnection(connstr))
                 {
-                    using (MySqlCommand cmd = new MySqlCommand("select CourseID, CourseName from courses where courses.UniversityID = (select UniversityID from useraccounts where useraccounts.Email = '" + Email + "');"))
+                    using (MySqlCommand cmd = new MySqlCommand("select CourseID, CourseName from courses where courses.CourseID != '0' and courses.UniversityID = (select UniversityID from useraccounts where useraccounts.Email = '" + Email + "');"))
                     {
                         cmd.CommandType = CommandType.Text;
                         cmd.Connection = conn;
@@ -62,7 +62,7 @@ namespace SchoolBook
             try
             {
                 conn.Open();
-                string cmd = "select * from courses inner join university on courses.UniversityID = university.UniversityID where courses.CourseID = '" + courseid + "'";
+                string cmd = "select * from courses inner join university on courses.UniversityID = university.UniversityID where courses.CourseID != '0' and courses.CourseID = '" + courseid + "'";
                 MySqlCommand sqlcmd = new MySqlCommand(cmd, conn);
                 MySqlDataReader CourseData = sqlcmd.ExecuteReader();
                 while (CourseData.Read())
@@ -104,7 +104,8 @@ namespace SchoolBook
                 courseTakingID = sqlcmd.ExecuteScalar().ToString();
                 string cmd2 = "INSERT into coursetaking VALUES ('" + courseTakingID + "' , '" + courseid + "' , '500000000' , ' ');";
                 sqlcmd.CommandText = cmd2;
-                sqlcmd.ExecuteNonQuery(); 
+                sqlcmd.ExecuteNonQuery();
+                Msglbl.InnerHtml = "Course Added Sucessfully!";
             }
             catch (Exception ex)
             {

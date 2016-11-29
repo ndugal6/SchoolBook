@@ -36,7 +36,7 @@ namespace SchoolBook
         {
 
         }
-
+        //Function called when login button is clicked, retrieves information from database to check if useraccount is registered!
         protected void login_Click(object sender, EventArgs e)
         {
             string Email = email.Value;
@@ -67,8 +67,20 @@ namespace SchoolBook
             conn.Close();
         }
 
+        //function called when user request for password reset.
+        protected void forgetpass_click(object sender, EventArgs e)
+        {
+            string Email = email.Value;
+            string emailMessage = "Hi! please go to this link to reset your password!:<a href='http://localhost:23240/PasswordResetPage.aspx?COmplex=YtshdbahK8duNdjdyahsbJduashndk&Parameter=" + Email + "'>Click Here! </a>";
+            sendEmail(emailMessage, Email , "Password Retrieval");
+        }
+        //function called when cancel button is clicked
+        protected void forgetpasscancel_click(object sender, EventArgs e)
+        {
+            Response.Redirect("Default.aspx");
+        }
 
-
+        //function called when Register button is clicked, inserts values to database.
         protected void Reg_Click(object sender, EventArgs e)
         {
             string Email = email.Value;
@@ -121,7 +133,7 @@ namespace SchoolBook
                 sqlcmd.CommandText = cmd;
                 sqlcmd.ExecuteNonQuery();
                 loginstatuslbl.InnerHtml = "Sucessfully Registered!";
-                sendEmail("Sucessfully registered!",Email);
+                sendEmail("Sucessfully registered!",Email, "Welcome to SchoolBook!");
 
             }
             catch (MySqlException ex)
@@ -132,14 +144,14 @@ namespace SchoolBook
             conn.Close();
         }
 
-        public void sendEmail(string emailMsg, string receiver)
+        public void sendEmail(string emailMsg, string receiver, string emailsubject)
         {
             MailMessage msg = new MailMessage();
             msg.From = new MailAddress("theschoolbook2016@gmail.com");
             msg.To.Add(receiver);
             msg.Body = emailMsg;
             msg.IsBodyHtml = true;
-            msg.Subject = "Welcome to SchoolBook!";
+            msg.Subject = emailsubject;
 
             SmtpClient smtp = new SmtpClient();
             smtp.Host = "smtp.gmail.com";
@@ -153,6 +165,8 @@ namespace SchoolBook
             smtp.Send(msg);
 
         }
+
+       
 
 
     }

@@ -18,24 +18,43 @@
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script>
        $(document).ready(function () {
-        var flag="reg";
+        var flag = "reg";
+        var flag2 = "forget";
         var loginlbl = document.getElementById("Loginlbl");
         var reglbl = document.getElementById("regBtn");
+        $("#FgtpwCancel").hide();
+        $("#rtrpw").hide();
         $("#regDiv").hide();
+        $("#fgtmsg").hide();
         $("#regBtn").click(function () {
             $("#regDiv").toggle(1000);
             if (flag == "reg") {
+                $("#forgetpasslink").hide();
                 loginlbl.innerHTML = "Register";
                 reglbl.innerHTML = "<i class='fa fa-navicon'></i>Cancel";
                 flag = "cancel";
                 document.getElementById("loginBtn1").style.display = "none";
             }
             else {
+                $("#forgetpasslink").toggle(1000);
                 loginlbl.innerHTML = "Login";
                 reglbl.innerHTML = "<i class='fa fa-navicon'></i>Register";
                 flag = "reg";
                 document.getElementById("loginBtn1").style.display = "";
             }
+        });
+
+        $("#forgetpasslink").click(function () {
+                $("#fgtmsg").toggle(1000);
+                $("#rtrpw").toggle(1000);
+                $("#FgtpwCancel").toggle(1000);
+                $("#forgetpasslink").hide();
+                $("#formpassword").hide();
+                $("#regBtn").hide();
+                loginlbl.innerHTML = "Forget Password";
+                flag = "cancel";
+                document.getElementById("loginBtn1").style.display = "none";
+                document.getElementById("fgtmsg").style.visibility = "visible";
         });
 
 });
@@ -89,7 +108,12 @@
                            </div>
                            <div class="row">
                               <div class="col-xs-12 col-sm-12 col-md-12">
-                                 <div class="form-group"><input type="password" name="password" id="formpassword" runat="server" class="form-control input-sm" placeholder="Password" /></div>
+                                 <div class="form-group">
+                                     <input type="password" name="password" id="formpassword" runat="server" class="form-control input-sm" placeholder="Password" /></div>
+                                    <a href="#" id="forgetpasslink" style="color:red">Forget Password?</a>
+                                    <p id="fgtmsg" style="color:white;">Please Enter your registered email, we will send a an email containing password reset instructions!</p>
+                                    <a href="#" id="rtrpw" class="btn btn-border" runat="server" onserverclick="forgetpass_click"><i class="fa fa-user"></i>Retrieve</a>
+                                    <a href="#" id="FgtpwCancel" class="btn btn-border" runat="server" onserverclick="forgetpasscancel_click"><i class="fa fa-user"></i>Cancel</a>
                               </div>
                              
                            
@@ -255,18 +279,12 @@
                   </div>
                </div>
                <div id="screenshot-slider" class="padding-50">
-                  <div class="item"><img class="img-responsive" src="img/screenshots/ss1.png" alt="SS1"/></div>
-                  <div class="item"><img class="img-responsive" src="img/screenshots/ss2.png" alt="SS2"/></div>
-                  <div class="item"><img class="img-responsive" src="img/screenshots/ss3.png" alt="SS3"/></div>
-                  <div class="item"><img class="img-responsive" src="img/screenshots/ss4.png" alt="SS4"/></div>
-                  <div class="item"><img class="img-responsive" src="img/screenshots/ss5.png" alt="SS5"/></div>
-                  <div class="item"><img class="img-responsive" src="img/screenshots/ss6.png" alt="SS6"/></div>
-                  <div class="item"><img class="img-responsive" src="img/screenshots/ss7.png" alt="SS7"/></div>
-                  <div class="item"><img class="img-responsive" src="img/screenshots/ss8.png" alt="SS8"/></div>
-                  <div class="item"><img class="img-responsive" src="img/screenshots/ss9.png" alt="SS9"/></div>
-                  <div class="item"><img class="img-responsive" src="img/screenshots/ss10.png" alt="SS10"/></div>
-                  <div class="item"><img class="img-responsive" src="img/screenshots/ss11.png" alt="SS11"/></div>
-                  <div class="item"><img class="img-responsive" src="img/screenshots/ss12.png" alt="SS12"/></div>
+                  <div class="item"><img class="img-responsive" src="img/screenshots/ss1.jpg" alt="SS1"/></div>
+                  <div class="item"><img class="img-responsive" src="img/screenshots/ss2.jpg" alt="SS2"/></div>
+                  <div class="item"><img class="img-responsive" src="img/screenshots/ss3.jpg" alt="SS3"/></div>
+                  <div class="item"><img class="img-responsive" src="img/screenshots/ss4.jpg" alt="SS4"/></div>
+                  <div class="item"><img class="img-responsive" src="img/screenshots/ss5.jpg" alt="SS5"/></div>
+                  <div class="item"><img class="img-responsive" src="img/screenshots/ss6.jpg" alt="SS6"/></div>
                </div>
             </div>
          </div>
@@ -311,7 +329,7 @@
                </div>
                <div class="col-md-4">
                   <h4 class="column-title"><span>Information</span></h4>
-                  <p> School book info. </p>
+                  <p> Designed by geniuses at LSU, schoolbook has enabled many everyday student to achieve academic greatness. </p>
                   <div style="margin-bottom: 10px;"></div>
                   <div style="margin-bottom: 30px;"></div>
                   <h4 class="column-title"><span>Working Hours</span></h4>
@@ -347,8 +365,8 @@
                <div class="col-md-3 col-xs-12">
                   <div class="footer-widget contact-widget wow zoomIn animated" data-wow-offset="10" data-wow-delay="0.5s">
                      <ul>
-                        <li><span>Phone Number:</span> +01 234 567 890</li>
-                        <li><span>Email:</span> company@company.com</li>
+                        <li><span>Phone Number:</span> +1 225 650 9393</li>
+                        <li><span>Email:</span> theschoolbook2016@gmail.com</li>
                         <li><span>Website:</span> www.schoolbook.com</li>
                      </ul>
                   </div>

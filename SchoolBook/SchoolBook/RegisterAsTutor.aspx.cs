@@ -28,7 +28,7 @@ namespace SchoolBook
                 string Email = Request.QueryString["Parameter"].ToString();
                 using (MySqlConnection conn = new MySqlConnection(connstr))
                 {
-                    using (MySqlCommand cmd = new MySqlCommand("select CourseName , courses.CourseID from coursetaking inner join courses on coursetaking.CourseID = courses.CourseID where coursetaking.CourseTakingID = (select CourseTakingID from useraccounts where Email = '" + Email + "');"))
+                    using (MySqlCommand cmd = new MySqlCommand("select CourseName , courses.CourseID from coursetaking inner join courses on coursetaking.CourseID = courses.CourseID where courses.CourseID != '0' and coursetaking.CourseTakingID = (select CourseTakingID from useraccounts where Email = '" + Email + "');"))
                     {
                         cmd.CommandType = CommandType.Text;
                         cmd.Connection = conn;

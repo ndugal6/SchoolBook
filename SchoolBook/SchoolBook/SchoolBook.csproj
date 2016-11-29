@@ -101,13 +101,19 @@
   <ItemGroup>
     <Content Include="AddCourse.aspx" />
     <Content Include="Default.aspx" />
+    <Content Include="Find_Join_StudyGroup.aspx" />
+    <Content Include="Gmaps.html" />
     <Content Include="Homepage.aspx" />
     <Content Include="LeaveStudyGrp.aspx" />
+    <Content Include="MyPage.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="PasswordResetPage.aspx" />
+    <Content Include="pdfviewer.aspx" />
     <Content Include="RegisterAsTutor.aspx" />
+    <Content Include="SearchNotes.aspx" />
     <Content Include="Site1.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -120,6 +126,7 @@
     <Content Include="scripts\ai.0.22.19-build00125.js" />
     <Content Include="scripts\ai.0.22.19-build00125.min.js" />
     <Content Include="Updateprofile.aspx" />
+    <Content Include="UploadFiles.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -137,6 +144,13 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Find_Join_StudyGroup.aspx.cs">
+      <DependentUpon>Find_Join_StudyGroup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Find_Join_StudyGroup.aspx.designer.cs">
+      <DependentUpon>Find_Join_StudyGroup.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Homepage.aspx.cs">
       <DependentUpon>Homepage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -151,13 +165,42 @@
     <Compile Include="LeaveStudyGrp.aspx.designer.cs">
       <DependentUpon>LeaveStudyGrp.aspx</DependentUpon>
     </Compile>
+    <Compile Include="MyPage.aspx.cs">
+      <DependentUpon>MyPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyPage.aspx.designer.cs">
+      <DependentUpon>MyPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PasswordResetPage.aspx.cs">
+      <DependentUpon>PasswordResetPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PasswordResetPage.aspx.designer.cs">
+      <DependentUpon>PasswordResetPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pdfviewer.aspx.cs">
+      <DependentUpon>pdfviewer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pdfviewer.aspx.designer.cs">
+      <DependentUpon>pdfviewer.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegexUtilities.cs" />
     <Compile Include="RegisterAsTutor.aspx.cs">
       <DependentUpon>RegisterAsTutor.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="RegisterAsTutor.aspx.designer.cs">
       <DependentUpon>RegisterAsTutor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SearchNotes.aspx.cs">
+      <DependentUpon>SearchNotes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SearchNotes.aspx.designer.cs">
+      <DependentUpon>SearchNotes.aspx</DependentUpon>
     </Compile>
     <Compile Include="Site1.Master.cs">
       <DependentUpon>Site1.Master</DependentUpon>
@@ -172,6 +215,13 @@
     </Compile>
     <Compile Include="Updateprofile.aspx.designer.cs">
       <DependentUpon>Updateprofile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UploadFiles.aspx.cs">
+      <DependentUpon>UploadFiles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UploadFiles.aspx.designer.cs">
+      <DependentUpon>UploadFiles.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

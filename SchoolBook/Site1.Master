@@ -1,0 +1,204 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="SchoolBook.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>
+    <asp:ContentPlaceHolder ID="Title" runat="server">
+    </asp:ContentPlaceHolder>
+    </title>
+    <asp:ContentPlaceHolder ID="Head" runat="server">
+    </asp:ContentPlaceHolder>
+    
+    <style>
+        .responstable {
+            margin: 1em 0;
+            width: 100%;
+            overflow: hidden;
+            background: #FFF;
+            color: #024457;
+            border-radius: 10px;
+            border: 1px solid #167F92;
+        }
+
+            .responstable tr {
+                border: 1px solid #D9E4E6;
+            }
+
+                .responstable tr:nth-child(odd) {
+                    background-color: #EAF3F3;
+                }
+
+            .responstable th {
+                display: none;
+                border: 1px solid #FFF;
+                background-color: #167F92;
+                color: #FFF;
+                padding: 1em;
+            }
+
+                .responstable th:first-child {
+                    display: table-cell;
+                    text-align: center;
+                }
+
+                .responstable th:nth-child(2) {
+                    display: table-cell;
+                }
+
+                    .responstable th:nth-child(2) span {
+                        display: none;
+                    }
+
+                    .responstable th:nth-child(2):after {
+                        content: attr(data-th);
+                    }
+
+        @media (min-width: 480px) {
+            .responstable th:nth-child(2) span {
+                display: block;
+            }
+
+            .responstable th:nth-child(2):after {
+                display: none;
+            }
+        }
+
+        .responstable td {
+            display: block;
+            word-wrap: break-word;
+            max-width: 7em;
+        }
+
+            .responstable td:first-child {
+                display: table-cell;
+                text-align: center;
+                border-right: 1px solid #D9E4E6;
+            }
+
+        @media (min-width: 480px) {
+            .responstable td {
+                border: 1px solid #D9E4E6;
+            }
+        }
+
+        .responstable th, .responstable td {
+            text-align: left;
+            margin: .5em 1em;
+        }
+
+        @media (min-width: 480px) {
+            .responstable th, .responstable td {
+                display: table-cell;
+                padding: 1em;
+            }
+        }
+
+        body {
+            padding: 0 2em;
+            font-family: Arial, sans-serif;
+            color: #024457;
+            background: #f2f2f2;
+        }
+
+        h1 {
+            font-family: Verdana;
+            font-weight: normal;
+            color: #024457;
+        }
+
+        .divfloat{
+            border-radius: 25px;
+            background: #E5E7E9;
+            padding: 20px; 
+            position:fixed;
+            top: 50%;
+            left: 50%;
+            width:30em;
+            height:18em;
+            top:5em; /*set to a negative number 1/2 of your height*/
+            left:20em; 
+        }
+
+            h1 span {
+                color: #167F92;
+            }
+    </style>
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400italic,700italic,400,700"
+        rel="stylesheet" type="text/css" />
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link href="simple-sidebar.css" rel="stylesheet" />
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+
+    <script>
+    $(document).ready(function () {
+        $("#sub-nav-prof").hide();
+        $("#sub-nav-SG").hide();
+        $("#sub-nav-n").hide();
+        $("#profilemenu").click(function () {
+            $("#sub-nav-prof").toggle(1000);
+        });
+        $("#studymenu").click(function () {
+            $("#sub-nav-SG").toggle(1000);
+        });
+        $("#notesmenu").click(function () {
+            $("#sub-nav-n").toggle(1000);
+        });
+    });
+</script>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="wrapper">
+
+            <div id="sidebar-wrapper">
+                <ul class="sidebar-nav">
+                    <div style="text-align: center; background-image: url(Images/bg.jpg); height: 170px;">
+
+                        <br />
+                        <asp:Image runat="server" ImageUrl="img/SB_Login_icon2.jpg"
+                            ID="Logo" Height="150px" Width="190px" />
+                    </div>                  
+                    <li>
+                        <a href="#" id="profilemenu">Profile</a>
+                        <ul id="sub-nav-prof" class="sub-nav">
+                            <li><a href="#" runat="server" onserverclick="RedirectUpdateProfile">Update Profile</a> </li>
+                            <li><a href="#" runat="server" onserverclick="RedirectAddcourse">Add Course</a></li>
+                            <li><a href="#" runat="server" onserverclick="RedirectRegtut">Register as Tutor</a></li>
+                        </ul>
+                            
+                    </li>
+                    <li><a href="#" id ="studymenu">Study Group</a>
+                        <ul class="sub-nav" id="sub-nav-SG">
+                            <li><a href="#" runat="server" onserverclick="RedirectSearchStdyGrp">Search For Study Group</a> </li>
+                            <li><a href="#" runat="server" onserverclick="RedirectCreateStdyGrp">Create Study Group</a> </li>
+                            <li><a href="#" runat="server" onserverclick="RedirectLeaveStudyGrp">Leave Study Group</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" id ="notesmenu">Notes</a>
+                        <ul class="sub-nav" id="sub-nav-n">
+                            <li><a href="#" runat="server" onserverclick="RedirectSearchNotes">Search For Notes</a> </li>
+                            <li><a href="#" runat="server" onserverclick="RedirectUploadNotes">Upload Notes</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" runat="server" onserverclick="RedirectLogout">Logout</a>
+                    </li>
+                </ul>
+                <hr width ="1" size="580" align="right"/>
+            </div>
+            <div id="page-content-wrapper">
+                <asp:ContentPlaceHolder ID="Body" runat="server">
+        
+        </asp:ContentPlaceHolder>
+            </div>
+            </div>
+    </form>
+</body>
+</html>
