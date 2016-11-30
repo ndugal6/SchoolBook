@@ -52,7 +52,7 @@ SchoolBook was envisioned as a peer to peer student service, since most student 
 ##2. Configuration Management Plan
 **2.1 GitHub**
 
-GitHub was used to store our project so all team members could easily reach and update the project
+GitHub was used to store our project so all team members could easily reach and update the project. 
 
 ##3. Process Model
 **3.1 Phased Development**
