@@ -47,17 +47,17 @@ Clayton R Samson, Justin A Bougere, Nicholas A Dugal, Sean M Marino, Soh Guo Hao
 ##1. Vision
 **1.1 Vision**
 
-	content here
+SchoolBook was envisioned as a peer to peer student service, since most student service apps are teacher to peer. Students could use SchoolBook to get helpfull resources for their classes, as well as help from fellow students or a tutor.
 
 ##2. Configuration Management Plan
 **2.1 GitHub**
 
-	content here
+GitHub was used to store our project so all team members could easily reach and update the project
 
 ##3. Process Model
 **3.1 Phased Development**
 
-	content here
+Phased development was used so that subsystems could be divided amongst all team members. We chose to develop iteratively to allow us to test the app as a whole earlier than if we had developed incrementally.
 
 ##4. Deliverables
 **4.1 Executables**
@@ -71,6 +71,7 @@ Clayton R Samson, Justin A Bougere, Nicholas A Dugal, Sean M Marino, Soh Guo Hao
 **4.3 Manuals**
 
 	content here
+
 
 ##5. Potential Risks
 **5.1 Human Risk**
@@ -97,7 +98,9 @@ Clayton R Samson, Justin A Bougere, Nicholas A Dugal, Sean M Marino, Soh Guo Hao
 
 **6.2 Team Members and Roles**
 
-	content here
+| Team Member	| Roles			| Reasons for Meeting Absense	| 
+| ------------- | --------------------- | ----------------------------- |
+| Zachary Robicheaux	| Documentation & Testing		| There were work/meeting conflicts for all 2 PM meetings.	| 
 
 ##7. Project Schedule
 
