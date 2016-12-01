@@ -103,7 +103,7 @@ We chose to have a egoless group structure for the Schoolbook project. We chose 
 | Team Member	| Roles			| Reasons for Meeting Absense	| 
 | ------------- | --------------------- | ----------------------------- |
 | Zachary Robicheaux	| Documentation & Testing		| There were work/meeting conflicts for all 2 PM meetings.	|
-| Sean Marino		| Documentation & Testing		| Work conflicts						|
+| Sean Marino		| Documentation & Testing		| *Attended all meetings*					|
 
 ##7. Project Schedule
 
