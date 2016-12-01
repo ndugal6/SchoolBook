@@ -76,19 +76,21 @@ Phased development was used so that subsystems could be divided amongst all team
 ##5. Potential Risks
 **5.1 Human Risk**
 
-	content here
+A team member dropping the course late in the semester could pose a risk due to the lack of contribution to the project.
 
 **5.2 Time Risk**
 
-	content here
+Time risk consist of the team members not submitting their portions of the project by the due date/time.
 
 **5.3 Resource Risk**
 
-	content here
+Resource risk was a factor due to the fact that some team members did not have a PC to access the code and database.
+The risk was resolved by remoting into a server setup by Clayton.
 
 **5.4 Liability Issues**
 
-	content here
+The team was libale for ensuring that tutors met up in a safe place (on campus study spots) rather than an
+unfamiliar area.
 
 ##6. Team Organization
 
@@ -100,7 +102,8 @@ We chose to have a leaderless group structure for the Schoolbook project. We cho
 
 | Team Member	| Roles			| Reasons for Meeting Absense	| 
 | ------------- | --------------------- | ----------------------------- |
-| Zachary Robicheaux	| Documentation & Testing		| There were work/meeting conflicts for all 2 PM meetings.	| 
+| Zachary Robicheaux	| Documentation & Testing		| There were work/meeting conflicts for all 2 PM meetings.	|
+| Sean Marino		| Documentation & Testing		| Work conflicts						|
 
 ##7. Project Schedule
 
