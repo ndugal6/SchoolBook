@@ -96,7 +96,7 @@ unfamiliar area.
 
 **6.1 Team Style**
 
-We chose to have a leaderless group structure for the Schoolbook project. We chose this style because it would foster more ideas for the project.
+We chose to have a egoless group structure for the Schoolbook project. We chose this style because it would foster more ideas for the project.
 
 **6.2 Team Members and Roles**
 
