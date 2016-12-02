@@ -108,6 +108,7 @@ We chose to have a egoless group structure for the Schoolbook project. We chose 
 | Steffano Soh		| 1.Database Design & Implementation <br/> 2.Front End UI design & implementation<br/>3.Implementation of functionalities: Leave Study Group , Add Course , Upload / View Notes, Register as tutor. | *Attended all meetings* |
 | Clayton Samson	| 1. Terminal Server setup and maintenance <br/> 2. Documentation and Testing | *Attended all meetings*|
 |Nicholas Dugal		| 1. Back End design & implementation<br/> 2.Front End function creation, implementation, and testing <br/> 3. Created, Implemented, and Tested the following pages and any functions contained inside them: Login, Registration, Home Page, Create study group, Search for study group, Join study group, RegexUtilities, Logout, Forgot/Reset Password |*Missed a meeting. Can't remember why*|
+| Justin Bougere	| Documentation & Testing 		| *Attended all meetings*
 
 ##7. Project Schedule
 
