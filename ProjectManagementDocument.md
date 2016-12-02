@@ -64,8 +64,7 @@ Phased development was used so that subsystems could be divided amongst all team
 
 ##4. Deliverables
 **4.1 Executables**
-
-	content here
+Our web application is developed in asp.net 4.0. As of now, the appllication does not have a dedicated server or established domain name, however, the awspx files are in the schoolbook directory folder on GitHub. It requires Microsoft Visual Studios 2015 to execuste the web application. Double click the sln file within the school book folder and click on "run app" in the visual studio interface to run the web application. 
 
 **4.2 Documentation**
 
