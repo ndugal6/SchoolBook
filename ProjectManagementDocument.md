@@ -127,17 +127,17 @@ We chose to have a egoless group structure for the Schoolbook project. We chose 
 
 **7.3 Rough Estimates**
 
-	| Task	| Expected Duration	|
-	|-------|-------------------|
-	| Decide what platform to develop, and determine structure of applicaton	| 1 week	|
-	| Design and setup database	| 2 weeks	|
-	| Ensure all members have access to proper development platcorm	| 1.5 weeks	|
-	| Develop registration, login and password reset functions	| 1.5 weeks	|
-	| Develop Update profile, add course, and register as tutor functions	| 2 weeks	|
-	| Develop Create and Search for study group functions	| 1 week	|
-	| Develop join and leave study group functions	| 1 week	|
-	| Develop upload and search for notes functions | 2 weeks	|
-	| Complete testing of application	| 2 weeks	|
+| Task	| Expected Duration	|
+|-------|-------------------|
+| Decide what platform to develop, and determine structure of applicaton	| 1 week	|
+| Design and setup database	| 2 weeks	|
+| Ensure all members have access to proper development platcorm	| 1.5 weeks	|
+| Develop registration, login and password reset functions	| 1.5 weeks	|
+| Develop Update profile, add course, and register as tutor functions	| 2 weeks	|
+| Develop Create and Search for study group functions	| 1 week	|
+| Develop join and leave study group functions	| 1 week	|
+| Develop upload and search for notes functions | 2 weeks	|
+| Complete testing of application	| 2 weeks	|
 
 
 **7.4 Weekly Schedule**
