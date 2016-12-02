@@ -47,7 +47,8 @@
 ##1. Vision
 **1.1 Vision**
 
-SchoolBook was envisioned as a peer to peer student service, since most student service apps are teacher to peer. Students could use SchoolBook to get helpfull resources for their classes, as well as help from fellow students or a tutor.
+In a world with ever growing connectivity, why do we fail to connect with those who are not only the closest to us, but also share pursuits and interest with us? This problem is highlighted every year when a challenging test or exam is upon us. You realize you have 20+ other people in the same class, but yet you have no medium to connect. There seems to be a void when trying to attempt a task that's of upmost importance - sharing knowledge and providing intellectual growth with classmates. Moodle provides a method for professors to pass their information to students, if they choose, but aside from this sparingly used  one-to-many medium the transfer of information amongst a class is exceedingly difficult. This semester I've received numerous emails from students in the same class as me saying they don't have any partners for a group. This exclaims the desire and need for a system that eases the ability to connect students. 
+	The goal of SchoolBook was to create and provide this system. To create an environment where students can: provide and receive an information they need regarding the classes they're currently taking, express struggles and have discussions on the solutions, easily connect and find students when studying or planning to study, expand their network, find tutors for available classes, reward academic success by allowing students to earn money as tutors.
 
 ##2. Configuration Management Plan
 **2.1 GitHub**
