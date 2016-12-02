@@ -53,12 +53,14 @@
 ##2. Configuration Management Plan
 **2.1 GitHub**
 
-GitHub was used to store our project so all team members could easily reach and update the project. Once a team member pushed an update to GitHub, they would let everyone know in GroupMe.
+GitHub was used to store our project so all team members could easily reach and update the project. Once a team member pushed an update to GitHub, they would let everyone know in GroupMe. Almost all programming was done side by side towards the end, so we resorted to transfering individuals files via usb. This was done to make sure the changed files would work with the other developer's database before being commmited to our master branch.
 
 ##3. Process Model
 **3.1 Phased Development**
 
-Phased development was used so that subsystems could be divided amongst all team members. We chose to develop iteratively to allow us to test the app as a whole earlier than if we had developed incrementally. This meant that once a subsystem was functional, we could test that subsystem together with the entire app.
+Phased development was used so that subsystems could be divided amongst all team members. We chose to develop incrementally since all our features and designs build upon themselves. For example, our development cycles consisted of initially getting the data base created and online, then creating a simple webpage that properly communicated with the database, then optimizing the database to reduce webpage code, and then adding fonts and styles to the webpage. Each following development cycle followed the procedure of creating the desired serverside webpage with the correct elements needed for it's functionality, adding the functionality to the webpage's front end, testing the functionality, connecting the page to the entire project, testing the project's functionality, and then lastly adding font and formatting to the page. 
+
+
 
 ##4. Deliverables
 **4.1 Executables**
