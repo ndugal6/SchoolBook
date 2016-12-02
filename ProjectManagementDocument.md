@@ -104,7 +104,7 @@ We chose to have a egoless group structure for the Schoolbook project. We chose 
 | ------------- | --------------------- | ----------------------------- |
 | Zachary Robicheaux	| Documentation & Testing		| There were work/meeting conflicts for all 2 PM meetings.	|
 | Sean Marino		| Documentation & Testing		| *Attended all meetings*					|
-| Steffano Soh		| 1.Database Design & Implementation <br/> 2.Front End UI design & implementation<br/>3.Implementation of Registration , Login , Forget Password, Leave Study Group , Add Course , Upload / View Notes, Register as tutor functionality. | *Attended all meetings* |
+| Steffano Soh		| 1.Database Design & Implementation <br/> 2.Front End UI design & implementation<br/>3.Implementation of functionalities: Registration , Login , Forget Password, Leave Study Group , Add Course , Upload / View Notes, Register as tutor. | *Attended all meetings* |
 
 ##7. Project Schedule
 
