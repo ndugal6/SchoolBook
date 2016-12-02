@@ -2,7 +2,7 @@
 
 **Prepared by:** 
 
-Clayton R Samson, Justin A Bougere, Nicholas A Dugal, Sean M Marino, Soh Guo Hao Steffano, Zachary J Robicheaux
+	Clayton R Samson, Justin A Bougere, Nicholas A Dugal, Sean M Marino, Soh Guo Hao Steffano, Zachary J Robicheaux
 
 | Index         |
 | --- |
@@ -47,17 +47,17 @@ Clayton R Samson, Justin A Bougere, Nicholas A Dugal, Sean M Marino, Soh Guo Hao
 ##1. Vision
 **1.1 Vision**
 
-SchoolBook was envisioned as a peer to peer student service, since most student service apps are teacher to peer. Students could use SchoolBook to get helpfull resources for their classes, as well as help from fellow students or a tutor.
+	SchoolBook was envisioned as a peer to peer student service, since most student service apps are teacher to peer. Students could use SchoolBook to get helpfull resources for their classes, as well as help from fellow students or a tutor.
 
 ##2. Configuration Management Plan
 **2.1 GitHub**
 
-GitHub was used to store our project so all team members could easily reach and update the project. 
+	GitHub was used to store our project so all team members could easily reach and update the project. 
 
 ##3. Process Model
 **3.1 Phased Development**
 
-Phased development was used so that subsystems could be divided amongst all team members. We chose to develop iteratively to allow us to test the app as a whole earlier than if we had developed incrementally.
+	Phased development was used so that subsystems could be divided amongst all team members. We chose to develop iteratively to allow us to test the app as a whole earlier than if we had developed incrementally.
 
 ##4. Deliverables
 **4.1 Executables**
@@ -76,27 +76,27 @@ Phased development was used so that subsystems could be divided amongst all team
 ##5. Potential Risks
 **5.1 Human Risk**
 
-A team member dropping the course late in the semester could pose a risk due to the lack of contribution to the project.
+	A team member dropping the course late in the semester could pose a risk due to the lack of contribution to the project.
 
 **5.2 Time Risk**
 
-Time risk consist of the team members not submitting their portions of the project by the due date/time.
+	Time risk consist of the team members not submitting their portions of the project by the due date/time.
 
 **5.3 Resource Risk**
 
-Resource risk was a factor due to the fact that some team members did not have a PC to access the code and database.
-The risk was resolved by remoting into a server setup by Clayton.
+	Resource risk was a factor due to the fact that some team members did not have a PC to access the code and database.
+	The risk was resolved by remoting into a server setup by Clayton.
 
 **5.4 Liability Issues**
 
-The team was libale for ensuring that tutors met up in a safe place (on campus study spots) rather than an
-unfamiliar area.
+	The team was libale for ensuring that tutors met up in a safe place (on campus study spots) rather than an
+	unfamiliar area.
 
 ##6. Team Organization
 
 **6.1 Team Style**
 
-We chose to have a egoless group structure for the Schoolbook project. We chose this style because it would foster more ideas for the project.
+	We chose to have a egoless group structure for the Schoolbook project. We chose this style because it would foster more ideas for the project.
 
 **6.2 Team Members and Roles**
 
