@@ -64,11 +64,68 @@ Phased development was used so that subsystems could be divided amongst all team
 
 ##4. Deliverables
 **4.1 Executables**
+
 Our web application is developed in asp.net 4.0. As of now, the appllication does not have a dedicated server or established domain name, however, the awspx files are in the schoolbook directory folder on GitHub. It requires Microsoft Visual Studios 2015 to execuste the web application. Double click the sln file within the school book folder and click on "run app" in the visual studio interface to run the web application. 
 
-**4.2 Documentation**
+**4.2. Documentation**
 
-	content here
+4.2.1 Registration
+
+The registration page will require users to enter their email (username) as well as create a password in order to start using the application. The page will require the user to enter their password a second time for verification.
+
+4.2.2 Login
+
+This page allows the user to enter their username and password and click the 'Login' button to enter the home page of their account.
+
+4.2.3 Password Reset
+
+If a user wants to reset their password, they must first login, and then will be allowed to reset their password to a new password of their choice. A password reset notification will appear when the password is reset.
+
+Profile
+
+4.2.4 Update Profile
+
+The update profile page will allow users to change what is displayed on their page. This includes name, profile picture, summary, classification, classes, GPA, etc.
+
+4.2.5 Add Course
+
+Adding a course will require the user to find the department name, course abbreviation, and course number. Clicking Add Course will display the course page on the user's main profile page and add the user to that specific course. When a user adds a course, he will then be able to view notes, documents, classmates for that course.
+
+4.2.6 Register as Tutor
+
+A user has the option to register their account as a tutor. Tutors are chosen based on the grade in which they received in the course. Registering as a tutor in a course will require the 'Tutor' to find the department name, course abbreviation, course number, and professor. The 'Tutor' must also prove a grade of B- or above. Once a Tutor is registered and approved they will become available on the course page.
+
+Study Groups
+
+SchoolBook will allow users to setup and organize study groups for the courses they are enrolled in, the system will also allow users to request tutors for the study groups they setup.
+
+4.2.7 Create Study Group
+
+The create study group feature will allow users to setup a study group by specifying the proposed date and time, location, course, and if they request a tutor. Once they have successfully entered the study group information they are added to the study group and returned to the main page. The create study group page can be accessed from the home page menu.
+
+4.2.8 Find Study Group
+
+The find study group feature will allow uses to search for study groups based on the course department and ID. The system will present the user with a list of the upcoming scheduled study groups for that course. The find study group feature can be accessed from the home page menu.
+
+4.2.9 Join Study Group
+
+The join study group feature will allow users to join study groups from the find study group search results screen. Once a user has selected a study group from the find study group results page they will find the join study group button below the study group’s details. Once the user chooses to join the study group they are presented with a success / failure message and returns the user to the study group’s details page.
+
+4.2.10 Leave Study Group
+
+The leave study group feature will allow users to leave study groups that they have previously joined. The leave study group page will present the user with a list of study groups they have previously joined. The user will select the study group they wish to leave from the list. The system will display a confirmation prompt for the user, if the user confirms they are removed from the study group and returned to the home page. If the user denies the action the system returns the user back to the list of study groups they can leave without removing the user from the study group. The leave study group function can be found from the home page menu.
+
+Notes
+
+The note sharing features allows users to upload documents, class notes, and study tools for a specified course. Other users will be able to access these notes by accessing the course page for which the notes were originally uploaded to.
+
+4.2.11 Upload Notes
+
+The upload notes feature allows users to upload documents, class notes, and study tools for a specified course. To upload notes a user must navigate to their profile page from the home page menu. From there the user chooses the upload notes button, indicated by a large + icon. The user will specify the course department and ID as well as the year and semester which the notes are to be used for. The user will be able to browse their device for acceptable PDF documents to upload to SchoolBook. The system will display a success / failure message once the use has input all the required information.
+
+4.2.12 Search For Notes
+
+The search for notes feature will allow students to search and filter throughout the database for notes regarding specific courses. The top bar of the main page will provide users with a search bar. The user will be able to type in the search bar to specify the course department and ID for the course. The system will display a table of information for the notes that have been uploaded for that course including the file name and the note’s semester and year. The file names will by hyperlinks to the PDF documentst here
 
 **4.3 Manuals**
 
@@ -78,11 +135,11 @@ Our web application is developed in asp.net 4.0. As of now, the appllication doe
 ##5. Potential Risks
 **5.1 Human Risk**
 
-A team member dropping the course late in the semester could pose a risk due to the lack of contribution to the project.
+A team member dropping the course late in the semester could pose a risk due to the lack of contribution to the project. A Team member stating they would implement a certain portion of the code and not doing so. Falling behind on certain milestone pre determined at the beginning of the semester. Not properly committing to GitHub or potentially deleting someone else's commmit. 
 
 **5.2 Time Risk**
 
-Time risk consist of the team members not submitting their portions of the project by the due date/time.
+Time risk consist of the team members not submitting their portions of the project by the due date/time. The group as a whole not establishing a specific time and date for a meeting. 
 
 **5.3 Resource Risk**
 
