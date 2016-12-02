@@ -115,11 +115,30 @@ We chose to have a egoless group structure for the Schoolbook project. We chose 
 
 **7.2 Milestones**
 
-	content here
+	1. Decide what platform to develop and determine structure of application.
+	2. Design and setup database.
+	3. Ensure all members have access to proper development platcorm.
+	4. Develop registration, login and password reset functions.
+	5. Develop Update profile, add course, and register as tutor functions.
+	6. Develop Create and Search for study group functions.
+	7. Develop join and leave study group functions.
+	8. Develop upload and search for notes functions.
+	9. Complete testing of application.
 
 **7.3 Rough Estimates**
 
-	content here
+	| Task	| Expected Duration	|
+	|-------|-------------------|
+	| Decide what platform to develop, and determine structure of applicaton	| 1 week	|
+	| Design and setup database	| 2 weeks	|
+	| Ensure all members have access to proper development platcorm	| 1.5 weeks	|
+	| Develop registration, login and password reset functions	| 1.5 weeks	|
+	| Develop Update profile, add course, and register as tutor functions	| 2 weeks	|
+	| Develop Create and Search for study group functions	| 1 week	|
+	| Develop join and leave study group functions	| 1 week	|
+	| Develop upload and search for notes functions | 2 weeks	|
+	| Complete testing of application	| 2 weeks	|
+
 
 **7.4 Weekly Schedule**
 
