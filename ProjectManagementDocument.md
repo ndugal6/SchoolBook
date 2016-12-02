@@ -52,12 +52,12 @@ SchoolBook was envisioned as a peer to peer student service, since most student 
 ##2. Configuration Management Plan
 **2.1 GitHub**
 
-GitHub was used to store our project so all team members could easily reach and update the project. 
+GitHub was used to store our project so all team members could easily reach and update the project. Once a team member pushed an update to GitHub, they would let everyone know in GroupMe.
 
 ##3. Process Model
 **3.1 Phased Development**
 
-Phased development was used so that subsystems could be divided amongst all team members. We chose to develop iteratively to allow us to test the app as a whole earlier than if we had developed incrementally.
+Phased development was used so that subsystems could be divided amongst all team members. We chose to develop iteratively to allow us to test the app as a whole earlier than if we had developed incrementally. This meant that once a subsystem was functional, we could test that subsystem together with the entire app.
 
 ##4. Deliverables
 **4.1 Executables**
