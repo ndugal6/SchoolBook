@@ -52,7 +52,7 @@ SchoolBook was envisioned as a peer to peer student service, since most student 
 ##2. Configuration Management Plan
 **2.1 GitHub**
 
-	GitHub was used to store our project so all team members could easily reach and update the project. 
+GitHub was used to store our project so all team members could easily reach and update the project. 
 
 ##3. Process Model
 **3.1 Phased Development**
@@ -125,17 +125,17 @@ We chose to have a egoless group structure for the Schoolbook project. We chose 
 
 **7.3 Rough Estimates**
 
-| Task	| Expected Duration	|
-|-------|-------------------|
-| Decide what platform to develop, and determine structure of applicaton	| 1 week	|
-| Design and setup database	| 2 weeks	|
-| Ensure all members have access to proper development platcorm	| 1.5 weeks	|
-| Develop registration, login and password reset functions	| 1.5 weeks	|
-| Develop Update profile, add course, and register as tutor functions	| 2 weeks	|
-| Develop Create and Search for study group functions	| 1 week	|
-| Develop join and leave study group functions	| 1 week	|
-| Develop upload and search for notes functions | 2 weeks	|
-| Complete testing of application	| 2 weeks	|
+| Activity Label	| Task	| Expected Duration	|
+|-------------------|-------|-------------------|
+| A	| Decide what platform to develop, and determine structure of applicaton	| 1 week	|
+| B	| Design and setup database	| 2 weeks	|
+| C	| Ensure all members have access to proper development platcorm	| 1.5 weeks	|
+| D	| Develop registration, login and password reset functions	| 1.5 weeks	|
+| E	| Develop Update profile, add course, and register as tutor functions	| 2 weeks	|
+| F	| Develop Create and Search for study group functions	| 1 week	|
+| G	| Develop join and leave study group functions	| 1 week	|
+| H	| Develop upload and search for notes functions | 2 weeks	|
+| I	| Complete testing of application	| 2 weeks	|
 
 
 **7.4 Weekly Schedule**
