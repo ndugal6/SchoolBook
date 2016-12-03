@@ -130,6 +130,11 @@ The search for notes feature will allow students to search and filter throughout
 **4.3 Manuals**
 
 ![Manual Index](https://i.imgsafe.org/21cf05ad41.png)
+![Registration=>Login](https://i.imgsafe.org/21de64b6ee.png)
+![Password Reset=>Update Profile](https://i.imgsafe.org/21ed773fd3.png)
+![Add Course=>Register As Tutor](https://i.imgsafe.org/21ef73feb3.png)
+![Create Study Group=>Find Study Group=>Join Study Group=>Leave Study Group=>](https://i.imgsafe.org/21f131a7fe.png)
+![Upload Notes=>Search For Notes](https://i.imgsafe.org/21f290242a.png)
 
 ##5. Potential Risks
 **5.1 Human Risk**
@@ -185,18 +190,17 @@ We chose to have a egoless group structure for the Schoolbook project. We chose 
 
 **7.3 Rough Estimates**
 
-| Task Description	| Activity Label	| Tasks Precedence	| Expected Duration	(Weeks)	|
-|-------------------|-------------------|-------------------|---------------------------|
-| Decide what platform to develop, and determine structure of applicaton	| A	| None	| 1 |
-| Design and setup database	| B	| A	| 1	|
-| Ensure all members have access to proper development platcorm	| C	| A	|1.5 |
-| Develop registration, login and password reset functions	| D	| C, B	|  1.5 |
-| Develop Update profile, add course, and register as tutor functions	| E	| C, B	| 2 |
-| Develop Create and Search for study group functions	| F	| C, B	| 1 |
-| Develop join and leave study group functions	| G	| B, C, D	| 1 |
-| Develop upload and search for notes functions	| H | B, C	| 2 |
-| Integrate Study gruop and Notes functions	| I	| F, G, H	| 1 |
-| Complete testing of application	| J	| I	| 2 |
+| Activity Label	| Task	| Expected Duration	|
+|-------------------|-------|-------------------|
+| A	| Decide what platform to develop, and determine structure of applicaton	| 1 week	|
+| B	| Design and setup database	| 2 weeks	|
+| C	| Ensure all members have access to proper development platcorm	| 1.5 weeks	|
+| D	| Develop registration, login and password reset functions	| 1.5 weeks	|
+| E	| Develop Update profile, add course, and register as tutor functions	| 2 weeks	|
+| F	| Develop Create and Search for study group functions	| 1 week	|
+| G	| Develop join and leave study group functions	| 1 week	|
+| H	| Develop upload and search for notes functions | 2 weeks	|
+| I	| Complete testing of application	| 2 weeks	|
 
 
 **7.4 Weekly Schedule**
