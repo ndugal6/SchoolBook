@@ -219,6 +219,7 @@ We chose to have a egoless group structure for the Schoolbook project. We chose 
 	content here
 
 **7.5 Estimation Method**
+
 | Algorithmic Methods	| Effort(Persons-Months)	|
 |---------------------|------------------------|
 | Walston & Felix	| 13.3990	|
