@@ -220,9 +220,6 @@ We met once or twice a week throughout the semester. We agreed tentatively to me
 
 | Task Description	| Activity Label	| Tasks Precedence	| Expected Duration	(Weeks)	|
 
-
-
-
 **7.5 Estimation Method**
 
 | Algorithmic Methods	| Effort(Persons-Months)	|
