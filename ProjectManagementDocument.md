@@ -53,19 +53,19 @@
 ##2. Configuration Management Plan
 **2.1 GitHub**
 
-GitHub was used to store our project so all team members could easily reach and update the project. Once a team member pushed an update to GitHub, they would let everyone know in GroupMe. Almost all programming was done side by side towards the end, so we resorted to transfering individuals files via usb. This was done to make sure the changed files would work with the other developer's database before being commmited to our master branch.
+GitHub was used to store our project so all team members could easily reach and update the project. Once a team member pushed an update to GitHub, they would let everyone know in GroupMe. Almost all programming was done side by side towards the end, so we resorted to transferring individuals files via usb. This was done to make sure the changed files would work with the other developer's database before being commited to our master branch.
 
 ##3. Process Model
 **3.1 Phased Development**
 
-Phased development was used so that subsystems could be divided amongst all team members. We chose to develop incrementally since all our features and designs build upon themselves. For example, our development cycles consisted of initially getting the data base created and online, then creating a simple webpage that properly communicated with the database, then optimizing the database to reduce webpage code, and then adding fonts and styles to the webpage. Each following development cycle followed the procedure of creating the desired serverside webpage with the correct elements needed for it's functionality, adding the functionality to the webpage's front end, testing the functionality, connecting the page to the entire project, testing the project's functionality, and then lastly adding font and formatting to the page. 
+Phased development was used so that subsystems could be divided amongst all team members. We chose to develop incrementally since all our features and designs build upon themselves. For example, our development cycles consisted of initially getting the data base created and online, then creating a simple webpage that properly communicated with the database, then optimizing the database to reduce webpage code, and then adding fonts and styles to the webpage. Each following development cycle followed the procedure of creating the desired server side webpage with the correct elements needed for it's functionality, adding the functionality to the webpage's front end, testing the functionality, connecting the page to the entire project, testing the project's functionality, and then lastly adding font and formatting to the page. 
 
 
 
 ##4. Deliverables
 **4.1 Executables**
 
-Our web application is developed in asp.net 4.0. As of now, the appllication does not have a dedicated server or established domain name, however, the awspx files are in the schoolbook directory folder on GitHub. It requires Microsoft Visual Studios 2015 to execuste the web application. Double click the sln file within the school book folder and click on "run app" in the visual studio interface to run the web application. 
+Our web application is developed in asp.net 4.0. As of now, the application does not have a dedicated server or established domain name, however, the awspx files are in the schoolbook directory folder on GitHub. It requires Microsoft Visual Studios 2015 to execute the web application. Double click the sln file within the school book folder and click on "run app" in the visual studio interface to run the web application. 
 
 **4.2. Documentation**
 
@@ -125,7 +125,7 @@ The upload notes feature allows users to upload documents, class notes, and stud
 
 4.2.12 Search For Notes
 
-The search for notes feature will allow students to search and filter throughout the database for notes regarding specific courses. The top bar of the main page will provide users with a search bar. The user will be able to type in the search bar to specify the course department and ID for the course. The system will display a table of information for the notes that have been uploaded for that course including the file name and the note’s semester and year. The file names will by hyperlinks to the PDF documentst here
+The search for notes feature will allow students to search and filter throughout the database for notes regarding specific courses. The top bar of the main page will provide users with a search bar. The user will be able to type in the search bar to specify the course department and ID for the course. The system will display a table of information for the notes that have been uploaded for that course including the file name and the note’s semester and year. The file names will by hyperlinks to the PDF document is here
 
 **4.3 Manuals**
 
@@ -144,7 +144,7 @@ The search for notes feature will allow students to search and filter throughout
 ##5. Potential Risks
 **5.1 Human Risk**
 
-A team member dropping the course late in the semester could pose a risk due to the lack of contribution to the project. A Team member stating they would implement a certain portion of the code and not doing so. Falling behind on certain milestone pre determined at the beginning of the semester. Not properly committing to GitHub or potentially deleting someone else's commmit. 
+A team member dropping the course late in the semester could pose a risk due to the lack of contribution to the project. A Team member stating they would implement a certain portion of the code and not doing so. Falling behind on certain milestone pre determined at the beginning of the semester. Not properly committing to GitHub or potentially deleting someone else's commit. 
 
 **5.2 Time Risk**
 
@@ -156,7 +156,7 @@ Resource risk was a factor due to the fact that some team members did not have a
 
 **5.4 Liability Issues**
 
-The team was libale for ensuring that tutors met up in a safe place (on campus study spots) rather than an unfamiliar area.
+The team was liable for ensuring that tutors met up in a safe place (on campus study spots) and not an unfamiliar area.
 
 ##6. Team Organization
 
