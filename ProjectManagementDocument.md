@@ -219,6 +219,7 @@ We chose to have a egoless group structure for the Schoolbook project. We chose 
 We met once or twice a week throughout the semester. We agreed tentatively to meet on Wednesday's at 2pm but also met a few times on Synday's at noon. 
 
 | Task Description	| Activity Label	| Tasks Precedence	| Expected Duration	(Weeks)	|
+|----------------------|------------------------|-----------------------|------------------------------|
 
 **7.5 Estimation Method**
 
