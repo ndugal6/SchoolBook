@@ -218,7 +218,7 @@ We chose to have a egoless group structure for the Schoolbook project. We chose 
 
 We met once or twice a week throughout the semester. We agreed tentatively to meet on Wednesday's at 2pm but also met a few times on Synday's at noon. 
 
-| Task Description      |Week 1|Week2|Week 3|Week 4|Week 5|Week 6|Week 7|Week 8|Week 9|Week 10|Week 11|Week 12|Week 13|
+| Task Description      |Week 1|Week 2|Week 3|Week 4|Week 5|Week 6|Week 7|Week 8|Week 9|Week 10|Week 11|Week 12|Week 13|
 |---------------------|-------|-----|------|------|------|------|------|------|------|-------|-------|-------|-------|
 | App Structure/Ideas | **X** |      |      |      |      |      |      |      |      |       |       |       |       | 
 |Design               |       | **X**| **X**| **X**|      |      |      |      |      |       |       |       |       |
