@@ -188,10 +188,10 @@ We chose to have a egoless group structure for the Schoolbook project. We chose 
 | Task Description	| Activity Label	| Tasks Precedence	| Expected Duration	(Weeks)	|
 |-------------------|-------------------|-------------------|---------------------------|
 | Decide what platform to develop, and determine structure of applicaton	| A	| None	| 1 |
-| Design and setup database	| B	| | A	| 2 weeks	|
+| Design and setup database	| B	| A	| 1	|
 | Ensure all members have access to proper development platcorm	| C	| A	|1.5 |
-| Develop registration, login and password reset functions	| D	| | C, B	| 1.5 |
-| Develop Update profile, add course, and register as tutor functions	| E	| | C, B	| 2 |
+| Develop registration, login and password reset functions	| D	| C, B	|  1.5 |
+| Develop Update profile, add course, and register as tutor functions	| E	| C, B	| 2 |
 | Develop Create and Search for study group functions	| F	| C, B	| 1 |
 | Develop join and leave study group functions	| G	| B, C, D	| 1 |
 | Develop upload and search for notes functions	| H | B, C	| 2 |
