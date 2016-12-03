@@ -190,10 +190,10 @@ We chose to have a egoless group structure for the Schoolbook project. We chose 
 5. Define all functional and non functional requirments in the Software System Design (SSD) document, completed 9/2/2016.
 6. Develop registration, login and password reset functions, completed 9/7/2016.
 7. Define test cases for full path coverage in the Software Testing Document, completed 9/21/2016. 
-8. Develop Update profile, add course, and register as tutor functions, completed ...
-9. Develop Create and Search for study group functions, completed ...
-10. Develop join and leave study group functions, completed ...
-11. Develop upload and search for notes functions, completed ...
+8. Develop Update profile, add course, and register as tutor functions, completed 10/20/2016.
+9. Develop Create and Search for study group functions, completed 10/20/2016.
+10. Develop join and leave study group functions, completed 10/20/2016.
+11. Develop upload and search for notes functions, completed 10/20/2016.
 12. Integrate profile, study group, and notes functions into the system, completed 11/28/2016.
 13. Application presentation and demo for class and industry, completed 11/28/2016.
 
@@ -203,14 +203,14 @@ We chose to have a egoless group structure for the Schoolbook project. We chose 
 | Task Description	| Activity Label	| Tasks Precedence	| Expected Duration	(Weeks)	|
 |-------------------|-------------------|-------------------|---------------------------|
 | Decide what platform to develop, and determine structure of applicaton	| A	| None	| 1 |
-| Design and setup database	| B	| A	| 1	|
-| Ensure all members have access to proper development platcorm	| C	| A	|1.5 |
+| Design and setup database	| B	| A	| 2	|
+| Ensure all members have access to proper development platform	| C	| A	| 2 |
 | Develop registration, login and password reset functions	| D	| C, B	|  2 |
 | Develop Update profile, add course, and register as tutor functions	| E	| C, B	| 2 |
 | Develop Create and Search for study group functions	| F	| C, B	| 2 |
-| Develop join and leave study group functions	| G	| B, C, D	| 1 |
+| Develop join and leave study group functions	| G	| B, C, D	| 1.5 |
 | Develop upload and search for notes functions	| H | B, C	| 2 |
-| Integrate Study gruop and Notes functions	| I	| F, G, H	| 1 |
+| Integrate Study gruop and Notes functions	| I	| F, G, H	| 1.8 |
 | Complete testing of application	| J	| I	| 2 |
 
 
