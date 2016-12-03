@@ -169,7 +169,7 @@ We chose to have a egoless group structure for the Schoolbook project. We chose 
 
 **7.1 Gantt Chart**
 
-	content here
+![Gantt chart of project schedule](https://raw.githubusercontent.com/ndugal6/SchoolBook/master/ProjectAdmin/Schedule/SchoolBookSchedule.png)
 
 **7.2 Milestones**
 
