@@ -129,8 +129,7 @@ The search for notes feature will allow students to search and filter throughout
 
 **4.3 Manuals**
 
-	content here
-
+[Manual Index](https://i.imgsafe.org/21cf05ad41.png)
 
 ##5. Potential Risks
 **5.1 Human Risk**
