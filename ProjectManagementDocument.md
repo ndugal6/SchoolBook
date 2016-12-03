@@ -225,7 +225,7 @@ We met once or twice a week throughout the semester. We agreed tentatively to me
 | Required Documents	|	|	|      |**X**	|**X**	|**X**	|**X**	|**X**	|	|	|	|	|	|	
 | Development 		|	|	|	|	|	|**X**	|**X**	|**X**|	|**X**	|**X**	|**X**	|	|
 | Integration 		|	|	|	|	|	|	|	|	|**X**	|**X**	|**X**	|**X**	|	|
-| Testing 		|	|	|	|	|	|	|	|	|	|	|	|**X**	|**X**	|**X**
+| Testing 		|	|	|	|	|	|	|	|	|	|	|	|**X**	|**X**	|**X**|
 
 
 
