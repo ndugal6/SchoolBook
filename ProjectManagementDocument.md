@@ -173,15 +173,20 @@ We chose to have a egoless group structure for the Schoolbook project. We chose 
 
 **7.2 Milestones**
 
-	1. Decide what platform to develop and determine structure of application.
-	2. Design and setup database.
-	3. Ensure all members have access to proper development platcorm.
-	4. Develop registration, login and password reset functions.
-	5. Develop Update profile, add course, and register as tutor functions.
-	6. Develop Create and Search for study group functions.
-	7. Develop join and leave study group functions.
-	8. Develop upload and search for notes functions.
-	9. Complete testing of application.
+	1. Decide what platform to develop and determine structure of application, completed 9/7/2016.
+	2. Design and setup database, completed 9/19/2016.
+	3. Complete and submit the Software Requirements Specification (SRS) document, completed 8/21/2016.
+	4. Ensure all members have access to proper development platform, completed 9/25/2016.
+	5. Define all functional and non functional requirments in the Software System Design (SSD) document, completed 9/2/2016.
+	6. Develop registration, login and password reset functions, completed 9/7/2016.
+	7. Define test cases for full path coverage in the Software Testing Document, completed 9/21/2016. 
+	8. Develop Update profile, add course, and register as tutor functions, completed ...
+	9. Develop Create and Search for study group functions, completed ...
+	10. Develop join and leave study group functions, completed ...
+	11. Develop upload and search for notes functions, completed ...
+	12. Integrate profile, study group, and notes functions into the system, completed 11/28/2016.
+	13. Application presentation and demo for class and industry, completed 11/28/2016.
+
 
 **7.3 Rough Estimates**
 
@@ -190,9 +195,9 @@ We chose to have a egoless group structure for the Schoolbook project. We chose 
 | Decide what platform to develop, and determine structure of applicaton	| A	| None	| 1 |
 | Design and setup database	| B	| A	| 1	|
 | Ensure all members have access to proper development platcorm	| C	| A	|1.5 |
-| Develop registration, login and password reset functions	| D	| C, B	|  1.5 |
+| Develop registration, login and password reset functions	| D	| C, B	|  2 |
 | Develop Update profile, add course, and register as tutor functions	| E	| C, B	| 2 |
-| Develop Create and Search for study group functions	| F	| C, B	| 1 |
+| Develop Create and Search for study group functions	| F	| C, B	| 2 |
 | Develop join and leave study group functions	| G	| B, C, D	| 1 |
 | Develop upload and search for notes functions	| H | B, C	| 2 |
 | Integrate Study gruop and Notes functions	| I	| F, G, H	| 1 |
