@@ -131,6 +131,16 @@ The search for notes feature will allow students to search and filter throughout
 
 ![Manual Index](https://i.imgsafe.org/21cf05ad41.png)
 
+![Registration Login](https://i.imgsafe.org/21de64b6ee.png)
+
+![Password Reset-Update Profile](https://i.imgsafe.org/21ed773fd3.png)
+
+![Add Course-Register as Tutor](https://i.imgsafe.org/21ef73feb3.png)
+
+![Create Study Group-Find Study Group-Join Study Group-Leave Study Group](https://i.imgsafe.org/21f131a7fe.png)
+
+![Upload Notes-Search For Notes](https://i.imgsafe.org/21f290242a.png)
+
 ##5. Potential Risks
 **5.1 Human Risk**
 
@@ -209,8 +219,12 @@ We chose to have a egoless group structure for the Schoolbook project. We chose 
 	content here
 
 **7.5 Estimation Method**
+| Algorithmic Methods	| Effort(Persons-Months)	|
+|---------------------|------------------------|
+| Walston & Felix	| 13.3990	|
+|Bailey & Basili	| 7.9100	|
 
-	content here
+![COCOMO](https://i.imgsafe.org/2458710cd4.png)
 
 ##8. Meetings Summary
 
