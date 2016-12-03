@@ -220,12 +220,7 @@ We met once or twice a week throughout the semester. We agreed tentatively to me
 
 
 |Team Implementation		| Week 1| Week 2| Week 3| Week 4| Week 5| Week 6| Week 7| Week 8| Week 9| Week 10| Week 11| Week 12|Week 13|
-| App Structure/Ideas	| **X** | 	|	|	|	|	|	|	|	|	|	|	|	|
-| Design 		| 	| **X** | **X**| **X**|		|	|	|	|	|	|	|	|	|
-| Required Documents	|	|	|      |**X**	|**X**	|**X**	|**X**	|**X**	|	|	|	|	|	|	
-| Development 		|	|	|	|	|	|**X**	|**X**	|**X**|	|**X**	|**X**	|**X**	|	|
-| Integration 		|	|	|	|	|	|	|	|	|**X**	|**X**	|**X**	|**X**	|	|
-| Testing 		|	|	|	|	|	|	|	|	|	|	|	|**X**	|**X**	|**X**|
+
 
 
 
